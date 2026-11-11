@@ -13,6 +13,10 @@ public class Tecnico extends Usuario {
         this.especialidade = especialidade;     // faz referência ao próprio objeto.
     }
 
+    public Especialidade getEspecialidade() {
+        return especialidade;
+    }
+
     @Override                                   // Essa anotação indica que estamos sobrescrevendo um método herdado.
     public void exibirInformacoes() {
         super.exibirInformacoes();              // também pode ser usado para acessar métodos herdados 

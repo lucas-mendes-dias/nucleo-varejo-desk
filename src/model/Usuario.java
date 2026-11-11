@@ -10,7 +10,7 @@ public class Usuario {          // Aqui estamos declarando uma classe chamada Us
 
     public Usuario(String nome, int id) {   // construtor com parametro , permite criar um usuário já informando nome e ID.
         this.nome = nome;                   // this se refere ao atributo do próprio objeto 
-        this.id = id;
+        this.id = id;                       // "o atributo nome deste objeto recebe o valor do parâmetro nome"
     }
 
     public void exibirInformacoes() {           // metodo pra mostrar as informações .

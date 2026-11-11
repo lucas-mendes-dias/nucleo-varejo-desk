@@ -52,13 +52,36 @@ public class Main {
         // tecnico1.exibirInformacoes();
         // gerente1.exibirInformacoes();
 
-        solicitante1.exibirInformacoes();
+        // solicitante1.exibirInformacoes();
+        // chamado1.exibirInformacoes();
+
+        // Prioridade prioridadeTeste = Prioridade.ALTA;
+        // Status statusTeste = Status.ABERTO;
+
+        // System.out.println("Prioridade: " + prioridadeTeste);
+        // System.out.println("Status: " + statusTeste);
+
+
+
+        // System.out.println("=== CHAMADO ANTES ===");
+        // chamado1.exibirInformacoes();
+
+        // Atribui o técnico sem alterar o status
+        chamado1.atribuirTecnico(tecnico1);
+
+        System.out.println("=== APÓS ATRIBUIÇÃO ===");
         chamado1.exibirInformacoes();
 
-        Prioridade prioridadeTeste = Prioridade.ALTA;
-        Status statusTeste = Status.ABERTO;
+        // Inicia o atendimento
+        chamado1.alterarStatus(Status.EM_ANDAMENTO);
+        chamado1.exibirInformacoes();
 
-        System.out.println("Prioridade: " + prioridadeTeste);
-        System.out.println("Status: " + statusTeste);
+        // Finaliza o atendimento
+        chamado1.alterarStatus(Status.RESOLVIDO);
+
+        System.out.println("=== CHAMADO FINAL ===");
+        chamado1.exibirInformacoes();
+
+        chamado1.atribuirTecnico(tecnico2);
     }
 }

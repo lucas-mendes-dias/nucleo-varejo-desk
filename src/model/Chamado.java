@@ -68,6 +68,33 @@ public class Chamado {
         return tecnico;
     }
 
+
+    public void atribuirTecnico(Tecnico tecnico) {
+        if (this.status == Status.RESOLVIDO) {
+            System.out.println("Não é possível atribuir técnico a um chamado resolvido.");
+            return;
+        }
+
+        if (tecnico == null) {
+            System.out.println("Erro: técnico inválido.");
+            return;
+        }
+
+        this.tecnico = tecnico;
+        System.out.println("Técnico atribuído: " + tecnico.getNome());
+    }
+
+    public void alterarStatus(Status novoStatus) {
+    if (novoStatus == null) {
+        System.out.println("Erro: status inválido.");
+        return;
+    }
+
+    this.status = novoStatus;
+    System.out.println("Status alterado para: " + novoStatus);
+}
+
+
     // Exibe os dados do chamado no terminal
     public void exibirInformacoes() {
         System.out.println("===== CHAMADO #" + id + " =====");

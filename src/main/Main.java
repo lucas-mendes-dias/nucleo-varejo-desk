@@ -6,7 +6,8 @@ import model.Especialidade;
 import model.Gerente;
 import model.Loja;
 import model.Solicitante;
-
+import model.Prioridade;
+import model.Status;
 
 public class Main {
 

@@ -8,6 +8,7 @@ import model.Loja;
 import model.Solicitante;
 import model.Prioridade;
 import model.Status;
+import model.Chamado;
 
 public class Main {
 
@@ -24,6 +25,14 @@ public class Main {
         Gerente gerente1 = new Gerente("Mariana", 1003, loja1);
 
         Solicitante solicitante1 = new Solicitante("Joaquim", 1004, loja1);
+
+        Chamado chamado1 = new Chamado(
+            1,
+            "Impressora do caixa não funciona",
+            "A impressora fiscal do caixa 2 parou de imprimir.",
+            Prioridade.ALTA,
+            solicitante1
+        );
 
         // usuario1.exibirInformacoes();
         // usuario2.exibirInformacoes();
@@ -44,5 +53,12 @@ public class Main {
         // gerente1.exibirInformacoes();
 
         solicitante1.exibirInformacoes();
+        chamado1.exibirInformacoes();
+
+        Prioridade prioridadeTeste = Prioridade.ALTA;
+        Status statusTeste = Status.ABERTO;
+
+        System.out.println("Prioridade: " + prioridadeTeste);
+        System.out.println("Status: " + statusTeste);
     }
 }

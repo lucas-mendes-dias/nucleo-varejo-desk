@@ -48,7 +48,7 @@ public class Usuario {                              // Aqui estamos declarando u
             .replaceAll("\\p{M}+", "")
             .replaceAll("\\s+", ".");
 
-    return emailGerado + "@nucleovarejo.example";      // Adiciona o domínio corporativo
+    return emailGerado + "@nucleovarejodesk.example";      // Adiciona o domínio corporativo
    }
     
 }

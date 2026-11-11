@@ -21,34 +21,34 @@ public class Usuario {                              // Aqui estamos declarando u
         System.out.println("Email: " + email);
     }
 
-        public String getNome() {
+    public String getNome() {
         return nome;                                    // devolve string 
     }
-        public String getEmail() {
+
+    public String getEmail() {
         return email;
     }                            
-
-        private String gerarEmail(String nome) {
-
-            String emailGerado = java.text.Normalizer.normalize(  // converte nome pra minuscula , remove espaço e separa letras dos acentos 
-                nome.toLowerCase().trim(),
-                java.text.Normalizer.Form.NFD
-        );
-
-            emailGerado = emailGerado            // remove os acentos com regex e substitui os espaços por ponto 
-                .replaceAll("\\p{M}+", "")
-                .replaceAll("\\s+", ".");
-
-        return emailGerado + "@nucleovarejo.example";      // Adiciona o domínio corporativo
-}
    
-
-        public void setNome(String nome) {              // metodo recebe um novo nome e modifica o atributo do objeto. usa void pois não precisa retornar valor
+    public void setNome(String nome) {              // metodo recebe um novo nome e modifica o atributo do objeto. usa void pois não precisa retornar valor
         this.nome = nome;
     }
 
-        public int getId() {                            // permite consultar o identificador do usuário, usa return pois devolve um valor 
+    public int getId() {                            // permite consultar o identificador do usuário, usa return pois devolve um valor 
         return id;
     }   
+
+    private String gerarEmail(String nome) {
+
+        String emailGerado = java.text.Normalizer.normalize(  // converte nome pra minuscula , remove espaço e separa letras dos acentos 
+            nome.toLowerCase().trim(),
+            java.text.Normalizer.Form.NFD
+        );
+
+        emailGerado = emailGerado            // remove os acentos com regex e substitui os espaços por ponto 
+            .replaceAll("\\p{M}+", "")
+            .replaceAll("\\s+", ".");
+
+    return emailGerado + "@nucleovarejo.example";      // Adiciona o domínio corporativo
+   }
     
 }

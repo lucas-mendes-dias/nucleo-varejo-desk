@@ -5,7 +5,7 @@ public class Tecnico extends Usuario {
     private String especialidade;
 
     public Tecnico() {
-        super();  // permite acessar construtores e métodos da classe mãe, conforme suas regras de acesso.
+        super();  // permite acessar construtores e métodos da classe mãe (Usuario)
     }
 
     public Tecnico(String nome, int id, String especialidade) {

@@ -2,13 +2,13 @@ package model;
 
 public class Tecnico extends Usuario {
 
-    private Enum especialidade;
+    private Especialidade especialidade;
 
     public Tecnico() {
         super();                                // permite acessar o construtor sem parametro da classe Usuario 
     }
 
-    public Tecnico(String nome, int id, Enum especialidade) {
+    public Tecnico(String nome, int id, Especialidade especialidade) {
         super(nome, id);                        // Estamos chamando o construtor da classe mãe (Usuario).
         this.especialidade = especialidade;     // faz referência ao próprio objeto.
     }

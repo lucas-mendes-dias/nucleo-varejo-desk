@@ -2,6 +2,7 @@ package main;
 
 import model.Usuario; // Permite utilizar a classe Usuario, que está em outro pacote.
 import model.Tecnico;
+import model.Especialidade;
 
 
 public class Main {
@@ -25,9 +26,7 @@ public class Main {
         usuario1.setNome("Carlos Silva");
 
         System.out.println(usuario1.getNome());
-
         System.out.println(usuario1.getId());
-
         System.out.println(usuario1.getEmail());
 
         // tecnico1.setNome("Ana Paula");

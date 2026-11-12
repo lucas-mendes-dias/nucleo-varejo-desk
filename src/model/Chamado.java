@@ -80,6 +80,11 @@ public class Chamado {
             return;
         }
 
+        if (this.tecnico != null) {
+            System.out.println("Este chamado já possui um técnico responsável.");
+            return;
+        }
+        
         this.tecnico = tecnico;
         System.out.println("Técnico atribuído: " + tecnico.getNome());
     }

@@ -1,4 +1,3 @@
-
 package model;
 
 public class Chamado {
@@ -68,47 +67,118 @@ public class Chamado {
         return tecnico;
     }
 
+    // Retorna o ID e o título para identificar o chamado
+    public String getIdentificacao() {
+        return "Chamado #" + this.id + " (" + this.titulo + ")";
+    }
 
+    // Atribui um técnico responsável ao chamado
     public void atribuirTecnico(Tecnico tecnico) {
+
+        // Impede atribuição em chamados resolvidos
         if (this.status == Status.RESOLVIDO) {
-            System.out.println("Não é possível atribuir técnico a um chamado resolvido.");
+            System.out.println(getIdentificacao()
+                + ": já foi resolvido e não pode receber um técnico.");
             return;
         }
 
+        // Verifica se o técnico informado é válido
         if (tecnico == null) {
-            System.out.println("Erro: técnico inválido.");
+            System.out.println(getIdentificacao()
+                + ": técnico inválido.");
             return;
         }
 
+        // Impede substituir um técnico já atribuído
         if (this.tecnico != null) {
-            System.out.println("Este chamado já possui um técnico responsável.");
+            System.out.println(getIdentificacao()
+                + ": já possui um técnico responsável.");
             return;
         }
-        
+
         this.tecnico = tecnico;
-        System.out.println("Técnico atribuído: " + tecnico.getNome());
+
+        System.out.println(getIdentificacao()
+            + ": técnico " + tecnico.getNome() + " atribuído com sucesso.");
     }
 
+    // Altera o status do chamado
     public void alterarStatus(Status novoStatus) {
-    if (novoStatus == null) {
-        System.out.println("Erro: status inválido.");
-        return;
+
+        // Verifica se o status informado é válido
+        if (novoStatus == null) {
+            System.out.println(getIdentificacao()
+                + ": status inválido.");
+            return;
+        }
+
+        // Impede alterações em chamados resolvidos
+        if (this.status == Status.RESOLVIDO) {
+            System.out.println(getIdentificacao()
+                + ": já foi resolvido e não pode ser alterado.");
+            return;
+        }
+
+        // Impede repetir o mesmo status
+        if (this.status == novoStatus) {
+            System.out.println(getIdentificacao()
+                + ": já está com o status " + this.status + ".");
+            return;
+        }
+
+        // Impede voltar de EM_ANDAMENTO para ABERTO
+        if (this.status == Status.EM_ANDAMENTO
+                && novoStatus == Status.ABERTO) {
+
+            System.out.println(getIdentificacao()
+                + ": não pode voltar de EM_ANDAMENTO para ABERTO.");
+            return;
+        }
+
+        // Exige um técnico antes de iniciar o atendimento
+        if (novoStatus == Status.EM_ANDAMENTO
+                && this.tecnico == null) {
+
+            System.out.println(getIdentificacao()
+                + ": é necessário atribuir um técnico antes de iniciar o atendimento.");
+            return;
+        }
+
+        // Impede resolver diretamente um chamado aberto
+        if (this.status == Status.ABERTO
+                && novoStatus == Status.RESOLVIDO) {
+
+            System.out.println(getIdentificacao()
+                + ": precisa estar EM_ANDAMENTO antes de ser resolvido.");
+            return;
+        }
+
+        // Atualiza o status após passar pelas validações
+        this.status = novoStatus;
+
+        System.out.println(getIdentificacao()
+            + ": status atualizado para " + novoStatus + ".");
     }
-
-    this.status = novoStatus;
-    System.out.println("Status alterado para: " + novoStatus);
-}
-
 
     // Exibe os dados do chamado no terminal
     public void exibirInformacoes() {
-        System.out.println("===== CHAMADO #" + id + " =====");
-        System.out.println("Título: " + titulo);
+
+        System.out.println("===== " + getIdentificacao() + " =====");
         System.out.println("Descrição: " + descricao);
         System.out.println("Prioridade: " + prioridade);
         System.out.println("Status: " + status);
-        System.out.println("Loja: " + loja.getNome());
-        System.out.println("Solicitante: " + solicitante.getNome());
+
+        if (loja != null) {
+            System.out.println("Loja: " + loja.getNome());
+        } else {
+            System.out.println("Loja: Não informada");
+        }
+
+        if (solicitante != null) {
+            System.out.println("Solicitante: " + solicitante.getNome());
+        } else {
+            System.out.println("Solicitante: Não informado");
+        }
 
         if (tecnico == null) {
             System.out.println("Técnico: Não atribuído");
@@ -116,6 +186,6 @@ public class Chamado {
             System.out.println("Técnico: " + tecnico.getNome());
         }
 
-        System.out.println("========================");
+        System.out.println("========================================");
     }
 }

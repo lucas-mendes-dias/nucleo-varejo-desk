@@ -43,26 +43,42 @@ public class Main {
             Prioridade.CRITICA, 
             vanessa);
 
-        chamado1riosul.atribuirTecnico(debora);
+        chamado1riosul.atribuirTecnico(luan);
 
-        chamado1riosul.atribuirTecnico(samara);
+        // chamado1riosul.atribuirTecnico(samara);
 
         Chamado chamado1 = new Chamado(
             20000,
             "Impressora do caixa não funciona",
             "A impressora fiscal do caixa 2 parou de imprimir.",
-            Prioridade.ALTA,
-            ingrid
+            Prioridade.ALTA, 
+            ingrid  
+            
         );
 
 
-        // System.out.println(usuario1.getNome());
-        // System.out.println(usuario1.getId());
-        // System.out.println(usuario1.getEmail());
+        // Teste das validações de status
+        chamado1riosul.alterarStatus(Status.EM_ANDAMENTO);
 
+        chamado1riosul.alterarStatus(Status.RESOLVIDO);
 
-        // Atribui o técnico sem alterar o status
-        // chamado1.atribuirTecnico(tecnico1);
+        // Atribuição de técnico
+        chamado1riosul.atribuirTecnico(debora);
+
+        // Início do atendimento
+        chamado1riosul.alterarStatus(Status.EM_ANDAMENTO);
+
+        // Tentativa de voltar para ABERTO
+        chamado1riosul.alterarStatus(Status.ABERTO);
+
+        // Resolução
+        chamado1riosul.alterarStatus(Status.RESOLVIDO);
+
+        // Tentativa de alterar um chamado resolvido
+        chamado1riosul.alterarStatus(Status.EM_ANDAMENTO);
+
+        // Exibição final
+        chamado1riosul.exibirInformacoes();
 
         // System.out.println("=== APÓS ATRIBUIÇÃO ===");
         // chamado1.exibirInformacoes();

@@ -9,6 +9,7 @@ import model.Solicitante;
 import model.Prioridade;
 import model.Status;
 import model.Chamado;
+import service.SistemaChamados;
 
 public class Main {
 
@@ -56,29 +57,35 @@ public class Main {
             
         );
 
+        SistemaChamados sistema = new SistemaChamados();
 
-        // Teste das validações de status
-        chamado1riosul.alterarStatus(Status.EM_ANDAMENTO);
+        sistema.cadastrarLoja(loja1);
+        sistema.cadastrarLoja(loja2);
+        sistema.cadastrarLoja(loja3);
+        sistema.cadastrarLoja(loja4);
 
-        chamado1riosul.alterarStatus(Status.RESOLVIDO);
+        // // Teste das validações de status
+        // chamado1riosul.alterarStatus(Status.EM_ANDAMENTO);
 
-        // Atribuição de técnico
-        chamado1riosul.atribuirTecnico(debora);
+        // chamado1riosul.alterarStatus(Status.RESOLVIDO);
 
-        // Início do atendimento
-        chamado1riosul.alterarStatus(Status.EM_ANDAMENTO);
+        // // Atribuição de técnico
+        // chamado1riosul.atribuirTecnico(debora);
 
-        // Tentativa de voltar para ABERTO
-        chamado1riosul.alterarStatus(Status.ABERTO);
+        // // Início do atendimento
+        // chamado1riosul.alterarStatus(Status.EM_ANDAMENTO);
 
-        // Resolução
-        chamado1riosul.alterarStatus(Status.RESOLVIDO);
+        // // Tentativa de voltar para ABERTO
+        // chamado1riosul.alterarStatus(Status.ABERTO);
 
-        // Tentativa de alterar um chamado resolvido
-        chamado1riosul.alterarStatus(Status.EM_ANDAMENTO);
+        // // Resolução
+        // chamado1riosul.alterarStatus(Status.RESOLVIDO);
 
-        // Exibição final
-        chamado1riosul.exibirInformacoes();
+        // // Tentativa de alterar um chamado resolvido
+        // chamado1riosul.alterarStatus(Status.EM_ANDAMENTO);
+
+        // // Exibição final
+        // chamado1riosul.exibirInformacoes();
 
         // System.out.println("=== APÓS ATRIBUIÇÃO ===");
         // chamado1.exibirInformacoes();

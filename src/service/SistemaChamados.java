@@ -58,6 +58,51 @@ public class SistemaChamados {
         }
     }
 
-    return null;
-}
+        return null;
+    }
+
+    public void cadastrarUsuario(Usuario usuario) {
+
+        if (usuario == null) {
+            System.out.println("Erro: usuário inválido.");
+            return;
+        }
+
+        if (buscarUsuarioPorId(usuario.getId()) != null) {
+            System.out.println("Erro: já existe um usuário com o ID " + usuario.getId());
+            return;
+        }
+
+        usuarios.add(usuario);
+
+        System.out.println("Usuário " + usuario.getNome() + " cadastrado com sucesso!");
+    }
+
+    public Usuario buscarUsuarioPorId(int id) {
+
+        for (Usuario usuario : usuarios) {
+
+            if (usuario.getId() == id) {
+                return usuario;
+            }
+        }
+
+        return null;
+    }
+
+    public void listarUsuarios() {
+
+        if (usuarios.isEmpty()) {
+            System.out.println("Nenhum usuário cadastrado.");
+            return;
+        }
+
+        System.out.println("===== USUÁRIOS CADASTRADOS =====");
+
+        for (Usuario usuario : usuarios) {
+            usuario.exibirInformacoes();
+            System.out.println("-----------------------------");
+        }
+    }
+
 }

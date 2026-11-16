@@ -31,9 +31,6 @@ public class Main {
         SistemaChamados sistema = new SistemaChamados();
 
         sistema.cadastrarLoja(loja1);
-        sistema.cadastrarLoja(loja2);
-        sistema.cadastrarLoja(loja3);
-        sistema.cadastrarLoja(loja4);
 
         System.out.println();
 
@@ -48,6 +45,22 @@ public class Main {
         Solicitante joana = new Solicitante("Joana D'arc ", 2000, loja2);
         Solicitante carla = new Solicitante("Carla Amaro", 3000, loja3);
         Solicitante ingrid = new Solicitante("Ingrid gomes", 4000, loja4);
+
+        // Cadastro de usuários
+        sistema.cadastrarUsuario(luan);
+        sistema.cadastrarUsuario(debora);
+
+
+        // Listagem de usuários
+        sistema.listarUsuarios();
+
+        Tecnico tecnicoRepetido = new Tecnico(
+            "Teste",
+            luan.getId(),
+            Especialidade.REDES
+        );
+
+        sistema.cadastrarUsuario(tecnicoRepetido);
     
 
         Chamado chamado1riosul = new Chamado(
@@ -59,7 +72,7 @@ public class Main {
 
         chamado1riosul.atribuirTecnico(luan);
 
-        // chamado1riosul.atribuirTecnico(samara);
+
 
         Chamado chamado1 = new Chamado(
             20000,

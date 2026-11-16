@@ -105,4 +105,62 @@ public class SistemaChamados {
         }
     }
 
+    public Chamado buscarChamadoPorId(int id) { // Esse método percorre os chamados cadastrados e retorna aquele que possui o ID solicitado.
+
+        for (Chamado chamado : chamados) {
+            if (chamado.getId() == id) {
+                return chamado;
+            }
+        }
+
+        return null;
+    }
+
+    public void cadastrarChamado(Chamado chamado) {
+
+        if (chamado == null) {
+            System.out.println("Erro: chamado inválido.");
+            return;
+        }
+
+        if (buscarChamadoPorId(chamado.getId()) != null) {
+            System.out.println("Erro: já existe um chamado com o ID " + chamado.getId());
+            return;
+        }
+
+        if (chamado.getSolicitante() == null) {
+            System.out.println("Erro: o chamado precisa de um solicitante.");
+            return;
+        }
+
+        if (buscarUsuarioPorId(chamado.getSolicitante().getId()) == null) {
+            System.out.println("Erro: solicitante não cadastrado no sistema.");
+            return;
+        }
+
+        if (chamado.getLoja() == null || buscarLojaPorId(chamado.getLoja().getId()) == null) {
+
+            System.out.println("Erro: loja não cadastrada no sistema.");
+            return;
+        }
+
+            chamados.add(chamado);
+
+            System.out.println(chamado.getIdentificacao() + ": cadastrado com sucesso!");
+    }
+
+    public void listarChamados() {
+
+        if (chamados.isEmpty()) {
+            System.out.println("Nenhum chamado cadastrado.");
+            return;
+        }
+
+        System.out.println("===== CHAMADOS CADASTRADOS =====");
+
+        for (Chamado chamado : chamados) {
+            chamado.exibirInformacoes();
+        }
+    }
+
 }

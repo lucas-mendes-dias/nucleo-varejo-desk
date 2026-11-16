@@ -18,6 +18,7 @@ public class SistemaChamados {
         this.chamados = new ArrayList<>();
     }
 
+    
     public void cadastrarLoja(Loja loja) { // pega id da loja, procura id entre as lojas existentes, se encontrar loja  vai ser diferente de null
 
         if (loja == null) { // se for null apresenta erro e interrompe cadastro
@@ -35,6 +36,18 @@ public class SistemaChamados {
         System.out.println("Loja " + loja.getNome() + " cadastrada com sucesso!");
     }
 
+    public Loja buscarLojaPorId(int id) {
+
+    for (Loja loja : lojas) {
+
+        if (loja.getId() == id) {
+            return loja;
+        }
+    }
+
+        return null;
+    }
+
     public void listarLojas() { // percorre a lista e apresenta as lojas cadastradas.
 
         if (lojas.isEmpty()) {
@@ -49,17 +62,7 @@ public class SistemaChamados {
         }
     }
 
-    public Loja buscarLojaPorId(int id) {
 
-    for (Loja loja : lojas) {
-
-        if (loja.getId() == id) {
-            return loja;
-        }
-    }
-
-        return null;
-    }
 
     public void cadastrarUsuario(Usuario usuario) {
 
@@ -105,16 +108,7 @@ public class SistemaChamados {
         }
     }
 
-    public Chamado buscarChamadoPorId(int id) { // Esse método percorre os chamados cadastrados e retorna aquele que possui o ID solicitado.
 
-        for (Chamado chamado : chamados) {
-            if (chamado.getId() == id) {
-                return chamado;
-            }
-        }
-
-        return null;
-    }
 
     public void cadastrarChamado(Chamado chamado) {
 
@@ -144,9 +138,20 @@ public class SistemaChamados {
             return;
         }
 
-            chamados.add(chamado);
+        chamados.add(chamado);
 
-            System.out.println(chamado.getIdentificacao() + ": cadastrado com sucesso!");
+        System.out.println(chamado.getIdentificacao() + ": cadastrado com sucesso!");
+    }
+
+    public Chamado buscarChamadoPorId(int id) { // Esse método percorre os chamados cadastrados e retorna aquele que possui o ID solicitado.
+
+        for (Chamado chamado : chamados) {
+            if (chamado.getId() == id) {
+                return chamado;
+            }
+        }
+
+        return null;
     }
 
     public void listarChamados() {

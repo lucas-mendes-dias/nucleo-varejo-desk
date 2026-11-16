@@ -10,6 +10,7 @@ import model.Prioridade;
 import model.Status;
 import model.Chamado;
 import service.SistemaChamados;
+import service.SistemaChamados;
 
 public class Main {
 
@@ -25,6 +26,18 @@ public class Main {
         Loja loja2 = new Loja(20, "Copacabana", "Nossa senhora de copacabana");
         Loja loja3 = new Loja(30, "Botafogo", "Botafogo praia shopping");
         Loja loja4 = new Loja(40, "Tijuca", "Shopping Tijuca");
+
+
+        SistemaChamados sistema = new SistemaChamados();
+
+        sistema.cadastrarLoja(loja1);
+        sistema.cadastrarLoja(loja2);
+        sistema.cadastrarLoja(loja3);
+        sistema.cadastrarLoja(loja4);
+
+        System.out.println();
+
+        sistema.listarLojas();
         
         Gerente rodrigo = new Gerente("Rodrigo Cardoso", 100, loja1);
         Gerente suzano = new Gerente("Suzano Mendes", 200, loja2);
@@ -57,12 +70,19 @@ public class Main {
             
         );
 
-        SistemaChamados sistema = new SistemaChamados();
+        Loja lojaEncontrada = sistema.buscarLojaPorId(10);
 
-        sistema.cadastrarLoja(loja1);
-        sistema.cadastrarLoja(loja2);
-        sistema.cadastrarLoja(loja3);
-        sistema.cadastrarLoja(loja4);
+            if (lojaEncontrada != null) {
+                lojaEncontrada.exibirInformacoes();
+            } else {
+                System.out.println("Loja não encontrada.");
+            }
+
+        Loja lojaRepetida = new Loja(10, "Outra loja", "Rio de Janeiro");
+
+            sistema.cadastrarLoja(lojaRepetida);
+
+
 
         // // Teste das validações de status
         // chamado1riosul.alterarStatus(Status.EM_ANDAMENTO);

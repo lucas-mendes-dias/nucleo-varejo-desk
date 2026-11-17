@@ -67,7 +67,7 @@ public class Chamado {
         return tecnico;
     }
 
-    // Retorna o ID e o título para identificar o chamado
+// Retorna o ID e o título para identificar o chamado
     public String getIdentificacao() {
         return "Chamado #" + this.id + " (" + this.titulo + ")";
     }

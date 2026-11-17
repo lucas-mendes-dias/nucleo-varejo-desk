@@ -18,7 +18,8 @@ public class SistemaChamados {
         this.chamados = new ArrayList<>();
     }
 
-    
+    // ========== LOJAS ==========
+
     public void cadastrarLoja(Loja loja) { // pega id da loja, procura id entre as lojas existentes, se encontrar loja  vai ser diferente de null
 
         if (loja == null) { // se for null apresenta erro e interrompe cadastro
@@ -62,7 +63,7 @@ public class SistemaChamados {
         }
     }
 
-
+    // ========== USUÁRIOS ==========
 
     public void cadastrarUsuario(Usuario usuario) {
 
@@ -108,7 +109,7 @@ public class SistemaChamados {
         }
     }
 
-
+    // ========== CHAMADOS ==========
 
     public void cadastrarChamado(Chamado chamado) {
 

@@ -62,7 +62,7 @@ public class Main {
         scanner.close();
     }
 
-    public static String   lerTextoObrigatorio(Scanner scanner, String mensagem) {
+    public static String lerTextoObrigatorio(Scanner scanner, String mensagem) {
 
         while (true) {
 
@@ -119,11 +119,9 @@ public class Main {
 
                     System.out.println("\n========== CADASTRAR LOJA ==========");
 
-                    System.out.print("Nome da loja: ");
-                    String nomeLoja = scanner.nextLine();
+                    String nomeLoja = lerTextoObrigatorio(scanner, "Nome da loja: ");
 
-                    System.out.print("Localização: ");
-                    String localizacao = scanner.nextLine();
+                    String localizacao = lerTextoObrigatorio(scanner, "Localização: ");
 
                     Loja novaLoja = new Loja(
                         sistema.gerarIdLoja(),
@@ -204,8 +202,7 @@ public class Main {
                         break;
                     }
 
-                    System.out.print("Nome completo: ");
-                    String nomeUsuario = scanner.nextLine();
+                    String nomeUsuario = lerTextoObrigatorio(scanner, "Nome completo: ");
 
                     if (tipoUsuario == 1) {
 
@@ -332,11 +329,9 @@ public class Main {
 
                     System.out.println("\n========== ABRIR CHAMADO ==========");
 
-                    System.out.print("Título: ");
-                    String tituloChamado = scanner.nextLine();
+                    String tituloChamado = lerTextoObrigatorio(scanner, "Título: ");
 
-                    System.out.print("Descrição: ");
-                    String descricaoChamado = scanner.nextLine();
+                    String descricaoChamado = lerTextoObrigatorio(scanner, "Descrição: ");
 
                     System.out.println("\nPrioridades:");
                     System.out.println("1. Baixa");

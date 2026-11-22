@@ -38,6 +38,21 @@ public class SistemaChamados {
             return;
         }
 
+        if (loja.getId() <= 0) {
+            System.out.println("Erro: o ID da loja deve ser maior que zero.");
+            return;
+        }
+
+        if (loja.getNome() == null || loja.getNome().isBlank()) {
+            System.out.println("Erro: o nome da loja é obrigatório.");
+            return;
+        }
+
+        if (loja.getLocalizacao() == null || loja.getLocalizacao().isBlank()) {
+            System.out.println("Erro: a localização da loja é obrigatória.");
+            return;
+}
+
         if (buscarLojaPorId(loja.getId()) != null) {
             System.out.println("Erro: já existe uma loja cadastrada com o ID " + loja.getId());
             return;

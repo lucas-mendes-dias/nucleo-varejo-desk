@@ -153,5 +153,15 @@ public class TestesPOO {
 
         System.out.println(sistema.buscarUsuarioPorId(9).getNome());
 
+
+        System.out.println("\n===== TESTES DE VALIDAÇÃO DE LOJAS =====");
+
+        sistema.cadastrarLoja(new Loja(100, "", "Botafogo"));
+
+        sistema.cadastrarLoja(new Loja(101, "Loja Teste", ""));
+
+        sistema.cadastrarLoja(new Loja(-1, "Loja Teste", "Copacabana"));
+
+        sistema.cadastrarLoja(new Loja(102, "Loja Válida", "Botafogo"));
     }
 }

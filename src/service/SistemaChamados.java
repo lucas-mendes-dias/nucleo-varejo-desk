@@ -2,6 +2,7 @@ package service;
 import java.util.ArrayList; // classe disponibilizada pelo Java para trabalhar com listas de tamanho variável.
 import model.Usuario;
 import model.Loja;
+import model.Solicitante;
 import model.Tecnico;
 import model.Chamado;
 import model.Gerente;
@@ -108,6 +109,53 @@ public class SistemaChamados {
             return;
         }
 
+        if (usuario.getId() <= 0) {
+            System.out.println("Erro: o ID do usuário deve ser maior que zero.");
+            return;
+        }
+
+        if (usuario.getNome() == null || usuario.getNome().isBlank()) {
+            System.out.println("Erro: o nome do usuário é obrigatório.");
+            return;
+        }
+
+        // Técnicos precisam de especialidade
+        if (usuario instanceof Tecnico) {
+
+            Tecnico tecnico = (Tecnico) usuario;
+
+            if (tecnico.getEspecialidade() == null) {
+                System.out.println("Erro: o técnico precisa ter uma especialidade.");
+                return;
+            }
+        }
+
+        // Gerentes precisam estar vinculados a uma loja cadastrada
+        if (usuario instanceof Gerente) {
+
+            Gerente gerente = (Gerente) usuario;
+
+            if (gerente.getLoja() == null ||
+                buscarLojaPorId(gerente.getLoja().getId()) == null) {
+
+                System.out.println("Erro: gerente precisa estar vinculado a uma loja cadastrada.");
+                return;
+            }
+        }
+
+        // Solicitantes precisam estar vinculados a uma loja cadastrada
+        if (usuario instanceof Solicitante) {
+
+            Solicitante solicitante = (Solicitante) usuario;
+
+            if (solicitante.getLoja() == null ||
+                buscarLojaPorId(solicitante.getLoja().getId()) == null) {
+
+                System.out.println("Erro: solicitante precisa estar vinculado a uma loja cadastrada.");
+                return;
+            }
+        }
+
         if (buscarUsuarioPorId(usuario.getId()) != null) {
             System.out.println("Erro: já existe um usuário com o ID " + usuario.getId());
             return;
@@ -179,6 +227,26 @@ public class SistemaChamados {
 
         if (chamado == null) { // 	Recebemos um chamado válido?
             System.out.println("Erro: chamado inválido.");
+            return;
+        }
+
+        if (chamado.getId() <= 0) {
+            System.out.println("Erro: o ID do chamado deve ser maior que zero.");
+            return;
+        }
+
+        if (chamado.getTitulo() == null || chamado.getTitulo().isBlank()) {
+            System.out.println("Erro: o título do chamado é obrigatório.");
+            return;
+        }
+
+        if (chamado.getDescricao() == null || chamado.getDescricao().isBlank()) {
+            System.out.println("Erro: a descrição do chamado é obrigatória.");
+            return;
+        }
+
+        if (chamado.getPrioridade() == null) {
+            System.out.println("Erro: a prioridade do chamado é obrigatória.");
             return;
         }
 

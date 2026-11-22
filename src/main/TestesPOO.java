@@ -115,16 +115,18 @@ public class TestesPOO {
             joana
         );
 
+
+        sistema.cadastrarLoja(loja1);
+        sistema.cadastrarLoja(loja2);
+        sistema.cadastrarLoja(loja3);
+        sistema.cadastrarLoja(loja4);
+
         sistema.cadastrarUsuario(vanessa);
         sistema.cadastrarUsuario(carla);
         sistema.cadastrarUsuario(joana);
         sistema.cadastrarUsuario(ingrid);
         sistema.cadastrarUsuario(debora);
 
-        sistema.cadastrarLoja(loja1);
-        sistema.cadastrarLoja(loja2);
-        sistema.cadastrarLoja(loja3);
-        sistema.cadastrarLoja(loja4);
 
         sistema.cadastrarChamado(chamado1);
         sistema.cadastrarChamado(chamado2);
@@ -138,9 +140,9 @@ public class TestesPOO {
         sistema.listarUsuarios();
         sistema.listarChamados();
 
-        sistema.buscarChamadoPorId(2).exibirInformacoes();
+
         sistema.buscarLojaPorId(4).exibirInformacoes();
-        sistema.buscarUsuarioPorId(9).exibirInformacoes();
+
 
         sistema.atribuirTecnicoAoChamado(7, 4);
 
@@ -163,5 +165,30 @@ public class TestesPOO {
         sistema.cadastrarLoja(new Loja(-1, "Loja Teste", "Copacabana"));
 
         sistema.cadastrarLoja(new Loja(102, "Loja Válida", "Botafogo"));
+
+
+        System.out.println("\n===== VALIDAÇÕES DE USUÁRIOS =====");
+
+        // ID inválido
+        sistema.cadastrarUsuario(
+            new Tecnico(-1, "Tecnico Teste", Especialidade.REDES)
+        );
+
+        // Nome vazio
+        sistema.cadastrarUsuario(
+            new Tecnico(100, "", Especialidade.REDES)
+        );
+
+        // Especialidade nula
+        sistema.cadastrarUsuario(
+            new Tecnico(101, "Tecnico Teste", null)
+        );
+
+        // Loja inexistente
+        Loja lojaInexistente = new Loja(999, "Loja Fantasma", "Rio");
+
+        sistema.cadastrarUsuario(
+            new Gerente(102, "Gerente Teste", lojaInexistente)
+        );
     }
 }

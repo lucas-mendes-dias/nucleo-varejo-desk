@@ -4,17 +4,23 @@ import java.util.Scanner;
 import model.*;
 import service.SistemaChamados;
 import util.LoggerSistema;
-import util.SeedDados;
+// import util.SeedDados;
 
 public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("====================================");
+        System.out.println("DISCIPLINA: POO EM JAVA");
+        System.out.println("ALUNO: Lucas Mendes Dias - Matricula 2023200877");
+        System.out.println("ID ENTREGA: TUTORIAL-2026-LUCAS");
+        System.out.println("====================================");
+
         SistemaChamados sistema = new SistemaChamados();
         LoggerSistema.info("Núcleo VarejoDesk iniciado.");
 
         // Carrega os dados fictícios para testes
-        SeedDados.carregar(sistema);
+        // SeedDados.carregar(sistema);
 
         Scanner scanner = new Scanner(System.in);
 

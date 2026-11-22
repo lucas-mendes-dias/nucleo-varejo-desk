@@ -84,6 +84,7 @@ public class SistemaChamados {
 
         return maiorId + 1;
     }
+    
     // ========== USUÁRIOS ==========
 
     public void cadastrarUsuario(Usuario usuario) {
@@ -147,6 +148,7 @@ public class SistemaChamados {
 
         return maiorId + 1;
     }
+    
     // ========== CHAMADOS ==========
 
     public void cadastrarChamado(Chamado chamado) {
@@ -214,4 +216,16 @@ public class SistemaChamados {
         }
     }
 
+    public int gerarIdChamado() {
+
+        int maiorId = 0;
+
+        for (Chamado chamado : chamados) {
+            if (chamado.getId() > maiorId) {
+                maiorId = chamado.getId();
+            }
+        }
+
+        return maiorId + 1;
+    }
 }

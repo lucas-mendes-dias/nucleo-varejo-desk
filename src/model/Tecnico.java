@@ -5,7 +5,6 @@ public class Tecnico extends Usuario {
     private Especialidade especialidade;
 
     public Tecnico() {
-        super();                                // permite acessar o construtor sem parametro da classe Usuario 
     }
 
     public Tecnico(String nome, int id, Especialidade especialidade) {

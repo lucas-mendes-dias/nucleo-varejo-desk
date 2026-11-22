@@ -11,8 +11,6 @@ public class TestesPOO {
 
         System.out.println("===== TESTES NÚCLEO VAREJODESK =====");
 
-        SistemaChamados sistema = new SistemaChamados();
-
         // 1. CADASTRO DOS OBJETOS DE TESTE
         Tecnico luan = new Tecnico("Luan Souza", 1, Especialidade.REDES);
         Tecnico jose = new Tecnico("José souza", 2, Especialidade.ACESSOS);
@@ -34,72 +32,60 @@ public class TestesPOO {
         Solicitante carla = new Solicitante("Carla Amaro", 3000, loja3);
         Solicitante ingrid = new Solicitante("Ingrid gomes", 4000, loja4);
 
-        Chamado chamado1riosul = new Chamado(
+        Chamado chamado1 = new Chamado(
             10000, 
             "Problema de rede", 
             "Problema na Rede interna de todas as maquininhas", 
             Prioridade.CRITICA, 
             vanessa);
 
-        chamado1riosul.atribuirTecnico(luan);
+        chamado1.atribuirTecnico(luan);
 
-        Chamado chamado1 = new Chamado(
+        Chamado chamado2 = new Chamado(
             20000,
             "Impressora do caixa não funciona",
             "A impressora fiscal do caixa 2 parou de imprimir.",
             Prioridade.ALTA, 
             ingrid  
-            
         );
 
-        
-        
-        chamado1.atribuirTecnico(jose);
-        // 2. TESTES DE CADASTRO E LISTAGEM
+        // sempre preciso criar isso pra iniciar as 3 listas vazias de usuarios, lojas e chamados
+        SistemaChamados sistema = new SistemaChamados();
 
         sistema.cadastrarLoja(loja1);
         sistema.cadastrarLoja(loja2);
+        sistema.cadastrarLoja(loja3);
         sistema.cadastrarLoja(loja4);
 
         sistema.listarLojas();
 
-        sistema.cadastrarUsuario(luan);
-        sistema.cadastrarUsuario(rodrigo);
-        sistema.cadastrarUsuario(vanessa);
-        sistema.cadastrarUsuario(ingrid);
-
-        sistema.listarUsuarios();
-
-        // Cadastra o chamado
-        sistema.cadastrarChamado(chamado1riosul);
-        sistema.cadastrarChamado(chamado1);
-
-        // Lista os chamados
-        sistema.listarChamados();
 
 
-        // 3. TESTES DE BUSCA POR ID
-
-        Loja lojaEncontrada = sistema.buscarLojaPorId(11);
-
-            if (lojaEncontrada != null) {
-                lojaEncontrada.exibirInformacoes();
-            } else {
-                System.out.println("Loja não encontrada.");
-            }
-
-        // 4. TESTES DE VALIDAÇÃO
 
 
-        // 5. TESTES DE POLIMORFISMO
-        Chamado chamadoEncontrado = sistema.buscarChamadoPorId(10000);
 
-            if (chamadoEncontrado != null) {
-                chamadoEncontrado.exibirInformacoes();
-            } else {
-                System.out.println("Chamado não encontrado.");
-            }
+
+
+
+
+
+
+        // sistema.cadastrarUsuario(luan);
+        // sistema.cadastrarUsuario(jose);
+        // sistema.cadastrarUsuario(samara);
+        // sistema.cadastrarUsuario(debora);
+
+        // sistema.cadastrarUsuario(rodrigo);
+        // sistema.cadastrarUsuario(suzano);
+        // sistema.cadastrarUsuario(matheus);
+        // sistema.cadastrarUsuario(rogerio);
+
+        // sistema.cadastrarUsuario(vanessa);
+        // sistema.cadastrarUsuario(carla);
+        // sistema.cadastrarUsuario(joana);
+        // sistema.cadastrarUsuario(ingrid);
+
+
 
     }
-
 }

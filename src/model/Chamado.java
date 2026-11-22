@@ -13,7 +13,7 @@ public class Chamado {
 
     // Construtor sem parâmetros
     public Chamado() {
-        this.status = Status.ABERTO;
+        this.status = Status.ABERTO;  // inicia o chamado ja aberto
     }
 
     // Construtor parametrizado
@@ -25,11 +25,7 @@ public class Chamado {
         this.descricao = descricao;
         this.prioridade = prioridade;
         this.solicitante = solicitante;
-
-        // A loja é obtida automaticamente do solicitante
-        this.loja = solicitante.getLoja();
-
-        // Todo chamado começa aberto e sem técnico
+        this.loja = solicitante.getLoja();   // A loja é obtida automaticamente do solicitante
         this.status = Status.ABERTO;
         this.tecnico = null;
     }

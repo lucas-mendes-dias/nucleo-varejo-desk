@@ -1,17 +1,19 @@
 package service;
-import java.util.ArrayList;
+import java.util.ArrayList; // classe disponibilizada pelo Java para trabalhar com listas de tamanho variável.
 import model.Usuario;
 import model.Loja;
 import model.Chamado;
 
-//gerencia e armazena informações sobre usuários, lojas e chamados
+// gerencia e armazena os objetos em coleções e gerenciar seus cadastros, buscas e operações.
 
 public class SistemaChamados {
 
-    private ArrayList<Usuario> usuarios;
+    // ArrayList é uma classe disponibilizada pelo Java para trabalhar com listas de tamanho variável
+    private ArrayList<Usuario> usuarios; // solicitante , tecnico e gerente 
     private ArrayList<Loja> lojas;
     private ArrayList<Chamado> chamados;
 
+    //construtor sistemachamados 
     public SistemaChamados() {
         this.usuarios = new ArrayList<>();
         this.lojas = new ArrayList<>();
@@ -20,7 +22,8 @@ public class SistemaChamados {
 
     // ========== LOJAS ==========
 
-    public void cadastrarLoja(Loja loja) { // pega id da loja, procura id entre as lojas existentes, se encontrar loja  vai ser diferente de null
+    // pega id da loja, procura id entre as lojas existentes, se encontrar loja  vai ser diferente de null
+    public void cadastrarLoja(Loja loja) {
 
         if (loja == null) { // se for null apresenta erro e interrompe cadastro
             System.out.println("Erro: loja inválida.");
@@ -49,17 +52,23 @@ public class SistemaChamados {
         return null;
     }
 
-    public void listarLojas() { // percorre a lista e apresenta as lojas cadastradas.
+    public void listarLojas() {
 
         if (lojas.isEmpty()) {
             System.out.println("Nenhuma loja cadastrada.");
             return;
         }
 
-        System.out.println("===== LOJAS CADASTRADAS =====");
+        System.out.println("\n========== LOJAS CADASTRADAS ==========\n");
 
         for (Loja loja : lojas) {
-            loja.exibirInformacoes();
+
+            System.out.printf(
+                "ID: %-5d | %-20s | %s%n",
+                loja.getId(),
+                loja.getNome(),
+                loja.getLocalizacao()
+            );
         }
     }
 
@@ -101,11 +110,16 @@ public class SistemaChamados {
             return;
         }
 
-        System.out.println("===== USUÁRIOS CADASTRADOS =====");
+        System.out.println("\n========== USUÁRIOS CADASTRADOS ==========\n");
 
         for (Usuario usuario : usuarios) {
-            usuario.exibirInformacoes();
-            System.out.println("-----------------------------");
+
+            System.out.printf(
+                "ID: %-5d | %-20s | %s%n",
+                usuario.getId(),
+                usuario.getNome(),
+                usuario.getClass().getSimpleName()
+            );
         }
     }
 
@@ -113,27 +127,27 @@ public class SistemaChamados {
 
     public void cadastrarChamado(Chamado chamado) {
 
-        if (chamado == null) {
+        if (chamado == null) { // 	Recebemos um chamado válido?
             System.out.println("Erro: chamado inválido.");
             return;
         }
 
-        if (buscarChamadoPorId(chamado.getId()) != null) {
+        if (buscarChamadoPorId(chamado.getId()) != null) { // Já existe um chamado com esse ID?
             System.out.println("Erro: já existe um chamado com o ID " + chamado.getId());
             return;
         }
 
-        if (chamado.getSolicitante() == null) {
+        if (chamado.getSolicitante() == null) { // O chamado precisa de um solicitante válido.
             System.out.println("Erro: o chamado precisa de um solicitante.");
             return;
         }
 
-        if (buscarUsuarioPorId(chamado.getSolicitante().getId()) == null) {
+        if (buscarUsuarioPorId(chamado.getSolicitante().getId()) == null) { // O solicitante do chamado precisa estar cadastrado no sistema.
             System.out.println("Erro: solicitante não cadastrado no sistema.");
             return;
         }
 
-        if (chamado.getLoja() == null || buscarLojaPorId(chamado.getLoja().getId()) == null) {
+        if (chamado.getLoja() == null || buscarLojaPorId(chamado.getLoja().getId()) == null) { // O chamado precisa de loja válida e cadastrada no sistema.
 
             System.out.println("Erro: loja não cadastrada no sistema.");
             return;

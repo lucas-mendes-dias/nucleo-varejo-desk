@@ -5,7 +5,6 @@ public class Solicitante extends Usuario {
     private Loja loja;
 
     public Solicitante() {
-        super();
     }
 
     public Solicitante(String nome, int id, Loja loja) {

@@ -7,9 +7,9 @@ public class Gerente extends Usuario {
     public Gerente() {
     }
 
-    public Gerente(String nome, int id, Loja loja) {
-        super(nome, id);                        // Estamos chamando o construtor da classe mãe (Usuario).
-        this.loja = loja;                       // faz referência ao próprio objeto.
+    public Gerente(int id, String nome, Loja loja) {
+        super(id, nome);
+        this.loja = loja;
     }
 
     public Loja getLoja() {                   // permite consultar a loja do gerente

@@ -10,8 +10,8 @@ public class PraticaPOO {
         System.out.println("===== PRÁTICA DE POO =====");
 
         Loja riosul = new Loja(1, "Rio Sul", "Leme");
-        Tecnico jose = new Tecnico("Jose", 2, Especialidade.REDES);
-        Solicitante lucas = new Solicitante("lucas", 3, riosul);
+        // Tecnico jose = new Tecnico("Jose", 2, Especialidade.REDES);
+        // Solicitante lucas = new Solicitante("lucas", 3, riosul);
 
         Chamado chamado1 = new Chamado(4, "Problema de Rede", "Internet Parou de funcionas", Prioridade.MEDIA, lucas);
 

@@ -7,9 +7,9 @@ public class Tecnico extends Usuario {
     public Tecnico() {
     }
 
-    public Tecnico(String nome, int id, Especialidade especialidade) {
-        super(nome, id);                        // Estamos chamando o construtor da classe mãe (Usuario).
-        this.especialidade = especialidade;     // faz referência ao próprio objeto.
+    public Tecnico(int id, String nome, Especialidade especialidade) {
+        super(id, nome);
+        this.especialidade = especialidade;
     }
 
     public Especialidade getEspecialidade() {

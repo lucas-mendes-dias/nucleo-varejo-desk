@@ -9,9 +9,9 @@ public class Usuario {                              // Aqui estamos declarando u
     public Usuario() {                              // construtor sem parametro - Ele permite criar um usuário sem fornecer informações naquele momento.
     }                                               // nome começa como null e id como 0, pois são os valores padrão desses tipos em atributos de objetos Java.
 
-    public Usuario(String nome, int id) {           // construtor com parametro , permite criar um usuário já informando nome, ID e email.
-        this.nome = nome;                           // this se refere ao atributo do próprio objeto 
-        this.id = id;
+    public Usuario(int id, String nome) {           // construtor com parametro , permite criar um usuário já informando nome, ID e email.
+        this.id = id;                           // this se refere ao atributo do próprio objeto 
+        this.nome = nome;
         this.email = gerarEmail(nome);              
     }
 

@@ -13,6 +13,11 @@ public class SistemaChamados {
     private ArrayList<Loja> lojas;
     private ArrayList<Chamado> chamados;
 
+    // Contadores para gerar IDs automaticamente
+    private int proximoIdLoja = 1;
+    private int proximoIdUsuario = 1;
+    private int proximoIdChamado = 1;
+
     //construtor sistemachamados 
     public SistemaChamados() {
         this.usuarios = new ArrayList<>();
@@ -73,16 +78,7 @@ public class SistemaChamados {
     }
 
     public int gerarIdLoja() {
-
-        int maiorId = 0;
-
-        for (Loja loja : lojas) {
-            if (loja.getId() > maiorId) {
-                maiorId = loja.getId();
-            }
-        }
-
-        return maiorId + 1;
+        return proximoIdLoja++;
     }
     
     // ========== USUÁRIOS ==========
@@ -137,16 +133,7 @@ public class SistemaChamados {
     }
 
     public int gerarIdUsuario() {
-
-        int maiorId = 0;
-
-        for (Usuario usuario : usuarios) {
-            if (usuario.getId() > maiorId) {
-                maiorId = usuario.getId();
-            }
-        }
-
-        return maiorId + 1;
+        return proximoIdUsuario++;
     }
     
     // ========== CHAMADOS ==========
@@ -217,15 +204,7 @@ public class SistemaChamados {
     }
 
     public int gerarIdChamado() {
-
-        int maiorId = 0;
-
-        for (Chamado chamado : chamados) {
-            if (chamado.getId() > maiorId) {
-                maiorId = chamado.getId();
-            }
-        }
-
-        return maiorId + 1;
+        return proximoIdChamado++;
     }
+
 }

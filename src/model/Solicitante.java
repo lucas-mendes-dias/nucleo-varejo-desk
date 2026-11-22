@@ -7,8 +7,8 @@ public class Solicitante extends Usuario {
     public Solicitante() {
     }
 
-    public Solicitante(String nome, int id, Loja loja) {
-        super(nome, id);
+    public Solicitante(int id, String nome, Loja loja) {
+        super(id, nome);
         this.loja = loja;
     }
 

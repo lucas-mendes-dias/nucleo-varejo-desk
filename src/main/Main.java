@@ -10,6 +10,10 @@ public class Main {
     public static void main(String[] args) {
 
         SistemaChamados sistema = new SistemaChamados();
+
+        // Carrega os dados fictícios para testes
+        SeedDados.carregar(sistema);
+
         Scanner scanner = new Scanner(System.in);
 
         int opcao;
@@ -17,16 +21,10 @@ public class Main {
         do {
 
             System.out.println("\n========== NÚCLEO VAREJODESK ==========");
-            System.out.println("1. Cadastrar loja");
-            System.out.println("2. Cadastrar usuário");
-            System.out.println("3. Abrir chamado");
-            System.out.println("4. Listar lojas");
-            System.out.println("5. Listar usuários");
-            System.out.println("6. Listar chamados");
-            System.out.println("7. Buscar chamado");
-            System.out.println("8. Atribuir técnico");
-            System.out.println("9. Alterar status");
-            System.out.println("10. Remover chamado");
+            System.out.println("1. Gerenciar lojas");
+            System.out.println("2. Gerenciar usuários");
+            System.out.println("3. Gerenciar chamados");
+            System.out.println("4. Relatórios");
             System.out.println("0. Sair");
 
             System.out.print("\nEscolha uma opção: ");
@@ -36,7 +34,60 @@ public class Main {
 
             switch (opcao) {
 
-                // CADASTRAR LOJA
+                case 1:
+                    menuLojas(scanner, sistema);
+                    break;
+
+                case 2:
+                    menuUsuarios(scanner, sistema);
+                    break;
+
+                case 3:
+                    menuChamados(scanner, sistema);
+                    break;
+
+                case 4:
+                    menuRelatorios(scanner, sistema);
+                    break;
+
+                case 0:
+                    System.out.println("\nEncerrando o Núcleo VarejoDesk...");
+                    System.out.println("Obrigado por utilizar o sistema!");
+                    break;
+
+                default:
+                    System.out.println("Opção inválida.");
+                    break;
+            }
+
+        } while (opcao != 0);
+
+        scanner.close();
+    }
+
+    // =====================================================
+    // MENU DE LOJAS
+    // =====================================================
+
+    public static void menuLojas(Scanner scanner, SistemaChamados sistema) {
+
+        int opcao;
+
+        do {
+
+            System.out.println("\n========== GERENCIAR LOJAS ==========");
+            System.out.println("1. Cadastrar loja");
+            System.out.println("2. Listar lojas");
+            System.out.println("3. Buscar loja por ID");
+            System.out.println("0. Voltar ao menu principal");
+
+            System.out.print("\nEscolha uma opção: ");
+
+            opcao = scanner.nextInt();
+            scanner.nextLine();
+
+            switch (opcao) {
+
                 case 1:
 
                     System.out.println("\n========== CADASTRAR LOJA ==========");
@@ -57,8 +108,67 @@ public class Main {
 
                     break;
 
-                // CADASTRAR USUÁRIO
                 case 2:
+
+                    System.out.println("\n========== LOJAS CADASTRADAS ==========");
+                    sistema.listarLojas();
+
+                    break;
+
+                case 3:
+
+                    System.out.println("\n========== BUSCAR LOJA ==========");
+
+                    System.out.print("Digite o ID da loja: ");
+                    int idBuscaLoja = scanner.nextInt();
+                    scanner.nextLine();
+
+                    Loja lojaEncontrada = sistema.buscarLojaPorId(idBuscaLoja);
+
+                    if (lojaEncontrada == null) {
+                        System.out.println("Erro: loja não encontrada.");
+                    } else {
+                        lojaEncontrada.exibirInformacoes();
+                    }
+
+                    break;
+
+                case 0:
+                    System.out.println("Voltando ao menu principal...");
+                    break;
+
+                default:
+                    System.out.println("Opção inválida.");
+                    break;
+            }
+
+        } while (opcao != 0);
+    }
+
+    // =====================================================
+    // MENU DE USUÁRIOS
+    // =====================================================
+
+    public static void menuUsuarios(Scanner scanner, SistemaChamados sistema) {
+
+        int opcao;
+
+        do {
+
+            System.out.println("\n========== GERENCIAR USUÁRIOS ==========");
+            System.out.println("1. Cadastrar usuário");
+            System.out.println("2. Listar usuários");
+            System.out.println("3. Buscar usuário por ID");
+            System.out.println("0. Voltar ao menu principal");
+
+            System.out.print("\nEscolha uma opção: ");
+
+            opcao = scanner.nextInt();
+            scanner.nextLine();
+
+            switch (opcao) {
+
+                case 1:
 
                     System.out.println("\n========== CADASTRAR USUÁRIO ==========");
                     System.out.println("1. Técnico");
@@ -111,7 +221,8 @@ public class Main {
                         int idLojaUsuario = scanner.nextInt();
                         scanner.nextLine();
 
-                        Loja lojaUsuario = sistema.buscarLojaPorId(idLojaUsuario);
+                        Loja lojaUsuario =
+                            sistema.buscarLojaPorId(idLojaUsuario);
 
                         if (lojaUsuario == null) {
                             System.out.println("Erro: loja não encontrada.");
@@ -142,8 +253,71 @@ public class Main {
 
                     break;
 
-                // ABRIR CHAMADO
+                case 2:
+
+                    System.out.println("\n========== USUÁRIOS CADASTRADOS ==========");
+                    sistema.listarUsuarios();
+
+                    break;
+
                 case 3:
+
+                    System.out.println("\n========== BUSCAR USUÁRIO ==========");
+
+                    System.out.print("Digite o ID do usuário: ");
+                    int idBuscaUsuario = scanner.nextInt();
+                    scanner.nextLine();
+
+                    Usuario usuarioEncontrado =
+                        sistema.buscarUsuarioPorId(idBuscaUsuario);
+
+                    if (usuarioEncontrado == null) {
+                        System.out.println("Erro: usuário não encontrado.");
+                    } else {
+                        usuarioEncontrado.exibirInformacoes();
+                    }
+
+                    break;
+
+                case 0:
+                    System.out.println("Voltando ao menu principal...");
+                    break;
+
+                default:
+                    System.out.println("Opção inválida.");
+                    break;
+            }
+
+        } while (opcao != 0);
+    }
+
+    // =====================================================
+    // MENU DE CHAMADOS
+    // =====================================================
+
+    public static void menuChamados(Scanner scanner, SistemaChamados sistema) {
+
+        int opcao;
+
+        do {
+
+            System.out.println("\n========== GERENCIAR CHAMADOS ==========");
+            System.out.println("1. Abrir chamado");
+            System.out.println("2. Listar chamados");
+            System.out.println("3. Buscar chamado por ID");
+            System.out.println("4. Atribuir técnico");
+            System.out.println("5. Alterar status");
+            System.out.println("6. Remover chamado");
+            System.out.println("0. Voltar ao menu principal");
+
+            System.out.print("\nEscolha uma opção: ");
+
+            opcao = scanner.nextInt();
+            scanner.nextLine();
+
+            switch (opcao) {
+
+                case 1:
 
                     System.out.println("\n========== ABRIR CHAMADO ==========");
 
@@ -198,41 +372,23 @@ public class Main {
 
                     break;
 
-                // LISTAR LOJAS
-                case 4:
-
-                    System.out.println("\n========== LOJAS CADASTRADAS ==========");
-                    sistema.listarLojas();
-
-                    break;
-
-                // LISTAR USUÁRIOS
-                case 5:
-
-                    System.out.println("\n========== USUÁRIOS CADASTRADOS ==========");
-                    sistema.listarUsuarios();
-
-                    break;
-
-                // LISTAR CHAMADOS
-                case 6:
+                case 2:
 
                     System.out.println("\n========== CHAMADOS CADASTRADOS ==========");
                     sistema.listarChamados();
 
                     break;
 
-                // BUSCAR CHAMADO
-                case 7:
+                case 3:
 
                     System.out.println("\n========== BUSCAR CHAMADO ==========");
 
                     System.out.print("Digite o ID do chamado: ");
-                    int idBusca = scanner.nextInt();
+                    int idBuscaChamado = scanner.nextInt();
                     scanner.nextLine();
 
                     Chamado chamadoEncontrado =
-                        sistema.buscarChamadoPorId(idBusca);
+                        sistema.buscarChamadoPorId(idBuscaChamado);
 
                     if (chamadoEncontrado == null) {
                         System.out.println("Erro: chamado não encontrado.");
@@ -242,8 +398,7 @@ public class Main {
 
                     break;
 
-                // ATRIBUIR TÉCNICO
-                case 8:
+                case 4:
 
                     System.out.println("\n========== ATRIBUIR TÉCNICO ==========");
 
@@ -262,8 +417,7 @@ public class Main {
 
                     break;
 
-                // ALTERAR STATUS
-                case 9:
+                case 5:
 
                     System.out.println("\n========== ALTERAR STATUS ==========");
 
@@ -295,8 +449,7 @@ public class Main {
 
                     break;
 
-                // REMOVER CHAMADO
-                case 10:
+                case 6:
 
                     System.out.println("\n========== REMOVER CHAMADO ==========");
 
@@ -308,24 +461,54 @@ public class Main {
 
                     break;
 
-                // SAIR
                 case 0:
-
-                    System.out.println("\nEncerrando o Núcleo VarejoDesk...");
-                    System.out.println("Obrigado por utilizar o sistema!");
-
+                    System.out.println("Voltando ao menu principal...");
                     break;
 
-                // OPÇÃO INVÁLIDA
                 default:
-
-                    System.out.println("Opção inválida. Tente novamente.");
-
+                    System.out.println("Opção inválida.");
                     break;
             }
 
         } while (opcao != 0);
+    }
 
-        scanner.close();
+    // =====================================================
+    // MENU DE RELATÓRIOS
+    // =====================================================
+
+    public static void menuRelatorios(Scanner scanner, SistemaChamados sistema) {
+
+        int opcao;
+
+        do {
+
+            System.out.println("\n========== RELATÓRIOS ==========");
+            System.out.println("1. Relatório de chamados por loja");
+            System.out.println("0. Voltar ao menu principal");
+
+            System.out.print("\nEscolha uma opção: ");
+
+            opcao = scanner.nextInt();
+            scanner.nextLine();
+
+            switch (opcao) {
+
+                case 1:
+                    System.out.println(
+                        "\nRelatório por loja ainda não implementado."
+                    );
+                    break;
+
+                case 0:
+                    System.out.println("Voltando ao menu principal...");
+                    break;
+
+                default:
+                    System.out.println("Opção inválida.");
+                    break;
+            }
+
+        } while (opcao != 0);
     }
 }

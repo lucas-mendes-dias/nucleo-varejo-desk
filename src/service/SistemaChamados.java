@@ -211,16 +211,28 @@ public class SistemaChamados {
             return;
         }
 
-        System.out.println("\n========== CHAMADOS CADASTRADOS ==========\n");
+        System.out.printf(
+            "%-8s | %-35s | %-10s | %-15s | %-20s%n",
+            "ID", "TÍTULO", "PRIORIDADE", "STATUS", "TÉCNICO"
+        );
+
+        System.out.println("------------------------------------------------------------------------------------------------------");
 
         for (Chamado chamado : chamados) {
 
+            String nomeTecnico = "Não atribuído";
+
+            if (chamado.getTecnico() != null) {
+                nomeTecnico = chamado.getTecnico().getNome();
+            }
+
             System.out.printf(
-                "CH-%04d | %-35s | %-8s | %s%n",
+                "CH-%04d | %-35s | %-10s | %-15s | %-20s%n",
                 chamado.getId(),
                 chamado.getTitulo(),
                 chamado.getPrioridade(),
-                chamado.getStatus()
+                chamado.getStatus(),
+                nomeTecnico
             );
         }
     }

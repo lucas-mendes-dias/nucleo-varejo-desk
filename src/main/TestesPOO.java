@@ -49,25 +49,82 @@ public class TestesPOO {
             ingrid  
         );
 
+        chamado2.atribuirTecnico(luan);
+
+        Chamado chamado3 = new Chamado(
+            30000,
+            "Sistema de vendas travando",
+            "O sistema do caixa apresenta lentidão e trava durante as vendas.",
+            Prioridade.ALTA,
+            joana
+        );
+
+        chamado3.atribuirTecnico(luan);
+
+        Chamado chamado4 = new Chamado(
+            40000,
+            "Funcionário sem acesso ao sistema",
+            "Um funcionário novo não consegue acessar o sistema de estoque.",
+            Prioridade.MEDIA,
+            carla
+        );
+
+        Chamado chamado5 = new Chamado(
+            50000,
+            "Computador do estoque não liga",
+            "O computador utilizado para consultar o estoque não está ligando.",
+            Prioridade.ALTA,
+            vanessa
+        );
+
+        Chamado chamado6 = new Chamado(
+            60000,
+            "Internet lenta na loja",
+            "A conexão está lenta e prejudica a comunicação com o sistema de vendas.",
+            Prioridade.MEDIA,
+            ingrid
+        );
+
+        Chamado chamado7 = new Chamado(
+            70000,
+            "Impressora de etiquetas com falha",
+            "A impressora está apresentando falhas ao imprimir etiquetas de preços.",
+            Prioridade.BAIXA,
+            joana
+        );
+
+
+
         // sempre preciso criar isso pra iniciar as 3 listas vazias de usuarios, lojas e chamados
         SistemaChamados sistema = new SistemaChamados();
+
+        sistema.cadastrarUsuario(vanessa);
+        sistema.cadastrarUsuario(carla);
+        sistema.cadastrarUsuario(joana);
+        sistema.cadastrarUsuario(ingrid);
 
         sistema.cadastrarLoja(loja1);
         sistema.cadastrarLoja(loja2);
         sistema.cadastrarLoja(loja3);
         sistema.cadastrarLoja(loja4);
 
-        sistema.listarLojas();
+        sistema.cadastrarChamado(chamado1);
+        sistema.cadastrarChamado(chamado2);
+        sistema.cadastrarChamado(chamado3);
+        sistema.cadastrarChamado(chamado4);
+        sistema.cadastrarChamado(chamado5);
+        sistema.cadastrarChamado(chamado6);
+        sistema.cadastrarChamado(chamado7);
+
+        sistema.listarChamados();
 
 
+        // sistema.cadastrarLoja(loja1);
+        // sistema.cadastrarLoja(loja2);
+        // sistema.cadastrarLoja(loja3);
+        // sistema.cadastrarLoja(loja4);
 
-
-
-
-
-
-
-
+        // sistema.listarLojas();
 
 
         // sistema.cadastrarUsuario(luan);
@@ -85,6 +142,8 @@ public class TestesPOO {
         // sistema.cadastrarUsuario(joana);
         // sistema.cadastrarUsuario(ingrid);
 
+
+        // sistema.listarUsuarios();
 
 
     }

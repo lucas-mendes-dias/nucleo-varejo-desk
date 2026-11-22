@@ -176,10 +176,17 @@ public class SistemaChamados {
             return;
         }
 
-        System.out.println("===== CHAMADOS CADASTRADOS =====");
+        System.out.println("\n========== CHAMADOS CADASTRADOS ==========\n");
 
         for (Chamado chamado : chamados) {
-            chamado.exibirInformacoes();
+
+            System.out.printf(
+                "ID: %-6d | %-35s | %-8s | %s%n",
+                chamado.getId(),
+                chamado.getTitulo(),
+                chamado.getPrioridade(),
+                chamado.getStatus()
+            );
         }
     }
 

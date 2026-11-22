@@ -484,7 +484,8 @@ public class Main {
         do {
 
             System.out.println("\n========== RELATÓRIOS ==========");
-            System.out.println("1. Relatório de chamados por loja");
+            System.out.println("1. Relatório geral por loja");
+            System.out.println("2. Relatório detalhado de uma loja");
             System.out.println("0. Voltar ao menu principal");
 
             System.out.print("\nEscolha uma opção: ");
@@ -495,20 +496,35 @@ public class Main {
             switch (opcao) {
 
                 case 1:
-                    System.out.println(
-                        "\nRelatório por loja ainda não implementado."
-                    );
+
+                    sistema.relatorioGeralPorLoja();
+
+                    break;
+
+                case 2:
+
+                    System.out.print("Digite o ID da loja: ");
+                    int idLoja = scanner.nextInt();
+                    scanner.nextLine();
+
+                    sistema.relatorioDetalhadoPorLoja(idLoja);
+
                     break;
 
                 case 0:
-                    System.out.println("Voltando ao menu principal...");
+
+                    System.out.println("Voltando ao menu principal.");
+
                     break;
 
                 default:
+
                     System.out.println("Opção inválida.");
+
                     break;
             }
 
         } while (opcao != 0);
     }
+
 }

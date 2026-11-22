@@ -315,4 +315,175 @@ public class SistemaChamados {
             chamado.getTitulo()
         );
     }
+
+
+    // ========== Relatório ==========
+
+    public void relatorioGeralPorLoja() {
+
+        System.out.println("\n========== RELATÓRIO GERAL POR LOJA ==========");
+
+        if (lojas.isEmpty()) {
+            System.out.println("Nenhuma loja cadastrada.");
+            return;
+        }
+
+        System.out.printf(
+            "%-8s | %-25s | %-7s | %-7s | %-12s | %-9s%n",
+            "ID", "LOJA", "TOTAL", "ABERTOS", "EM ANDAMENTO", "RESOLVIDOS"
+        );
+
+        System.out.println("--------------------------------------------------------------------------------");
+
+        for (Loja loja : lojas) {
+
+            int total = 0;
+            int abertos = 0;
+            int emAndamento = 0;
+            int resolvidos = 0;
+
+            for (Chamado chamado : chamados) {
+
+                if (chamado.getLoja().getId() == loja.getId()) {
+
+                    total++;
+
+                    switch (chamado.getStatus()) {
+
+                        case ABERTO:
+                            abertos++;
+                            break;
+
+                        case EM_ANDAMENTO:
+                            emAndamento++;
+                            break;
+
+                        case RESOLVIDO:
+                            resolvidos++;
+                            break;
+                    }
+                }
+            }
+
+            System.out.printf(
+                "LOJ-%04d | %-25s | %-7d | %-7d | %-12d | %-9d%n",
+                loja.getId(),
+                loja.getNome(),
+                total,
+                abertos,
+                emAndamento,
+                resolvidos
+            );
+        }
+    }
+
+
+    public void relatorioDetalhadoPorLoja(int idLoja) {
+
+        Loja loja = buscarLojaPorId(idLoja);
+
+        if (loja == null) {
+            System.out.println("Erro: loja não encontrada.");
+            return;
+        }
+
+        int total = 0;
+        int abertos = 0;
+        int emAndamento = 0;
+        int resolvidos = 0;
+
+        int baixa = 0;
+        int media = 0;
+        int alta = 0;
+        int critica = 0;
+
+        System.out.println("\n========== RELATÓRIO DA LOJA ==========");
+        System.out.printf("Loja: %s%n", loja.getNome());
+        System.out.printf("ID: LOJ-%04d%n", loja.getId());
+        System.out.println("Localização: " + loja.getLocalizacao());
+
+        System.out.println("\n========== CHAMADOS DA LOJA ==========");
+
+        System.out.printf(
+            "%-8s | %-35s | %-12s | %-15s | %-20s%n",
+            "ID", "TÍTULO", "PRIORIDADE", "STATUS", "TÉCNICO"
+        );
+
+        System.out.println("--------------------------------------------------------------------------------------------------------");
+
+        for (Chamado chamado : chamados) {
+
+            if (chamado.getLoja().getId() == idLoja) {
+
+                total++;
+
+                switch (chamado.getStatus()) {
+
+                    case ABERTO:
+                        abertos++;
+                        break;
+
+                    case EM_ANDAMENTO:
+                        emAndamento++;
+                        break;
+
+                    case RESOLVIDO:
+                        resolvidos++;
+                        break;
+                }
+
+                switch (chamado.getPrioridade()) {
+
+                    case BAIXA:
+                        baixa++;
+                        break;
+
+                    case MEDIA:
+                        media++;
+                        break;
+
+                    case ALTA:
+                        alta++;
+                        break;
+
+                    case CRITICA:
+                        critica++;
+                        break;
+                }
+
+                String nomeTecnico = "Não atribuído";
+
+                if (chamado.getTecnico() != null) {
+                    nomeTecnico = chamado.getTecnico().getNome();
+                }
+
+                System.out.printf(
+                    "CH-%04d | %-35s | %-12s | %-15s | %-20s%n",
+                    chamado.getId(),
+                    chamado.getTitulo(),
+                    chamado.getPrioridade(),
+                    chamado.getStatus(),
+                    nomeTecnico
+                );
+            }
+        }
+
+        System.out.println("\n========== RESUMO DA LOJA ==========");
+
+        System.out.println("Total de chamados: " + total);
+
+        System.out.println("\nPor status:");
+        System.out.println("Abertos: " + abertos);
+        System.out.println("Em andamento: " + emAndamento);
+        System.out.println("Resolvidos: " + resolvidos);
+
+        System.out.println("\nPor prioridade:");
+        System.out.println("Baixa: " + baixa);
+        System.out.println("Média: " + media);
+        System.out.println("Alta: " + alta);
+        System.out.println("Crítica: " + critica);
+    }
 }
+
+
+

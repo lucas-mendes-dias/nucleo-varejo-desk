@@ -23,7 +23,5 @@ public class PraticaPOO {
         // sempre preciso criar isso pra iniciar as 3 listas vazias de usuarios, lojas e chamados
         SistemaChamados sistema = new SistemaChamados(); 
 
-
-
     }
 }

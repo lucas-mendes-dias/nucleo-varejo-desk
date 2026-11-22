@@ -2,6 +2,7 @@ package service;
 import java.util.ArrayList; // classe disponibilizada pelo Java para trabalhar com listas de tamanho variável.
 import model.Usuario;
 import model.Loja;
+import model.Tecnico;
 import model.Chamado;
 
 // gerencia e armazena os objetos em coleções e gerenciar seus cadastros, buscas e operações.
@@ -207,4 +208,29 @@ public class SistemaChamados {
         return proximoIdChamado++;
     }
 
+    public void atribuirTecnicoAoChamado(int idChamado, int idTecnico) {
+
+        // Busca o chamado pelo ID
+        Chamado chamado = buscarChamadoPorId(idChamado);
+
+        if (chamado == null) {
+            System.out.println("Erro: chamado não encontrado.");
+            return;
+        }
+
+        // Busca o usuário pelo ID
+        Usuario usuario = buscarUsuarioPorId(idTecnico);
+
+        // Verifica se o usuário encontrado é um técnico
+        if (!(usuario instanceof Tecnico)) {
+            System.out.println("Erro: técnico não encontrado ou usuário inválido.");
+            return;
+        }
+
+        // Converte a referência para Tecnico
+        Tecnico tecnico = (Tecnico) usuario;
+
+        // Utiliza o método que já criamos na classe Chamado
+        chamado.atribuirTecnico(tecnico);
+    }
 }

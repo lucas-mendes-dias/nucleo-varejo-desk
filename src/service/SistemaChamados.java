@@ -18,6 +18,18 @@ public class SistemaChamados {
     private ArrayList<Loja> lojas;
     private ArrayList<Chamado> chamados;
 
+    public ArrayList<Loja> obterLojas() {
+        return new ArrayList<>(lojas);
+    }
+
+    public ArrayList<Usuario> obterUsuarios() {
+        return new ArrayList<>(usuarios);
+    }
+
+    public ArrayList<Chamado> obterChamados() {
+        return new ArrayList<>(chamados);
+    }
+
     // Contadores para gerar IDs automaticamente
     private int proximoIdLoja = 1;
     private int proximoIdUsuario = 1;

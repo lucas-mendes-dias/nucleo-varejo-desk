@@ -4,6 +4,7 @@ import model.Usuario;
 import model.Loja;
 import model.Tecnico;
 import model.Chamado;
+import model.Status;
 
 // gerencia e armazena os objetos em coleções e gerenciar seus cadastros, buscas e operações.
 
@@ -233,4 +234,21 @@ public class SistemaChamados {
         // Utiliza o método que já criamos na classe Chamado
         chamado.atribuirTecnico(tecnico);
     }
+
+    public void alterarStatusChamado(int idChamado, Status novoStatus) {
+
+        // Busca o chamado pelo ID
+        Chamado chamado = buscarChamadoPorId(idChamado);
+
+        // Verifica se o chamado existe
+        if (chamado == null) {
+            System.out.println("Erro: chamado não encontrado.");
+            return;
+        }
+
+        // Utiliza o método da classe Chamado
+        chamado.alterarStatus(novoStatus);
+    }
+
+
 }

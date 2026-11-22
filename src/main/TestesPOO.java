@@ -119,6 +119,7 @@ public class TestesPOO {
         sistema.cadastrarUsuario(carla);
         sistema.cadastrarUsuario(joana);
         sistema.cadastrarUsuario(ingrid);
+        sistema.cadastrarUsuario(debora);
 
         sistema.cadastrarLoja(loja1);
         sistema.cadastrarLoja(loja2);
@@ -140,6 +141,14 @@ public class TestesPOO {
         sistema.buscarChamadoPorId(2).exibirInformacoes();
         sistema.buscarLojaPorId(4).exibirInformacoes();
         sistema.buscarUsuarioPorId(9).exibirInformacoes();
+
+        sistema.atribuirTecnicoAoChamado(7, 4);
+
+        // chamado7.exibirInformacoes();
+
+        sistema.alterarStatusChamado(7, Status.EM_ANDAMENTO);
+        sistema.alterarStatusChamado(7, Status.RESOLVIDO);
+        sistema.alterarStatusChamado(7, Status.EM_ANDAMENTO);
 
 
         System.out.println(sistema.buscarUsuarioPorId(9).getNome());

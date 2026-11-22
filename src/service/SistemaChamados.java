@@ -250,5 +250,37 @@ public class SistemaChamados {
         chamado.alterarStatus(novoStatus);
     }
 
+    // só permite excluir um chamado que ainda não recebeu um técnico e permanece aberto.
+    public void removerChamado(int idChamado) {
 
+        // Procura o chamado pelo ID
+        Chamado chamado = buscarChamadoPorId(idChamado);
+
+        // Verifica se o chamado existe
+        if (chamado == null) {
+            System.out.println("Erro: chamado não encontrado.");
+            return;
+        }
+
+        // Impede remover chamados que não estão abertos
+        if (chamado.getStatus() != Status.ABERTO) {
+            System.out.println("Erro: não é possível remover um chamado em andamento ou resolvido.");
+            return;
+        }
+
+        // Impede remover chamados que já possuem técnico
+        if (chamado.getTecnico() != null) {
+            System.out.println("Erro: não é possível remover um chamado que já possui técnico.");
+            return;
+        }
+
+        // Remove o chamado da lista
+        chamados.remove(chamado);
+
+        System.out.printf(
+            "CH-%04d (%s): removido com sucesso!%n",
+            chamado.getId(),
+            chamado.getTitulo()
+        );
+    }
 }

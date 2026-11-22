@@ -3,6 +3,7 @@ package main;
 import java.util.Scanner;
 import model.*;
 import service.SistemaChamados;
+import util.LoggerSistema;
 import util.SeedDados;
 
 public class Main {
@@ -10,6 +11,7 @@ public class Main {
     public static void main(String[] args) {
 
         SistemaChamados sistema = new SistemaChamados();
+        LoggerSistema.info("Núcleo VarejoDesk iniciado.");
 
         // Carrega os dados fictícios para testes
         SeedDados.carregar(sistema);
@@ -59,6 +61,8 @@ public class Main {
 
         } while (opcao != 0);
 
+        LoggerSistema.info("Núcleo VarejoDesk encerrado.");
+        
         scanner.close();
     }
 

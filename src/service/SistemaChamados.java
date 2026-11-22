@@ -7,6 +7,7 @@ import model.Tecnico;
 import model.Chamado;
 import model.Gerente;
 import model.Status;
+import util.LoggerSistema;
 
 // gerencia e armazena os objetos em coleções e gerenciar seus cadastros, buscas e operações.
 
@@ -60,6 +61,10 @@ public class SistemaChamados {
         }
 
         lojas.add(loja);
+
+        LoggerSistema.info(
+            "Loja cadastrada: " + loja.getNome() + " (ID: " + loja.getId() + ")"
+        );
 
         System.out.println("Loja " + loja.getNome() + " cadastrada com sucesso!");
     }
@@ -182,6 +187,10 @@ public class SistemaChamados {
 
         usuarios.add(usuario);
 
+        LoggerSistema.info(
+            "Usuário cadastrado: " + usuario.getNome() + " (ID: " + usuario.getId() + ")"
+        );
+
         System.out.println("Usuário " + usuario.getNome() + " cadastrado com sucesso!");
     }
 
@@ -273,6 +282,10 @@ public class SistemaChamados {
 
         chamados.add(chamado);
 
+        LoggerSistema.info(
+            "Chamado cadastrado: #" + chamado.getId() + " - " + chamado.getTitulo()
+        );
+
         System.out.println(chamado.getIdentificacao() + ": cadastrado com sucesso!");
     }
 
@@ -326,7 +339,6 @@ public class SistemaChamados {
 
     public void atribuirTecnicoAoChamado(int idChamado, int idTecnico) {
 
-        // Busca o chamado pelo ID
         Chamado chamado = buscarChamadoPorId(idChamado);
 
         if (chamado == null) {
@@ -334,20 +346,28 @@ public class SistemaChamados {
             return;
         }
 
-        // Busca o usuário pelo ID
         Usuario usuario = buscarUsuarioPorId(idTecnico);
 
-        // Verifica se o usuário encontrado é um técnico
         if (!(usuario instanceof Tecnico)) {
             System.out.println("Erro: técnico não encontrado ou usuário inválido.");
             return;
         }
 
-        // Converte a referência para Tecnico
         Tecnico tecnico = (Tecnico) usuario;
 
-        // Utiliza o método que já criamos na classe Chamado
+        // Verifica se o chamado ainda não possui técnico
+        boolean semTecnico = chamado.getTecnico() == null;
+
+        // Tenta atribuir o técnico
         chamado.atribuirTecnico(tecnico);
+
+        // Registra o log somente se a atribuição funcionou
+        if (semTecnico && chamado.getTecnico() == tecnico) {
+            LoggerSistema.info(
+                "Técnico " + tecnico.getNome() +
+                " atribuído ao chamado #" + chamado.getId()
+            );
+        }
     }
 
     public void alterarStatusChamado(int idChamado, Status novoStatus) {
@@ -361,8 +381,17 @@ public class SistemaChamados {
             return;
         }
 
-        // Utiliza o método da classe Chamado
+        Status statusAnterior = chamado.getStatus();
+
         chamado.alterarStatus(novoStatus);
+
+        if (chamado.getStatus() != statusAnterior) {
+            LoggerSistema.info(
+                "Chamado #" + chamado.getId() +
+                " atualizado de " + statusAnterior +
+                " para " + chamado.getStatus()
+            );
+        }
     }
 
     // só permite excluir um chamado que ainda não recebeu um técnico e permanece aberto.
@@ -373,24 +402,48 @@ public class SistemaChamados {
 
         // Verifica se o chamado existe
         if (chamado == null) {
+
+            String mensagem = "Tentativa de remover chamado inexistente: ID " + idChamado;
+
             System.out.println("Erro: chamado não encontrado.");
+
+            LoggerSistema.erro(mensagem);
+
             return;
         }
 
         // Impede remover chamados que não estão abertos
         if (chamado.getStatus() != Status.ABERTO) {
+
             System.out.println("Erro: não é possível remover um chamado em andamento ou resolvido.");
+
+            LoggerSistema.erro(
+                "Remoção recusada: chamado #" + idChamado +
+                " possui status " + chamado.getStatus()
+            );
+
             return;
         }
 
         // Impede remover chamados que já possuem técnico
         if (chamado.getTecnico() != null) {
+
             System.out.println("Erro: não é possível remover um chamado que já possui técnico.");
+
+            LoggerSistema.erro(
+                "Remoção recusada: chamado #" + idChamado +
+                " já possui técnico atribuído."
+            );
+
             return;
         }
 
         // Remove o chamado da lista
         chamados.remove(chamado);
+
+        LoggerSistema.info(
+            "Chamado #" + chamado.getId() + " removido do sistema."
+        );
 
         System.out.printf(
             "CH-%04d (%s): removido com sucesso!%n",

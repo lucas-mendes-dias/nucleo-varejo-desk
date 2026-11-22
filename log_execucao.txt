@@ -1,0 +1,61 @@
+[22/11/2026 18:33:50] [INFO] Núcleo VarejoDesk iniciado.
+[22/11/2026 18:33:50] [INFO] Loja cadastrada: Rio Sul (ID: 1)
+[22/11/2026 18:33:50] [INFO] Loja cadastrada: Copacabana (ID: 2)
+[22/11/2026 18:33:50] [INFO] Loja cadastrada: Botafogo Praia Shopping (ID: 3)
+[22/11/2026 18:33:50] [INFO] Loja cadastrada: Shopping Tijuca (ID: 4)
+[22/11/2026 18:33:50] [INFO] Loja cadastrada: Barra Shopping (ID: 5)
+[22/11/2026 18:33:50] [INFO] Loja cadastrada: Norte Shopping (ID: 6)
+[22/11/2026 18:33:50] [INFO] Loja cadastrada: Shopping Leblon (ID: 7)
+[22/11/2026 18:33:50] [INFO] Loja cadastrada: Nova América (ID: 8)
+[22/11/2026 18:33:50] [INFO] Loja cadastrada: Shopping Downtown (ID: 9)
+[22/11/2026 18:33:50] [INFO] Loja cadastrada: Plaza Niterói (ID: 10)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Mariana Costa (ID: 1)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Rodrigo Almeida (ID: 2)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Fernanda Lima (ID: 3)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Carlos Eduardo (ID: 4)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Patricia Souza (ID: 5)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Ricardo Gomes (ID: 6)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Juliana Martins (ID: 7)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Anderson Ferreira (ID: 8)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Camila Ribeiro (ID: 9)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Bruno Oliveira (ID: 10)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Vanessa Santos (ID: 11)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Joana Pereira (ID: 12)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Carla Mendes (ID: 13)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Ingrid Rocha (ID: 14)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Felipe Nascimento (ID: 15)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Larissa Teixeira (ID: 16)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Pedro Henrique (ID: 17)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Amanda Barbosa (ID: 18)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Gabriel Moreira (ID: 19)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Beatriz Carvalho (ID: 20)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Luan Souza (ID: 21)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Jose Carlos (ID: 22)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Debora Martins (ID: 23)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Samara Oliveira (ID: 24)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Rafael Costa (ID: 25)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Lucas Ferreira (ID: 26)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Ana Paula (ID: 27)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Bruno Santos (ID: 28)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Marcos Vinicius (ID: 29)
+[22/11/2026 18:33:50] [INFO] Usuário cadastrado: Thiago Ribeiro (ID: 30)
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #1 - Impressora do caixa não funciona
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #2 - Internet lenta na loja
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #3 - Sistema de vendas travando
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #4 - Funcionário sem acesso ao sistema
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #5 - Computador do estoque não liga
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #6 - Problema na conexão Wi-Fi
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #7 - Erro ao finalizar pagamento
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #8 - Monitor do caixa sem imagem
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #9 - Senha de acesso bloqueada
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #10 - Sistema não gera relatório
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #11 - Leitor de código de barras falhando
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #12 - Rede da loja indisponível
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #13 - Erro ao emitir nota fiscal
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #14 - Impressora de etiquetas com falha
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #15 - Computador reiniciando sozinho
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #16 - Sistema de estoque desatualizado
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #17 - Funcionário precisa de novo acesso
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #18 - Queda frequente de conexão
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #19 - Teclado do caixa com defeito
+[22/11/2026 18:33:50] [INFO] Chamado cadastrado: #20 - Erro na abertura do caixa

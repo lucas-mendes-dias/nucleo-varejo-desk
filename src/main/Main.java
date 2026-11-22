@@ -27,10 +27,7 @@ public class Main {
             System.out.println("4. Relatórios");
             System.out.println("0. Sair");
 
-            System.out.print("\nEscolha uma opção: ");
-
-            opcao = scanner.nextInt();
-            scanner.nextLine();
+            opcao = lerInteiro(scanner, "\nEscolha uma opção: ");
 
             switch (opcao) {
 
@@ -65,6 +62,39 @@ public class Main {
         scanner.close();
     }
 
+    public static String   lerTextoObrigatorio(Scanner scanner, String mensagem) {
+
+        while (true) {
+
+            System.out.print(mensagem);
+
+            String texto = scanner.nextLine().trim();
+
+            if (!texto.isEmpty()) {
+                return texto;
+            }
+
+            System.out.println("Erro: este campo não pode ficar vazio.");
+        }
+    }
+
+    public static int lerInteiro(Scanner scanner, String mensagem) {
+
+        while (true) {
+
+            System.out.print(mensagem);
+
+            String entrada = scanner.nextLine();
+
+            try {
+                return Integer.parseInt(entrada.trim());
+
+            } catch (NumberFormatException e) {
+                System.out.println("Erro: digite um número inteiro válido.");
+            }
+        }
+    }
+
     // =====================================================
     // MENU DE LOJAS
     // =====================================================
@@ -81,10 +111,7 @@ public class Main {
             System.out.println("3. Buscar loja por ID");
             System.out.println("0. Voltar ao menu principal");
 
-            System.out.print("\nEscolha uma opção: ");
-
-            opcao = scanner.nextInt();
-            scanner.nextLine();
+            opcao = lerInteiro(scanner, "\nEscolha uma opção: ");
 
             switch (opcao) {
 
@@ -119,9 +146,7 @@ public class Main {
 
                     System.out.println("\n========== BUSCAR LOJA ==========");
 
-                    System.out.print("Digite o ID da loja: ");
-                    int idBuscaLoja = scanner.nextInt();
-                    scanner.nextLine();
+                    int idBuscaLoja = lerInteiro(scanner, "Digite o ID da loja: ");
 
                     Loja lojaEncontrada = sistema.buscarLojaPorId(idBuscaLoja);
 
@@ -161,10 +186,7 @@ public class Main {
             System.out.println("3. Buscar usuário por ID");
             System.out.println("0. Voltar ao menu principal");
 
-            System.out.print("\nEscolha uma opção: ");
-
-            opcao = scanner.nextInt();
-            scanner.nextLine();
+            opcao = lerInteiro(scanner, "\nEscolha uma opção: ");
 
             switch (opcao) {
 
@@ -175,9 +197,7 @@ public class Main {
                     System.out.println("2. Gerente");
                     System.out.println("3. Solicitante");
 
-                    System.out.print("Escolha o tipo de usuário: ");
-                    int tipoUsuario = scanner.nextInt();
-                    scanner.nextLine();
+                    int tipoUsuario = lerInteiro(scanner, "Escolha o tipo de usuário: ");
 
                     if (tipoUsuario < 1 || tipoUsuario > 3) {
                         System.out.println("Tipo de usuário inválido.");
@@ -195,9 +215,7 @@ public class Main {
                         System.out.println("3. Redes");
                         System.out.println("4. Acessos");
 
-                        System.out.print("Escolha a especialidade: ");
-                        int opcaoEspecialidade = scanner.nextInt();
-                        scanner.nextLine();
+                        int opcaoEspecialidade = lerInteiro(scanner, "Escolha a especialidade: ");
 
                         if (opcaoEspecialidade < 1 || opcaoEspecialidade > 4) {
                             System.out.println("Especialidade inválida.");
@@ -217,9 +235,7 @@ public class Main {
 
                     } else {
 
-                        System.out.print("Digite o ID da loja: ");
-                        int idLojaUsuario = scanner.nextInt();
-                        scanner.nextLine();
+                        int idLojaUsuario = lerInteiro(scanner, "Digite o ID da loja: ");
 
                         Loja lojaUsuario =
                             sistema.buscarLojaPorId(idLojaUsuario);
@@ -264,9 +280,7 @@ public class Main {
 
                     System.out.println("\n========== BUSCAR USUÁRIO ==========");
 
-                    System.out.print("Digite o ID do usuário: ");
-                    int idBuscaUsuario = scanner.nextInt();
-                    scanner.nextLine();
+                    int idBuscaUsuario = lerInteiro(scanner, "Digite o ID do usuário: ");
 
                     Usuario usuarioEncontrado =
                         sistema.buscarUsuarioPorId(idBuscaUsuario);
@@ -310,10 +324,7 @@ public class Main {
             System.out.println("6. Remover chamado");
             System.out.println("0. Voltar ao menu principal");
 
-            System.out.print("\nEscolha uma opção: ");
-
-            opcao = scanner.nextInt();
-            scanner.nextLine();
+            opcao = lerInteiro(scanner, "\nEscolha uma opção: ");
 
             switch (opcao) {
 
@@ -333,9 +344,7 @@ public class Main {
                     System.out.println("3. Alta");
                     System.out.println("4. Crítica");
 
-                    System.out.print("Escolha a prioridade: ");
-                    int opcaoPrioridade = scanner.nextInt();
-                    scanner.nextLine();
+                    int opcaoPrioridade = lerInteiro(scanner, "Escolha a prioridade: ");
 
                     if (opcaoPrioridade < 1 || opcaoPrioridade > 4) {
                         System.out.println("Prioridade inválida.");
@@ -345,9 +354,7 @@ public class Main {
                     Prioridade prioridade =
                         Prioridade.values()[opcaoPrioridade - 1];
 
-                    System.out.print("ID do solicitante: ");
-                    int idSolicitante = scanner.nextInt();
-                    scanner.nextLine();
+                    int idSolicitante = lerInteiro(scanner, "ID do solicitante: ");
 
                     Usuario usuarioEncontrado =
                         sistema.buscarUsuarioPorId(idSolicitante);
@@ -383,9 +390,7 @@ public class Main {
 
                     System.out.println("\n========== BUSCAR CHAMADO ==========");
 
-                    System.out.print("Digite o ID do chamado: ");
-                    int idBuscaChamado = scanner.nextInt();
-                    scanner.nextLine();
+                    int idBuscaChamado = lerInteiro(scanner, "Digite o ID do chamado: ");
 
                     Chamado chamadoEncontrado =
                         sistema.buscarChamadoPorId(idBuscaChamado);
@@ -402,13 +407,9 @@ public class Main {
 
                     System.out.println("\n========== ATRIBUIR TÉCNICO ==========");
 
-                    System.out.print("Digite o ID do chamado: ");
-                    int idChamadoTecnico = scanner.nextInt();
-                    scanner.nextLine();
+                    int idChamadoTecnico = lerInteiro(scanner, "Digite o ID do chamado: ");
 
-                    System.out.print("Digite o ID do técnico: ");
-                    int idTecnico = scanner.nextInt();
-                    scanner.nextLine();
+                    int idTecnico = lerInteiro(scanner, "Digite o ID do técnico: ");
 
                     sistema.atribuirTecnicoAoChamado(
                         idChamadoTecnico,
@@ -421,18 +422,14 @@ public class Main {
 
                     System.out.println("\n========== ALTERAR STATUS ==========");
 
-                    System.out.print("Digite o ID do chamado: ");
-                    int idChamadoStatus = scanner.nextInt();
-                    scanner.nextLine();
+                    int idChamadoStatus = lerInteiro(scanner, "Digite o ID do chamado: ");
 
                     System.out.println("\nStatus disponíveis:");
                     System.out.println("1. Aberto");
                     System.out.println("2. Em andamento");
                     System.out.println("3. Resolvido");
 
-                    System.out.print("Escolha o novo status: ");
-                    int opcaoStatus = scanner.nextInt();
-                    scanner.nextLine();
+                    int opcaoStatus = lerInteiro(scanner, "Escolha o novo status: ");
 
                     if (opcaoStatus < 1 || opcaoStatus > 3) {
                         System.out.println("Status inválido.");
@@ -453,9 +450,7 @@ public class Main {
 
                     System.out.println("\n========== REMOVER CHAMADO ==========");
 
-                    System.out.print("Digite o ID do chamado: ");
-                    int idRemocao = scanner.nextInt();
-                    scanner.nextLine();
+                    int idRemocao = lerInteiro(scanner, "Digite o ID do chamado: ");
 
                     sistema.removerChamado(idRemocao);
 
@@ -488,10 +483,7 @@ public class Main {
             System.out.println("2. Relatório detalhado de uma loja");
             System.out.println("0. Voltar ao menu principal");
 
-            System.out.print("\nEscolha uma opção: ");
-
-            opcao = scanner.nextInt();
-            scanner.nextLine();
+            opcao = lerInteiro(scanner, "\nEscolha uma opção: ");
 
             switch (opcao) {
 
@@ -503,9 +495,7 @@ public class Main {
 
                 case 2:
 
-                    System.out.print("Digite o ID da loja: ");
-                    int idLoja = scanner.nextInt();
-                    scanner.nextLine();
+                    int idLoja = lerInteiro(scanner, "Digite o ID da loja: ");
 
                     sistema.relatorioDetalhadoPorLoja(idLoja);
 

@@ -64,7 +64,7 @@ public class SistemaChamados {
         for (Loja loja : lojas) {
 
             System.out.printf(
-                "ID: %-5d | %-20s | %s%n",
+                "LOJ-%02d | %-20s | %s%n",
                 loja.getId(),
                 loja.getNome(),
                 loja.getLocalizacao()
@@ -72,6 +72,18 @@ public class SistemaChamados {
         }
     }
 
+    public int gerarIdLoja() {
+
+        int maiorId = 0;
+
+        for (Loja loja : lojas) {
+            if (loja.getId() > maiorId) {
+                maiorId = loja.getId();
+            }
+        }
+
+        return maiorId + 1;
+    }
     // ========== USUÁRIOS ==========
 
     public void cadastrarUsuario(Usuario usuario) {
@@ -115,7 +127,7 @@ public class SistemaChamados {
         for (Usuario usuario : usuarios) {
 
             System.out.printf(
-                "ID: %-5d | %-20s | %s%n",
+                "USU-%03d | %-20s | %s%n",
                 usuario.getId(),
                 usuario.getNome(),
                 usuario.getClass().getSimpleName()
@@ -181,7 +193,7 @@ public class SistemaChamados {
         for (Chamado chamado : chamados) {
 
             System.out.printf(
-                "ID: %-6d | %-35s | %-8s | %s%n",
+                "CH-%04d | %-35s | %-8s | %s%n",
                 chamado.getId(),
                 chamado.getTitulo(),
                 chamado.getPrioridade(),

@@ -12,28 +12,30 @@ public class TestesPOO {
         System.out.println("===== TESTES NÚCLEO VAREJODESK =====");
 
         // 1. CADASTRO DOS OBJETOS DE TESTE
+
+        Loja loja1 = new Loja(1, "Rio Sul", "Botafogo");
+        Loja loja2 = new Loja(2, "Copacabana", "Nossa senhora de copacabana");
+        Loja loja3 = new Loja(3, "Botafogo", "Botafogo praia shopping");
+        Loja loja4 = new Loja(4, "Tijuca", "Shopping Tijuca");
+
         Tecnico luan = new Tecnico("Luan Souza", 1, Especialidade.REDES);
         Tecnico jose = new Tecnico("José souza", 2, Especialidade.ACESSOS);
         Tecnico samara = new Tecnico("Samara Souza", 3, Especialidade.SISTEMAS);
         Tecnico debora = new Tecnico("Débora Souza", 4, Especialidade.HARDWARE);
 
-        Loja loja1 = new Loja(10, "Rio Sul", "Botafogo");
-        Loja loja2 = new Loja(20, "Copacabana", "Nossa senhora de copacabana");
-        Loja loja3 = new Loja(30, "Botafogo", "Botafogo praia shopping");
-        Loja loja4 = new Loja(40, "Tijuca", "Shopping Tijuca");
+        Gerente rodrigo = new Gerente("Rodrigo Cardoso", 5, loja1);
+        Gerente suzano = new Gerente("Suzano Mendes", 6, loja2);
+        Gerente matheus = new Gerente("Matheus Castro", 7, loja3);
+        Gerente rogerio = new Gerente("Rogério Andrade", 8, loja4);
 
-        Gerente rodrigo = new Gerente("Rodrigo Cardoso", 100, loja1);
-        Gerente suzano = new Gerente("Suzano Mendes", 200, loja2);
-        Gerente matheus = new Gerente("Matheus Castro", 300, loja3);
-        Gerente rogerio = new Gerente("Rogério Andrade", 400, loja4);
+        Solicitante vanessa = new Solicitante("Vanessa crossfit", 9, loja1);
+        Solicitante joana = new Solicitante("Joana D'arc ", 10, loja2);
+        Solicitante carla = new Solicitante("Carla Amaro", 11, loja3);
+        Solicitante ingrid = new Solicitante("Ingrid gomes", 12, loja4);
 
-        Solicitante vanessa = new Solicitante("Vanessa crossfit", 1000, loja1);
-        Solicitante joana = new Solicitante("Joana D'arc ", 2000, loja2);
-        Solicitante carla = new Solicitante("Carla Amaro", 3000, loja3);
-        Solicitante ingrid = new Solicitante("Ingrid gomes", 4000, loja4);
 
         Chamado chamado1 = new Chamado(
-            10000, 
+            1, 
             "Problema de rede", 
             "Problema na Rede interna de todas as maquininhas", 
             Prioridade.CRITICA, 
@@ -42,7 +44,7 @@ public class TestesPOO {
         chamado1.atribuirTecnico(luan);
 
         Chamado chamado2 = new Chamado(
-            20000,
+            2,
             "Impressora do caixa não funciona",
             "A impressora fiscal do caixa 2 parou de imprimir.",
             Prioridade.ALTA, 
@@ -52,7 +54,7 @@ public class TestesPOO {
         chamado2.atribuirTecnico(luan);
 
         Chamado chamado3 = new Chamado(
-            30000,
+            3,
             "Sistema de vendas travando",
             "O sistema do caixa apresenta lentidão e trava durante as vendas.",
             Prioridade.ALTA,
@@ -62,7 +64,7 @@ public class TestesPOO {
         chamado3.atribuirTecnico(luan);
 
         Chamado chamado4 = new Chamado(
-            40000,
+            4,
             "Funcionário sem acesso ao sistema",
             "Um funcionário novo não consegue acessar o sistema de estoque.",
             Prioridade.MEDIA,
@@ -70,7 +72,7 @@ public class TestesPOO {
         );
 
         Chamado chamado5 = new Chamado(
-            50000,
+            5,
             "Computador do estoque não liga",
             "O computador utilizado para consultar o estoque não está ligando.",
             Prioridade.ALTA,
@@ -78,7 +80,7 @@ public class TestesPOO {
         );
 
         Chamado chamado6 = new Chamado(
-            60000,
+            6,
             "Internet lenta na loja",
             "A conexão está lenta e prejudica a comunicação com o sistema de vendas.",
             Prioridade.MEDIA,
@@ -86,7 +88,7 @@ public class TestesPOO {
         );
 
         Chamado chamado7 = new Chamado(
-            70000,
+            7,
             "Impressora de etiquetas com falha",
             "A impressora está apresentando falhas ao imprimir etiquetas de preços.",
             Prioridade.BAIXA,
@@ -116,6 +118,8 @@ public class TestesPOO {
         sistema.cadastrarChamado(chamado6);
         sistema.cadastrarChamado(chamado7);
 
+        sistema.listarLojas();
+        sistema.listarUsuarios();
         sistema.listarChamados();
 
 

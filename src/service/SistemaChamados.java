@@ -4,6 +4,7 @@ import model.Usuario;
 import model.Loja;
 import model.Tecnico;
 import model.Chamado;
+import model.Gerente;
 import model.Status;
 
 // gerencia e armazena os objetos em coleções e gerenciar seus cadastros, buscas e operações.
@@ -95,6 +96,25 @@ public class SistemaChamados {
         if (buscarUsuarioPorId(usuario.getId()) != null) {
             System.out.println("Erro: já existe um usuário com o ID " + usuario.getId());
             return;
+        }
+
+        if (usuario instanceof Gerente) {
+
+            Gerente novoGerente = (Gerente) usuario;
+
+            for (Usuario usuarioCadastrado : usuarios) {
+
+                if (usuarioCadastrado instanceof Gerente) {
+
+                    Gerente gerenteExistente = (Gerente) usuarioCadastrado;
+
+                    if (gerenteExistente.getLoja().getId() == novoGerente.getLoja().getId()) {
+
+                        System.out.println("Erro: esta loja já possui um gerente cadastrado.");
+                        return;
+                    }
+                }
+            }
         }
 
         usuarios.add(usuario);

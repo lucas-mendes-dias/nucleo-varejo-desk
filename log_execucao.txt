@@ -1246,3 +1246,1755 @@
 [22/11/2026 19:17:29] [INFO] Chamado cadastrado: #58 - Queda de sinal no estoque
 [22/11/2026 19:17:29] [INFO] Chamado cadastrado: #59 - Scanner de produtos sem leitura
 [22/11/2026 19:17:29] [INFO] Chamado cadastrado: #60 - Erro de sincronização de vendas
+[25/11/2026 17:32:53] [INFO] Núcleo VarejoDesk iniciado.
+[25/11/2026 17:33:24] [INFO] Interface gráfica iniciada.
+[25/11/2026 17:33:24] [INFO] Loja cadastrada: BarraShopping (ID: 1)
+[25/11/2026 17:33:24] [INFO] Loja cadastrada: NorteShopping (ID: 2)
+[25/11/2026 17:33:24] [INFO] Loja cadastrada: RioSul (ID: 3)
+[25/11/2026 17:33:24] [INFO] Loja cadastrada: Shopping Tijuca (ID: 4)
+[25/11/2026 17:33:24] [INFO] Loja cadastrada: Shopping Nova América (ID: 5)
+[25/11/2026 17:33:24] [INFO] Loja cadastrada: Bangu Shopping (ID: 6)
+[25/11/2026 17:33:24] [INFO] Loja cadastrada: ParkShopping Bangu (ID: 7)
+[25/11/2026 17:33:24] [INFO] Loja cadastrada: Shopping Carioca (ID: 8)
+[25/11/2026 17:33:24] [INFO] Loja cadastrada: Madureira Shopping (ID: 9)
+[25/11/2026 17:33:24] [INFO] Loja cadastrada: ParkShopping Jacarepaguá (ID: 10)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Mariana Costa (ID: 1)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Rodrigo Almeida (ID: 2)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Fernanda Lima (ID: 3)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Carlos Eduardo (ID: 4)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Patrícia Souza (ID: 5)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Ricardo Gomes (ID: 6)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Juliana Martins (ID: 7)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Anderson Ferreira (ID: 8)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Camila Ribeiro (ID: 9)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Bruno Oliveira (ID: 10)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Vanessa Santos (ID: 11)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Joana Pereira (ID: 12)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Carla Mendes (ID: 13)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Ingrid Rocha (ID: 14)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Felipe Nascimento (ID: 15)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Larissa Teixeira (ID: 16)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Pedro Henrique (ID: 17)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Amanda Barbosa (ID: 18)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Gabriel Moreira (ID: 19)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Beatriz Carvalho (ID: 20)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Ana Paula (ID: 21)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Bruno Santos (ID: 22)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Débora Martins (ID: 23)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Rafael Costa (ID: 24)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Luan Souza (ID: 25)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Thiago Ribeiro (ID: 26)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Camila Azevedo (ID: 27)
+[25/11/2026 17:33:24] [INFO] Usuário cadastrado: Samara Oliveira (ID: 28)
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #1 - Impressora do caixa não funciona
+[25/11/2026 17:33:24] [INFO] Técnico Ana Paula atribuído ao chamado #1
+[25/11/2026 17:33:24] [INFO] Chamado #1 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #1 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #2 - Internet lenta na loja
+[25/11/2026 17:33:24] [INFO] Técnico Bruno Santos atribuído ao chamado #2
+[25/11/2026 17:33:24] [INFO] Chamado #2 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #2 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #3 - Sistema de vendas travando
+[25/11/2026 17:33:24] [INFO] Técnico Débora Martins atribuído ao chamado #3
+[25/11/2026 17:33:24] [INFO] Chamado #3 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #3 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #4 - Funcionário sem acesso ao sistema
+[25/11/2026 17:33:24] [INFO] Técnico Rafael Costa atribuído ao chamado #4
+[25/11/2026 17:33:24] [INFO] Chamado #4 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #4 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #5 - Computador do estoque não liga
+[25/11/2026 17:33:24] [INFO] Técnico Luan Souza atribuído ao chamado #5
+[25/11/2026 17:33:24] [INFO] Chamado #5 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #5 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #6 - Falha na conexão Wi-Fi
+[25/11/2026 17:33:24] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #6
+[25/11/2026 17:33:24] [INFO] Chamado #6 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #6 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #7 - Erro ao finalizar pagamento
+[25/11/2026 17:33:24] [INFO] Técnico Camila Azevedo atribuído ao chamado #7
+[25/11/2026 17:33:24] [INFO] Chamado #7 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #7 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #8 - Monitor do caixa sem imagem
+[25/11/2026 17:33:24] [INFO] Técnico Samara Oliveira atribuído ao chamado #8
+[25/11/2026 17:33:24] [INFO] Chamado #8 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #8 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #9 - Senha de acesso bloqueada
+[25/11/2026 17:33:24] [INFO] Técnico Ana Paula atribuído ao chamado #9
+[25/11/2026 17:33:24] [INFO] Chamado #9 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #9 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #10 - Sistema não gera relatório
+[25/11/2026 17:33:24] [INFO] Técnico Bruno Santos atribuído ao chamado #10
+[25/11/2026 17:33:24] [INFO] Chamado #10 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #10 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #11 - Leitor de código de barras falhando
+[25/11/2026 17:33:24] [INFO] Técnico Débora Martins atribuído ao chamado #11
+[25/11/2026 17:33:24] [INFO] Chamado #11 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #11 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #12 - Rede da loja indisponível
+[25/11/2026 17:33:24] [INFO] Técnico Rafael Costa atribuído ao chamado #12
+[25/11/2026 17:33:24] [INFO] Chamado #12 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #12 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #13 - Erro ao emitir nota fiscal
+[25/11/2026 17:33:24] [INFO] Técnico Luan Souza atribuído ao chamado #13
+[25/11/2026 17:33:24] [INFO] Chamado #13 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #13 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #14 - Impressora de etiquetas com falha
+[25/11/2026 17:33:24] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #14
+[25/11/2026 17:33:24] [INFO] Chamado #14 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #14 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #15 - Computador reiniciando sozinho
+[25/11/2026 17:33:24] [INFO] Técnico Camila Azevedo atribuído ao chamado #15
+[25/11/2026 17:33:24] [INFO] Chamado #15 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #15 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #16 - Sistema de estoque desatualizado
+[25/11/2026 17:33:24] [INFO] Técnico Samara Oliveira atribuído ao chamado #16
+[25/11/2026 17:33:24] [INFO] Chamado #16 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #16 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #17 - Solicitação de novo acesso
+[25/11/2026 17:33:24] [INFO] Técnico Ana Paula atribuído ao chamado #17
+[25/11/2026 17:33:24] [INFO] Chamado #17 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #17 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #18 - Queda frequente de conexão
+[25/11/2026 17:33:24] [INFO] Técnico Bruno Santos atribuído ao chamado #18
+[25/11/2026 17:33:24] [INFO] Chamado #18 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #18 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #19 - Teclado do caixa com defeito
+[25/11/2026 17:33:24] [INFO] Técnico Débora Martins atribuído ao chamado #19
+[25/11/2026 17:33:24] [INFO] Chamado #19 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #19 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #20 - Erro na abertura do caixa
+[25/11/2026 17:33:24] [INFO] Técnico Rafael Costa atribuído ao chamado #20
+[25/11/2026 17:33:24] [INFO] Chamado #20 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #20 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #21 - Impressora térmica sem comunicação
+[25/11/2026 17:33:24] [INFO] Técnico Luan Souza atribuído ao chamado #21
+[25/11/2026 17:33:24] [INFO] Chamado #21 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #21 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #22 - Lentidão ao consultar estoque
+[25/11/2026 17:33:24] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #22
+[25/11/2026 17:33:24] [INFO] Chamado #22 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #22 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #23 - PDV não reconhece operador
+[25/11/2026 17:33:24] [INFO] Técnico Camila Azevedo atribuído ao chamado #23
+[25/11/2026 17:33:24] [INFO] Chamado #23 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #23 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #24 - Terminal de pagamento desconectado
+[25/11/2026 17:33:24] [INFO] Técnico Samara Oliveira atribuído ao chamado #24
+[25/11/2026 17:33:24] [INFO] Chamado #24 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #24 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #25 - Mouse do escritório com defeito
+[25/11/2026 17:33:24] [INFO] Técnico Ana Paula atribuído ao chamado #25
+[25/11/2026 17:33:24] [INFO] Chamado #25 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #25 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #26 - Atualização do sistema pendente
+[25/11/2026 17:33:24] [INFO] Técnico Bruno Santos atribuído ao chamado #26
+[25/11/2026 17:33:24] [INFO] Chamado #26 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #26 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #27 - Acesso ao e-mail corporativo bloqueado
+[25/11/2026 17:33:24] [INFO] Técnico Débora Martins atribuído ao chamado #27
+[25/11/2026 17:33:24] [INFO] Chamado #27 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #27 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #28 - Queda de sinal no estoque
+[25/11/2026 17:33:24] [INFO] Técnico Rafael Costa atribuído ao chamado #28
+[25/11/2026 17:33:24] [INFO] Chamado #28 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #28 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #29 - Scanner de produtos sem leitura
+[25/11/2026 17:33:24] [INFO] Técnico Luan Souza atribuído ao chamado #29
+[25/11/2026 17:33:24] [INFO] Chamado #29 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #29 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #30 - Erro de sincronização de vendas
+[25/11/2026 17:33:24] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #30
+[25/11/2026 17:33:24] [INFO] Chamado #30 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #30 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #31 - Impressora do caixa não funciona
+[25/11/2026 17:33:24] [INFO] Técnico Camila Azevedo atribuído ao chamado #31
+[25/11/2026 17:33:24] [INFO] Chamado #31 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #31 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #32 - Internet lenta na loja
+[25/11/2026 17:33:24] [INFO] Técnico Samara Oliveira atribuído ao chamado #32
+[25/11/2026 17:33:24] [INFO] Chamado #32 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #32 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #33 - Sistema de vendas travando
+[25/11/2026 17:33:24] [INFO] Técnico Ana Paula atribuído ao chamado #33
+[25/11/2026 17:33:24] [INFO] Chamado #33 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #33 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #34 - Funcionário sem acesso ao sistema
+[25/11/2026 17:33:24] [INFO] Técnico Bruno Santos atribuído ao chamado #34
+[25/11/2026 17:33:24] [INFO] Chamado #34 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #34 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #35 - Computador do estoque não liga
+[25/11/2026 17:33:24] [INFO] Técnico Débora Martins atribuído ao chamado #35
+[25/11/2026 17:33:24] [INFO] Chamado #35 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #35 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #36 - Falha na conexão Wi-Fi
+[25/11/2026 17:33:24] [INFO] Técnico Rafael Costa atribuído ao chamado #36
+[25/11/2026 17:33:24] [INFO] Chamado #36 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #36 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #37 - Erro ao finalizar pagamento
+[25/11/2026 17:33:24] [INFO] Técnico Luan Souza atribuído ao chamado #37
+[25/11/2026 17:33:24] [INFO] Chamado #37 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #37 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #38 - Monitor do caixa sem imagem
+[25/11/2026 17:33:24] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #38
+[25/11/2026 17:33:24] [INFO] Chamado #38 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #38 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #39 - Senha de acesso bloqueada
+[25/11/2026 17:33:24] [INFO] Técnico Camila Azevedo atribuído ao chamado #39
+[25/11/2026 17:33:24] [INFO] Chamado #39 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #39 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #40 - Sistema não gera relatório
+[25/11/2026 17:33:24] [INFO] Técnico Samara Oliveira atribuído ao chamado #40
+[25/11/2026 17:33:24] [INFO] Chamado #40 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado #40 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #41 - Leitor de código de barras falhando
+[25/11/2026 17:33:24] [INFO] Técnico Ana Paula atribuído ao chamado #41
+[25/11/2026 17:33:24] [INFO] Chamado #41 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #42 - Rede da loja indisponível
+[25/11/2026 17:33:24] [INFO] Técnico Bruno Santos atribuído ao chamado #42
+[25/11/2026 17:33:24] [INFO] Chamado #42 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #43 - Erro ao emitir nota fiscal
+[25/11/2026 17:33:24] [INFO] Técnico Débora Martins atribuído ao chamado #43
+[25/11/2026 17:33:24] [INFO] Chamado #43 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #44 - Impressora de etiquetas com falha
+[25/11/2026 17:33:24] [INFO] Técnico Rafael Costa atribuído ao chamado #44
+[25/11/2026 17:33:24] [INFO] Chamado #44 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #45 - Computador reiniciando sozinho
+[25/11/2026 17:33:24] [INFO] Técnico Luan Souza atribuído ao chamado #45
+[25/11/2026 17:33:24] [INFO] Chamado #45 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #46 - Sistema de estoque desatualizado
+[25/11/2026 17:33:24] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #46
+[25/11/2026 17:33:24] [INFO] Chamado #46 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:24] [INFO] Chamado cadastrado: #47 - Solicitação de novo acesso
+[25/11/2026 17:33:25] [INFO] Técnico Camila Azevedo atribuído ao chamado #47
+[25/11/2026 17:33:25] [INFO] Chamado #47 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:25] [INFO] Chamado cadastrado: #48 - Queda frequente de conexão
+[25/11/2026 17:33:25] [INFO] Técnico Samara Oliveira atribuído ao chamado #48
+[25/11/2026 17:33:25] [INFO] Chamado #48 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:25] [INFO] Chamado cadastrado: #49 - Teclado do caixa com defeito
+[25/11/2026 17:33:25] [INFO] Técnico Ana Paula atribuído ao chamado #49
+[25/11/2026 17:33:25] [INFO] Chamado #49 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:25] [INFO] Chamado cadastrado: #50 - Erro na abertura do caixa
+[25/11/2026 17:33:25] [INFO] Técnico Bruno Santos atribuído ao chamado #50
+[25/11/2026 17:33:25] [INFO] Chamado #50 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:25] [INFO] Chamado cadastrado: #51 - Impressora térmica sem comunicação
+[25/11/2026 17:33:25] [INFO] Técnico Débora Martins atribuído ao chamado #51
+[25/11/2026 17:33:25] [INFO] Chamado #51 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:25] [INFO] Chamado cadastrado: #52 - Lentidão ao consultar estoque
+[25/11/2026 17:33:25] [INFO] Técnico Rafael Costa atribuído ao chamado #52
+[25/11/2026 17:33:25] [INFO] Chamado #52 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:25] [INFO] Chamado cadastrado: #53 - PDV não reconhece operador
+[25/11/2026 17:33:25] [INFO] Técnico Luan Souza atribuído ao chamado #53
+[25/11/2026 17:33:25] [INFO] Chamado #53 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:25] [INFO] Chamado cadastrado: #54 - Terminal de pagamento desconectado
+[25/11/2026 17:33:25] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #54
+[25/11/2026 17:33:25] [INFO] Chamado #54 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:25] [INFO] Chamado cadastrado: #55 - Mouse do escritório com defeito
+[25/11/2026 17:33:25] [INFO] Técnico Camila Azevedo atribuído ao chamado #55
+[25/11/2026 17:33:25] [INFO] Chamado #55 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 17:33:25] [INFO] Chamado cadastrado: #56 - Atualização do sistema pendente
+[25/11/2026 17:33:25] [INFO] Chamado cadastrado: #57 - Acesso ao e-mail corporativo bloqueado
+[25/11/2026 17:33:25] [INFO] Chamado cadastrado: #58 - Queda de sinal no estoque
+[25/11/2026 17:33:25] [INFO] Chamado cadastrado: #59 - Scanner de produtos sem leitura
+[25/11/2026 17:33:25] [INFO] Chamado cadastrado: #60 - Erro de sincronização de vendas
+[25/11/2026 17:44:30] [INFO] Núcleo VarejoDesk iniciado.
+[25/11/2026 17:45:03] [INFO] Usuário cadastrado: Lucas Mendes Dias (ID: 1)
+[25/11/2026 17:50:16] [INFO] Loja cadastrada: Lojas botafogo (ID: 1)
+[25/11/2026 17:50:31] [INFO] Usuário cadastrado: Ricardo Ribeiro (ID: 2)
+[25/11/2026 17:50:46] [INFO] Usuário cadastrado: Joana De Angelis (ID: 3)
+[25/11/2026 17:52:03] [INFO] Chamado cadastrado: #1 - Problema Com a Internet da Loja
+[25/11/2026 19:11:35] [INFO] Núcleo VarejoDesk iniciado.
+[25/11/2026 19:12:06] [INFO] Loja cadastrada: Shopping Botafogo (ID: 1)
+[25/11/2026 19:12:21] [INFO] Usuário cadastrado: Ricardo Ribeiro (ID: 1)
+[25/11/2026 19:12:33] [INFO] Usuário cadastrado: Joao Mendes (ID: 2)
+[25/11/2026 19:12:44] [INFO] Usuário cadastrado: Joana Mendes (ID: 3)
+[25/11/2026 19:13:49] [INFO] Chamado cadastrado: #1 - Problema na Rede de internet do sistema
+[25/11/2026 19:14:13] [INFO] Técnico Joao Mendes atribuído ao chamado #1
+[25/11/2026 19:14:31] [INFO] Chamado #1 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:14:45] [INFO] Chamado #1 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:15:36] [INFO] Loja cadastrada: 123 (ID: 2)
+[25/11/2026 19:23:55] [INFO] Núcleo VarejoDesk iniciado.
+[25/11/2026 19:23:55] [INFO] Loja cadastrada: Rio Sul (ID: 1)
+[25/11/2026 19:23:55] [INFO] Loja cadastrada: BarraShopping (ID: 2)
+[25/11/2026 19:23:55] [INFO] Usuário cadastrado: Mariana Costa (ID: 1)
+[25/11/2026 19:23:55] [INFO] Usuário cadastrado: Rodrigo Almeida (ID: 2)
+[25/11/2026 19:23:55] [INFO] Usuário cadastrado: Luan Souza (ID: 3)
+[25/11/2026 19:23:55] [INFO] Usuário cadastrado: Débora Martins (ID: 4)
+[25/11/2026 19:23:55] [INFO] Usuário cadastrado: Vanessa Santos (ID: 5)
+[25/11/2026 19:23:55] [INFO] Usuário cadastrado: Joana Pereira (ID: 6)
+[25/11/2026 19:23:55] [INFO] Chamado cadastrado: #1 - Impressora do caixa sem resposta
+[25/11/2026 19:23:55] [INFO] Chamado cadastrado: #2 - Falha na rede do estoque
+[25/11/2026 19:23:55] [INFO] Chamado cadastrado: #3 - Computador do caixa não liga
+[25/11/2026 19:23:55] [INFO] Chamado cadastrado: #4 - Internet lenta na loja
+[25/11/2026 19:23:55] [INFO] Chamado cadastrado: #5 - Leitor de código de barras falhando
+[25/11/2026 19:23:55] [INFO] Chamado cadastrado: #6 - Sistema de vendas travando
+[25/11/2026 19:23:55] [INFO] Técnico Luan Souza atribuído ao chamado #2
+[25/11/2026 19:23:55] [INFO] Chamado #2 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:23:55] [INFO] Chamado #2 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:23:55] [INFO] Técnico Luan Souza atribuído ao chamado #4
+[25/11/2026 19:23:55] [INFO] Chamado #4 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:23:55] [INFO] Técnico Débora Martins atribuído ao chamado #5
+[25/11/2026 19:23:55] [INFO] Chamado #5 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:23:55] [INFO] Técnico Débora Martins atribuído ao chamado #6
+[25/11/2026 19:23:55] [INFO] Chamado #6 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:23:55] [INFO] Chamado #6 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:24:18] [INFO] Loja cadastrada: Carioca Shopping (ID: 3)
+[25/11/2026 19:24:44] [INFO] Usuário cadastrado: Joaquin (ID: 7)
+[25/11/2026 19:25:23] [INFO] Chamado cadastrado: #7 - Problema na rede
+[25/11/2026 19:25:42] [INFO] Técnico Débora Martins atribuído ao chamado #7
+[25/11/2026 19:25:53] [INFO] Chamado #7 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:31:25] [INFO] Núcleo VarejoDesk iniciado.
+[25/11/2026 19:31:25] [INFO] Loja cadastrada: Rio Sul (ID: 1)
+[25/11/2026 19:31:25] [INFO] Loja cadastrada: BarraShopping (ID: 2)
+[25/11/2026 19:31:25] [INFO] Usuário cadastrado: Mariana Costa (ID: 1)
+[25/11/2026 19:31:25] [INFO] Usuário cadastrado: Rodrigo Almeida (ID: 2)
+[25/11/2026 19:31:25] [INFO] Usuário cadastrado: Luan Souza (ID: 3)
+[25/11/2026 19:31:25] [INFO] Usuário cadastrado: Débora Martins (ID: 4)
+[25/11/2026 19:31:25] [INFO] Usuário cadastrado: Vanessa Santos (ID: 5)
+[25/11/2026 19:31:25] [INFO] Usuário cadastrado: Joana Pereira (ID: 6)
+[25/11/2026 19:31:25] [INFO] Chamado cadastrado: #1 - Impressora do caixa sem resposta
+[25/11/2026 19:31:25] [INFO] Chamado cadastrado: #2 - Falha na rede do estoque
+[25/11/2026 19:31:25] [INFO] Chamado cadastrado: #3 - Computador do caixa não liga
+[25/11/2026 19:31:25] [INFO] Chamado cadastrado: #4 - Internet lenta na loja
+[25/11/2026 19:31:25] [INFO] Chamado cadastrado: #5 - Leitor de código de barras falhando
+[25/11/2026 19:31:25] [INFO] Chamado cadastrado: #6 - Sistema de vendas travando
+[25/11/2026 19:31:25] [INFO] Técnico Luan Souza atribuído ao chamado #2
+[25/11/2026 19:31:25] [INFO] Chamado #2 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:31:25] [INFO] Chamado #2 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:31:25] [INFO] Técnico Luan Souza atribuído ao chamado #4
+[25/11/2026 19:31:25] [INFO] Chamado #4 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:31:25] [INFO] Técnico Débora Martins atribuído ao chamado #5
+[25/11/2026 19:31:25] [INFO] Chamado #5 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:31:25] [INFO] Técnico Débora Martins atribuído ao chamado #6
+[25/11/2026 19:31:25] [INFO] Chamado #6 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:31:25] [INFO] Chamado #6 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:36:51] [INFO] Loja cadastrada: SHopping carioca (ID: 3)
+[25/11/2026 19:37:16] [INFO] Usuário cadastrado: Joao Mendes (ID: 7)
+[25/11/2026 19:37:55] [INFO] Chamado cadastrado: #7 - Problema Na rede
+[25/11/2026 19:38:15] [INFO] Técnico Luan Souza atribuído ao chamado #7
+[25/11/2026 19:38:33] [INFO] Chamado #7 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:38:42] [INFO] Chamado #7 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Interface gráfica iniciada.
+[25/11/2026 19:41:03] [INFO] Loja cadastrada: BarraShopping (ID: 1)
+[25/11/2026 19:41:03] [INFO] Loja cadastrada: NorteShopping (ID: 2)
+[25/11/2026 19:41:03] [INFO] Loja cadastrada: RioSul (ID: 3)
+[25/11/2026 19:41:03] [INFO] Loja cadastrada: Shopping Tijuca (ID: 4)
+[25/11/2026 19:41:03] [INFO] Loja cadastrada: Shopping Nova América (ID: 5)
+[25/11/2026 19:41:03] [INFO] Loja cadastrada: Bangu Shopping (ID: 6)
+[25/11/2026 19:41:03] [INFO] Loja cadastrada: ParkShopping Bangu (ID: 7)
+[25/11/2026 19:41:03] [INFO] Loja cadastrada: Shopping Carioca (ID: 8)
+[25/11/2026 19:41:03] [INFO] Loja cadastrada: Madureira Shopping (ID: 9)
+[25/11/2026 19:41:03] [INFO] Loja cadastrada: ParkShopping Jacarepaguá (ID: 10)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Mariana Costa (ID: 1)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Rodrigo Almeida (ID: 2)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Fernanda Lima (ID: 3)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Carlos Eduardo (ID: 4)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Patrícia Souza (ID: 5)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Ricardo Gomes (ID: 6)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Juliana Martins (ID: 7)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Anderson Ferreira (ID: 8)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Camila Ribeiro (ID: 9)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Bruno Oliveira (ID: 10)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Vanessa Santos (ID: 11)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Joana Pereira (ID: 12)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Carla Mendes (ID: 13)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Ingrid Rocha (ID: 14)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Felipe Nascimento (ID: 15)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Larissa Teixeira (ID: 16)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Pedro Henrique (ID: 17)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Amanda Barbosa (ID: 18)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Gabriel Moreira (ID: 19)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Beatriz Carvalho (ID: 20)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Ana Paula (ID: 21)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Bruno Santos (ID: 22)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Débora Martins (ID: 23)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Rafael Costa (ID: 24)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Luan Souza (ID: 25)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Thiago Ribeiro (ID: 26)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Camila Azevedo (ID: 27)
+[25/11/2026 19:41:03] [INFO] Usuário cadastrado: Samara Oliveira (ID: 28)
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #1 - Impressora do caixa não funciona
+[25/11/2026 19:41:03] [INFO] Técnico Ana Paula atribuído ao chamado #1
+[25/11/2026 19:41:03] [INFO] Chamado #1 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #1 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #2 - Internet lenta na loja
+[25/11/2026 19:41:03] [INFO] Técnico Bruno Santos atribuído ao chamado #2
+[25/11/2026 19:41:03] [INFO] Chamado #2 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #2 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #3 - Sistema de vendas travando
+[25/11/2026 19:41:03] [INFO] Técnico Débora Martins atribuído ao chamado #3
+[25/11/2026 19:41:03] [INFO] Chamado #3 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #3 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #4 - Funcionário sem acesso ao sistema
+[25/11/2026 19:41:03] [INFO] Técnico Rafael Costa atribuído ao chamado #4
+[25/11/2026 19:41:03] [INFO] Chamado #4 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #4 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #5 - Computador do estoque não liga
+[25/11/2026 19:41:03] [INFO] Técnico Luan Souza atribuído ao chamado #5
+[25/11/2026 19:41:03] [INFO] Chamado #5 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #5 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #6 - Falha na conexão Wi-Fi
+[25/11/2026 19:41:03] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #6
+[25/11/2026 19:41:03] [INFO] Chamado #6 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #6 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #7 - Erro ao finalizar pagamento
+[25/11/2026 19:41:03] [INFO] Técnico Camila Azevedo atribuído ao chamado #7
+[25/11/2026 19:41:03] [INFO] Chamado #7 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #7 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #8 - Monitor do caixa sem imagem
+[25/11/2026 19:41:03] [INFO] Técnico Samara Oliveira atribuído ao chamado #8
+[25/11/2026 19:41:03] [INFO] Chamado #8 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #8 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #9 - Senha de acesso bloqueada
+[25/11/2026 19:41:03] [INFO] Técnico Ana Paula atribuído ao chamado #9
+[25/11/2026 19:41:03] [INFO] Chamado #9 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #9 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #10 - Sistema não gera relatório
+[25/11/2026 19:41:03] [INFO] Técnico Bruno Santos atribuído ao chamado #10
+[25/11/2026 19:41:03] [INFO] Chamado #10 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #10 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #11 - Leitor de código de barras falhando
+[25/11/2026 19:41:03] [INFO] Técnico Débora Martins atribuído ao chamado #11
+[25/11/2026 19:41:03] [INFO] Chamado #11 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #11 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #12 - Rede da loja indisponível
+[25/11/2026 19:41:03] [INFO] Técnico Rafael Costa atribuído ao chamado #12
+[25/11/2026 19:41:03] [INFO] Chamado #12 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #12 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #13 - Erro ao emitir nota fiscal
+[25/11/2026 19:41:03] [INFO] Técnico Luan Souza atribuído ao chamado #13
+[25/11/2026 19:41:03] [INFO] Chamado #13 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #13 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #14 - Impressora de etiquetas com falha
+[25/11/2026 19:41:03] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #14
+[25/11/2026 19:41:03] [INFO] Chamado #14 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #14 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #15 - Computador reiniciando sozinho
+[25/11/2026 19:41:03] [INFO] Técnico Camila Azevedo atribuído ao chamado #15
+[25/11/2026 19:41:03] [INFO] Chamado #15 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #15 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #16 - Sistema de estoque desatualizado
+[25/11/2026 19:41:03] [INFO] Técnico Samara Oliveira atribuído ao chamado #16
+[25/11/2026 19:41:03] [INFO] Chamado #16 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #16 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #17 - Solicitação de novo acesso
+[25/11/2026 19:41:03] [INFO] Técnico Ana Paula atribuído ao chamado #17
+[25/11/2026 19:41:03] [INFO] Chamado #17 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #17 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #18 - Queda frequente de conexão
+[25/11/2026 19:41:03] [INFO] Técnico Bruno Santos atribuído ao chamado #18
+[25/11/2026 19:41:03] [INFO] Chamado #18 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #18 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #19 - Teclado do caixa com defeito
+[25/11/2026 19:41:03] [INFO] Técnico Débora Martins atribuído ao chamado #19
+[25/11/2026 19:41:03] [INFO] Chamado #19 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #19 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #20 - Erro na abertura do caixa
+[25/11/2026 19:41:03] [INFO] Técnico Rafael Costa atribuído ao chamado #20
+[25/11/2026 19:41:03] [INFO] Chamado #20 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #20 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #21 - Impressora térmica sem comunicação
+[25/11/2026 19:41:03] [INFO] Técnico Luan Souza atribuído ao chamado #21
+[25/11/2026 19:41:03] [INFO] Chamado #21 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #21 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #22 - Lentidão ao consultar estoque
+[25/11/2026 19:41:03] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #22
+[25/11/2026 19:41:03] [INFO] Chamado #22 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #22 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #23 - PDV não reconhece operador
+[25/11/2026 19:41:03] [INFO] Técnico Camila Azevedo atribuído ao chamado #23
+[25/11/2026 19:41:03] [INFO] Chamado #23 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #23 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #24 - Terminal de pagamento desconectado
+[25/11/2026 19:41:03] [INFO] Técnico Samara Oliveira atribuído ao chamado #24
+[25/11/2026 19:41:03] [INFO] Chamado #24 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #24 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #25 - Mouse do escritório com defeito
+[25/11/2026 19:41:03] [INFO] Técnico Ana Paula atribuído ao chamado #25
+[25/11/2026 19:41:03] [INFO] Chamado #25 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #25 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #26 - Atualização do sistema pendente
+[25/11/2026 19:41:03] [INFO] Técnico Bruno Santos atribuído ao chamado #26
+[25/11/2026 19:41:03] [INFO] Chamado #26 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #26 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #27 - Acesso ao e-mail corporativo bloqueado
+[25/11/2026 19:41:03] [INFO] Técnico Débora Martins atribuído ao chamado #27
+[25/11/2026 19:41:03] [INFO] Chamado #27 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #27 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #28 - Queda de sinal no estoque
+[25/11/2026 19:41:03] [INFO] Técnico Rafael Costa atribuído ao chamado #28
+[25/11/2026 19:41:03] [INFO] Chamado #28 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #28 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #29 - Scanner de produtos sem leitura
+[25/11/2026 19:41:03] [INFO] Técnico Luan Souza atribuído ao chamado #29
+[25/11/2026 19:41:03] [INFO] Chamado #29 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #29 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #30 - Erro de sincronização de vendas
+[25/11/2026 19:41:03] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #30
+[25/11/2026 19:41:03] [INFO] Chamado #30 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #30 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #31 - Impressora do caixa não funciona
+[25/11/2026 19:41:03] [INFO] Técnico Camila Azevedo atribuído ao chamado #31
+[25/11/2026 19:41:03] [INFO] Chamado #31 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #31 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #32 - Internet lenta na loja
+[25/11/2026 19:41:03] [INFO] Técnico Samara Oliveira atribuído ao chamado #32
+[25/11/2026 19:41:03] [INFO] Chamado #32 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #32 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #33 - Sistema de vendas travando
+[25/11/2026 19:41:03] [INFO] Técnico Ana Paula atribuído ao chamado #33
+[25/11/2026 19:41:03] [INFO] Chamado #33 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #33 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #34 - Funcionário sem acesso ao sistema
+[25/11/2026 19:41:03] [INFO] Técnico Bruno Santos atribuído ao chamado #34
+[25/11/2026 19:41:03] [INFO] Chamado #34 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #34 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #35 - Computador do estoque não liga
+[25/11/2026 19:41:03] [INFO] Técnico Débora Martins atribuído ao chamado #35
+[25/11/2026 19:41:03] [INFO] Chamado #35 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #35 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #36 - Falha na conexão Wi-Fi
+[25/11/2026 19:41:03] [INFO] Técnico Rafael Costa atribuído ao chamado #36
+[25/11/2026 19:41:03] [INFO] Chamado #36 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #36 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #37 - Erro ao finalizar pagamento
+[25/11/2026 19:41:03] [INFO] Técnico Luan Souza atribuído ao chamado #37
+[25/11/2026 19:41:03] [INFO] Chamado #37 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #37 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #38 - Monitor do caixa sem imagem
+[25/11/2026 19:41:03] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #38
+[25/11/2026 19:41:03] [INFO] Chamado #38 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #38 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #39 - Senha de acesso bloqueada
+[25/11/2026 19:41:03] [INFO] Técnico Camila Azevedo atribuído ao chamado #39
+[25/11/2026 19:41:03] [INFO] Chamado #39 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #39 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #40 - Sistema não gera relatório
+[25/11/2026 19:41:03] [INFO] Técnico Samara Oliveira atribuído ao chamado #40
+[25/11/2026 19:41:03] [INFO] Chamado #40 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado #40 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #41 - Leitor de código de barras falhando
+[25/11/2026 19:41:03] [INFO] Técnico Ana Paula atribuído ao chamado #41
+[25/11/2026 19:41:03] [INFO] Chamado #41 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #42 - Rede da loja indisponível
+[25/11/2026 19:41:03] [INFO] Técnico Bruno Santos atribuído ao chamado #42
+[25/11/2026 19:41:03] [INFO] Chamado #42 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #43 - Erro ao emitir nota fiscal
+[25/11/2026 19:41:03] [INFO] Técnico Débora Martins atribuído ao chamado #43
+[25/11/2026 19:41:03] [INFO] Chamado #43 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #44 - Impressora de etiquetas com falha
+[25/11/2026 19:41:03] [INFO] Técnico Rafael Costa atribuído ao chamado #44
+[25/11/2026 19:41:03] [INFO] Chamado #44 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #45 - Computador reiniciando sozinho
+[25/11/2026 19:41:03] [INFO] Técnico Luan Souza atribuído ao chamado #45
+[25/11/2026 19:41:03] [INFO] Chamado #45 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #46 - Sistema de estoque desatualizado
+[25/11/2026 19:41:03] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #46
+[25/11/2026 19:41:03] [INFO] Chamado #46 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #47 - Solicitação de novo acesso
+[25/11/2026 19:41:03] [INFO] Técnico Camila Azevedo atribuído ao chamado #47
+[25/11/2026 19:41:03] [INFO] Chamado #47 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #48 - Queda frequente de conexão
+[25/11/2026 19:41:03] [INFO] Técnico Samara Oliveira atribuído ao chamado #48
+[25/11/2026 19:41:03] [INFO] Chamado #48 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #49 - Teclado do caixa com defeito
+[25/11/2026 19:41:03] [INFO] Técnico Ana Paula atribuído ao chamado #49
+[25/11/2026 19:41:03] [INFO] Chamado #49 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #50 - Erro na abertura do caixa
+[25/11/2026 19:41:03] [INFO] Técnico Bruno Santos atribuído ao chamado #50
+[25/11/2026 19:41:03] [INFO] Chamado #50 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #51 - Impressora térmica sem comunicação
+[25/11/2026 19:41:03] [INFO] Técnico Débora Martins atribuído ao chamado #51
+[25/11/2026 19:41:03] [INFO] Chamado #51 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #52 - Lentidão ao consultar estoque
+[25/11/2026 19:41:03] [INFO] Técnico Rafael Costa atribuído ao chamado #52
+[25/11/2026 19:41:03] [INFO] Chamado #52 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #53 - PDV não reconhece operador
+[25/11/2026 19:41:03] [INFO] Técnico Luan Souza atribuído ao chamado #53
+[25/11/2026 19:41:03] [INFO] Chamado #53 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #54 - Terminal de pagamento desconectado
+[25/11/2026 19:41:03] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #54
+[25/11/2026 19:41:03] [INFO] Chamado #54 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #55 - Mouse do escritório com defeito
+[25/11/2026 19:41:03] [INFO] Técnico Camila Azevedo atribuído ao chamado #55
+[25/11/2026 19:41:03] [INFO] Chamado #55 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #56 - Atualização do sistema pendente
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #57 - Acesso ao e-mail corporativo bloqueado
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #58 - Queda de sinal no estoque
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #59 - Scanner de produtos sem leitura
+[25/11/2026 19:41:03] [INFO] Chamado cadastrado: #60 - Erro de sincronização de vendas
+[25/11/2026 19:43:19] [INFO] Núcleo VarejoDesk iniciado.
+[25/11/2026 19:43:19] [INFO] Loja cadastrada: Rio Sul (ID: 1)
+[25/11/2026 19:43:19] [INFO] Loja cadastrada: BarraShopping (ID: 2)
+[25/11/2026 19:43:19] [INFO] Usuário cadastrado: Mariana Costa (ID: 1)
+[25/11/2026 19:43:19] [INFO] Usuário cadastrado: Rodrigo Almeida (ID: 2)
+[25/11/2026 19:43:19] [INFO] Usuário cadastrado: Luan Souza (ID: 3)
+[25/11/2026 19:43:19] [INFO] Usuário cadastrado: Débora Martins (ID: 4)
+[25/11/2026 19:43:19] [INFO] Usuário cadastrado: Vanessa Santos (ID: 5)
+[25/11/2026 19:43:19] [INFO] Usuário cadastrado: Joana Pereira (ID: 6)
+[25/11/2026 19:43:19] [INFO] Chamado cadastrado: #1 - Impressora do caixa sem resposta
+[25/11/2026 19:43:19] [INFO] Chamado cadastrado: #2 - Falha na rede do estoque
+[25/11/2026 19:43:19] [INFO] Chamado cadastrado: #3 - Computador do caixa não liga
+[25/11/2026 19:43:19] [INFO] Chamado cadastrado: #4 - Internet lenta na loja
+[25/11/2026 19:43:19] [INFO] Chamado cadastrado: #5 - Leitor de código de barras falhando
+[25/11/2026 19:43:19] [INFO] Chamado cadastrado: #6 - Sistema de vendas travando
+[25/11/2026 19:43:19] [INFO] Técnico Luan Souza atribuído ao chamado #2
+[25/11/2026 19:43:19] [INFO] Chamado #2 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:43:19] [INFO] Chamado #2 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:43:19] [INFO] Técnico Luan Souza atribuído ao chamado #4
+[25/11/2026 19:43:19] [INFO] Chamado #4 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:43:19] [INFO] Técnico Débora Martins atribuído ao chamado #5
+[25/11/2026 19:43:19] [INFO] Chamado #5 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:43:19] [INFO] Técnico Débora Martins atribuído ao chamado #6
+[25/11/2026 19:43:19] [INFO] Chamado #6 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:43:19] [INFO] Chamado #6 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:44:02] [INFO] Loja cadastrada: SHopping carioca (ID: 3)
+[25/11/2026 19:45:27] [INFO] Chamado cadastrado: #7 - Problema na internet
+[25/11/2026 19:46:09] [INFO] Técnico Luan Souza atribuído ao chamado #7
+[25/11/2026 19:46:35] [INFO] Chamado #7 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:46:47] [INFO] Chamado #7 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Interface gráfica iniciada.
+[25/11/2026 19:47:35] [INFO] Loja cadastrada: BarraShopping (ID: 1)
+[25/11/2026 19:47:35] [INFO] Loja cadastrada: NorteShopping (ID: 2)
+[25/11/2026 19:47:35] [INFO] Loja cadastrada: RioSul (ID: 3)
+[25/11/2026 19:47:35] [INFO] Loja cadastrada: Shopping Tijuca (ID: 4)
+[25/11/2026 19:47:35] [INFO] Loja cadastrada: Shopping Nova América (ID: 5)
+[25/11/2026 19:47:35] [INFO] Loja cadastrada: Bangu Shopping (ID: 6)
+[25/11/2026 19:47:35] [INFO] Loja cadastrada: ParkShopping Bangu (ID: 7)
+[25/11/2026 19:47:35] [INFO] Loja cadastrada: Shopping Carioca (ID: 8)
+[25/11/2026 19:47:35] [INFO] Loja cadastrada: Madureira Shopping (ID: 9)
+[25/11/2026 19:47:35] [INFO] Loja cadastrada: ParkShopping Jacarepaguá (ID: 10)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Mariana Costa (ID: 1)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Rodrigo Almeida (ID: 2)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Fernanda Lima (ID: 3)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Carlos Eduardo (ID: 4)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Patrícia Souza (ID: 5)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Ricardo Gomes (ID: 6)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Juliana Martins (ID: 7)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Anderson Ferreira (ID: 8)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Camila Ribeiro (ID: 9)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Bruno Oliveira (ID: 10)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Vanessa Santos (ID: 11)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Joana Pereira (ID: 12)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Carla Mendes (ID: 13)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Ingrid Rocha (ID: 14)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Felipe Nascimento (ID: 15)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Larissa Teixeira (ID: 16)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Pedro Henrique (ID: 17)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Amanda Barbosa (ID: 18)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Gabriel Moreira (ID: 19)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Beatriz Carvalho (ID: 20)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Ana Paula (ID: 21)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Bruno Santos (ID: 22)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Débora Martins (ID: 23)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Rafael Costa (ID: 24)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Luan Souza (ID: 25)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Thiago Ribeiro (ID: 26)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Camila Azevedo (ID: 27)
+[25/11/2026 19:47:35] [INFO] Usuário cadastrado: Samara Oliveira (ID: 28)
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #1 - Impressora do caixa não funciona
+[25/11/2026 19:47:35] [INFO] Técnico Ana Paula atribuído ao chamado #1
+[25/11/2026 19:47:35] [INFO] Chamado #1 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #1 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #2 - Internet lenta na loja
+[25/11/2026 19:47:35] [INFO] Técnico Bruno Santos atribuído ao chamado #2
+[25/11/2026 19:47:35] [INFO] Chamado #2 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #2 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #3 - Sistema de vendas travando
+[25/11/2026 19:47:35] [INFO] Técnico Débora Martins atribuído ao chamado #3
+[25/11/2026 19:47:35] [INFO] Chamado #3 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #3 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #4 - Funcionário sem acesso ao sistema
+[25/11/2026 19:47:35] [INFO] Técnico Rafael Costa atribuído ao chamado #4
+[25/11/2026 19:47:35] [INFO] Chamado #4 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #4 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #5 - Computador do estoque não liga
+[25/11/2026 19:47:35] [INFO] Técnico Luan Souza atribuído ao chamado #5
+[25/11/2026 19:47:35] [INFO] Chamado #5 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #5 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #6 - Falha na conexão Wi-Fi
+[25/11/2026 19:47:35] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #6
+[25/11/2026 19:47:35] [INFO] Chamado #6 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #6 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #7 - Erro ao finalizar pagamento
+[25/11/2026 19:47:35] [INFO] Técnico Camila Azevedo atribuído ao chamado #7
+[25/11/2026 19:47:35] [INFO] Chamado #7 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #7 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #8 - Monitor do caixa sem imagem
+[25/11/2026 19:47:35] [INFO] Técnico Samara Oliveira atribuído ao chamado #8
+[25/11/2026 19:47:35] [INFO] Chamado #8 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #8 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #9 - Senha de acesso bloqueada
+[25/11/2026 19:47:35] [INFO] Técnico Ana Paula atribuído ao chamado #9
+[25/11/2026 19:47:35] [INFO] Chamado #9 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #9 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #10 - Sistema não gera relatório
+[25/11/2026 19:47:35] [INFO] Técnico Bruno Santos atribuído ao chamado #10
+[25/11/2026 19:47:35] [INFO] Chamado #10 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #10 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #11 - Leitor de código de barras falhando
+[25/11/2026 19:47:35] [INFO] Técnico Débora Martins atribuído ao chamado #11
+[25/11/2026 19:47:35] [INFO] Chamado #11 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #11 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #12 - Rede da loja indisponível
+[25/11/2026 19:47:35] [INFO] Técnico Rafael Costa atribuído ao chamado #12
+[25/11/2026 19:47:35] [INFO] Chamado #12 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #12 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #13 - Erro ao emitir nota fiscal
+[25/11/2026 19:47:35] [INFO] Técnico Luan Souza atribuído ao chamado #13
+[25/11/2026 19:47:35] [INFO] Chamado #13 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #13 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #14 - Impressora de etiquetas com falha
+[25/11/2026 19:47:35] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #14
+[25/11/2026 19:47:35] [INFO] Chamado #14 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #14 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #15 - Computador reiniciando sozinho
+[25/11/2026 19:47:35] [INFO] Técnico Camila Azevedo atribuído ao chamado #15
+[25/11/2026 19:47:35] [INFO] Chamado #15 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #15 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #16 - Sistema de estoque desatualizado
+[25/11/2026 19:47:35] [INFO] Técnico Samara Oliveira atribuído ao chamado #16
+[25/11/2026 19:47:35] [INFO] Chamado #16 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #16 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #17 - Solicitação de novo acesso
+[25/11/2026 19:47:35] [INFO] Técnico Ana Paula atribuído ao chamado #17
+[25/11/2026 19:47:35] [INFO] Chamado #17 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #17 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #18 - Queda frequente de conexão
+[25/11/2026 19:47:35] [INFO] Técnico Bruno Santos atribuído ao chamado #18
+[25/11/2026 19:47:35] [INFO] Chamado #18 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #18 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #19 - Teclado do caixa com defeito
+[25/11/2026 19:47:35] [INFO] Técnico Débora Martins atribuído ao chamado #19
+[25/11/2026 19:47:35] [INFO] Chamado #19 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #19 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #20 - Erro na abertura do caixa
+[25/11/2026 19:47:35] [INFO] Técnico Rafael Costa atribuído ao chamado #20
+[25/11/2026 19:47:35] [INFO] Chamado #20 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #20 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #21 - Impressora térmica sem comunicação
+[25/11/2026 19:47:35] [INFO] Técnico Luan Souza atribuído ao chamado #21
+[25/11/2026 19:47:35] [INFO] Chamado #21 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #21 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #22 - Lentidão ao consultar estoque
+[25/11/2026 19:47:35] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #22
+[25/11/2026 19:47:35] [INFO] Chamado #22 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #22 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #23 - PDV não reconhece operador
+[25/11/2026 19:47:35] [INFO] Técnico Camila Azevedo atribuído ao chamado #23
+[25/11/2026 19:47:35] [INFO] Chamado #23 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #23 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #24 - Terminal de pagamento desconectado
+[25/11/2026 19:47:35] [INFO] Técnico Samara Oliveira atribuído ao chamado #24
+[25/11/2026 19:47:35] [INFO] Chamado #24 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #24 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #25 - Mouse do escritório com defeito
+[25/11/2026 19:47:35] [INFO] Técnico Ana Paula atribuído ao chamado #25
+[25/11/2026 19:47:35] [INFO] Chamado #25 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #25 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #26 - Atualização do sistema pendente
+[25/11/2026 19:47:35] [INFO] Técnico Bruno Santos atribuído ao chamado #26
+[25/11/2026 19:47:35] [INFO] Chamado #26 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #26 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #27 - Acesso ao e-mail corporativo bloqueado
+[25/11/2026 19:47:35] [INFO] Técnico Débora Martins atribuído ao chamado #27
+[25/11/2026 19:47:35] [INFO] Chamado #27 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #27 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #28 - Queda de sinal no estoque
+[25/11/2026 19:47:35] [INFO] Técnico Rafael Costa atribuído ao chamado #28
+[25/11/2026 19:47:35] [INFO] Chamado #28 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #28 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #29 - Scanner de produtos sem leitura
+[25/11/2026 19:47:35] [INFO] Técnico Luan Souza atribuído ao chamado #29
+[25/11/2026 19:47:35] [INFO] Chamado #29 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #29 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #30 - Erro de sincronização de vendas
+[25/11/2026 19:47:35] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #30
+[25/11/2026 19:47:35] [INFO] Chamado #30 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #30 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #31 - Impressora do caixa não funciona
+[25/11/2026 19:47:35] [INFO] Técnico Camila Azevedo atribuído ao chamado #31
+[25/11/2026 19:47:35] [INFO] Chamado #31 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #31 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #32 - Internet lenta na loja
+[25/11/2026 19:47:35] [INFO] Técnico Samara Oliveira atribuído ao chamado #32
+[25/11/2026 19:47:35] [INFO] Chamado #32 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #32 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #33 - Sistema de vendas travando
+[25/11/2026 19:47:35] [INFO] Técnico Ana Paula atribuído ao chamado #33
+[25/11/2026 19:47:35] [INFO] Chamado #33 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #33 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #34 - Funcionário sem acesso ao sistema
+[25/11/2026 19:47:35] [INFO] Técnico Bruno Santos atribuído ao chamado #34
+[25/11/2026 19:47:35] [INFO] Chamado #34 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #34 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #35 - Computador do estoque não liga
+[25/11/2026 19:47:35] [INFO] Técnico Débora Martins atribuído ao chamado #35
+[25/11/2026 19:47:35] [INFO] Chamado #35 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #35 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #36 - Falha na conexão Wi-Fi
+[25/11/2026 19:47:35] [INFO] Técnico Rafael Costa atribuído ao chamado #36
+[25/11/2026 19:47:35] [INFO] Chamado #36 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #36 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #37 - Erro ao finalizar pagamento
+[25/11/2026 19:47:35] [INFO] Técnico Luan Souza atribuído ao chamado #37
+[25/11/2026 19:47:35] [INFO] Chamado #37 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #37 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #38 - Monitor do caixa sem imagem
+[25/11/2026 19:47:35] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #38
+[25/11/2026 19:47:35] [INFO] Chamado #38 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #38 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #39 - Senha de acesso bloqueada
+[25/11/2026 19:47:35] [INFO] Técnico Camila Azevedo atribuído ao chamado #39
+[25/11/2026 19:47:35] [INFO] Chamado #39 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #39 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #40 - Sistema não gera relatório
+[25/11/2026 19:47:35] [INFO] Técnico Samara Oliveira atribuído ao chamado #40
+[25/11/2026 19:47:35] [INFO] Chamado #40 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado #40 atualizado de EM_ANDAMENTO para RESOLVIDO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #41 - Leitor de código de barras falhando
+[25/11/2026 19:47:35] [INFO] Técnico Ana Paula atribuído ao chamado #41
+[25/11/2026 19:47:35] [INFO] Chamado #41 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #42 - Rede da loja indisponível
+[25/11/2026 19:47:35] [INFO] Técnico Bruno Santos atribuído ao chamado #42
+[25/11/2026 19:47:35] [INFO] Chamado #42 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #43 - Erro ao emitir nota fiscal
+[25/11/2026 19:47:35] [INFO] Técnico Débora Martins atribuído ao chamado #43
+[25/11/2026 19:47:35] [INFO] Chamado #43 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #44 - Impressora de etiquetas com falha
+[25/11/2026 19:47:35] [INFO] Técnico Rafael Costa atribuído ao chamado #44
+[25/11/2026 19:47:35] [INFO] Chamado #44 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #45 - Computador reiniciando sozinho
+[25/11/2026 19:47:35] [INFO] Técnico Luan Souza atribuído ao chamado #45
+[25/11/2026 19:47:35] [INFO] Chamado #45 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #46 - Sistema de estoque desatualizado
+[25/11/2026 19:47:35] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #46
+[25/11/2026 19:47:35] [INFO] Chamado #46 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #47 - Solicitação de novo acesso
+[25/11/2026 19:47:35] [INFO] Técnico Camila Azevedo atribuído ao chamado #47
+[25/11/2026 19:47:35] [INFO] Chamado #47 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #48 - Queda frequente de conexão
+[25/11/2026 19:47:35] [INFO] Técnico Samara Oliveira atribuído ao chamado #48
+[25/11/2026 19:47:35] [INFO] Chamado #48 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #49 - Teclado do caixa com defeito
+[25/11/2026 19:47:35] [INFO] Técnico Ana Paula atribuído ao chamado #49
+[25/11/2026 19:47:35] [INFO] Chamado #49 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #50 - Erro na abertura do caixa
+[25/11/2026 19:47:35] [INFO] Técnico Bruno Santos atribuído ao chamado #50
+[25/11/2026 19:47:35] [INFO] Chamado #50 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #51 - Impressora térmica sem comunicação
+[25/11/2026 19:47:35] [INFO] Técnico Débora Martins atribuído ao chamado #51
+[25/11/2026 19:47:35] [INFO] Chamado #51 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #52 - Lentidão ao consultar estoque
+[25/11/2026 19:47:35] [INFO] Técnico Rafael Costa atribuído ao chamado #52
+[25/11/2026 19:47:35] [INFO] Chamado #52 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #53 - PDV não reconhece operador
+[25/11/2026 19:47:35] [INFO] Técnico Luan Souza atribuído ao chamado #53
+[25/11/2026 19:47:35] [INFO] Chamado #53 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #54 - Terminal de pagamento desconectado
+[25/11/2026 19:47:35] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #54
+[25/11/2026 19:47:35] [INFO] Chamado #54 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #55 - Mouse do escritório com defeito
+[25/11/2026 19:47:35] [INFO] Técnico Camila Azevedo atribuído ao chamado #55
+[25/11/2026 19:47:35] [INFO] Chamado #55 atualizado de ABERTO para EM_ANDAMENTO
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #56 - Atualização do sistema pendente
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #57 - Acesso ao e-mail corporativo bloqueado
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #58 - Queda de sinal no estoque
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #59 - Scanner de produtos sem leitura
+[25/11/2026 19:47:35] [INFO] Chamado cadastrado: #60 - Erro de sincronização de vendas
+[26/11/2026 19:54:58] [INFO] Núcleo VarejoDesk iniciado.
+[26/11/2026 19:54:58] [INFO] Loja cadastrada: Rio Sul (ID: 1)
+[26/11/2026 19:54:58] [INFO] Loja cadastrada: BarraShopping (ID: 2)
+[26/11/2026 19:54:58] [INFO] Usuário cadastrado: Mariana Costa (ID: 1)
+[26/11/2026 19:54:58] [INFO] Usuário cadastrado: Rodrigo Almeida (ID: 2)
+[26/11/2026 19:54:58] [INFO] Usuário cadastrado: Luan Souza (ID: 3)
+[26/11/2026 19:54:58] [INFO] Usuário cadastrado: Débora Martins (ID: 4)
+[26/11/2026 19:54:58] [INFO] Usuário cadastrado: Vanessa Santos (ID: 5)
+[26/11/2026 19:54:58] [INFO] Usuário cadastrado: Joana Pereira (ID: 6)
+[26/11/2026 19:54:58] [INFO] Chamado cadastrado: #1 - Impressora do caixa sem resposta
+[26/11/2026 19:54:58] [INFO] Chamado cadastrado: #2 - Falha na rede do estoque
+[26/11/2026 19:54:58] [INFO] Chamado cadastrado: #3 - Computador do caixa não liga
+[26/11/2026 19:54:58] [INFO] Chamado cadastrado: #4 - Internet lenta na loja
+[26/11/2026 19:54:58] [INFO] Chamado cadastrado: #5 - Leitor de código de barras falhando
+[26/11/2026 19:54:58] [INFO] Chamado cadastrado: #6 - Sistema de vendas travando
+[26/11/2026 19:54:58] [INFO] Técnico Luan Souza atribuído ao chamado #2
+[26/11/2026 19:54:58] [INFO] Chamado #2 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 19:54:58] [INFO] Chamado #2 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 19:54:58] [INFO] Técnico Luan Souza atribuído ao chamado #4
+[26/11/2026 19:54:58] [INFO] Chamado #4 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 19:54:58] [INFO] Técnico Débora Martins atribuído ao chamado #5
+[26/11/2026 19:54:58] [INFO] Chamado #5 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 19:54:58] [INFO] Técnico Débora Martins atribuído ao chamado #6
+[26/11/2026 19:54:58] [INFO] Chamado #6 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 19:54:58] [INFO] Chamado #6 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:00:39] [INFO] Loja cadastrada: Shopping carioca (ID: 3)
+[26/11/2026 20:01:26] [INFO] Usuário cadastrado: Joaquim Mendes (ID: 7)
+[26/11/2026 20:02:33] [INFO] Chamado cadastrado: #7 - Problema na rede de internet
+[26/11/2026 20:02:57] [INFO] Técnico Luan Souza atribuído ao chamado #7
+[26/11/2026 20:03:15] [INFO] Chamado #7 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:03:25] [INFO] Chamado #7 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:04] [INFO] Interface gráfica iniciada.
+[26/11/2026 20:05:04] [INFO] Loja cadastrada: BarraShopping (ID: 1)
+[26/11/2026 20:05:04] [INFO] Loja cadastrada: NorteShopping (ID: 2)
+[26/11/2026 20:05:04] [INFO] Loja cadastrada: RioSul (ID: 3)
+[26/11/2026 20:05:04] [INFO] Loja cadastrada: Shopping Tijuca (ID: 4)
+[26/11/2026 20:05:04] [INFO] Loja cadastrada: Shopping Nova América (ID: 5)
+[26/11/2026 20:05:04] [INFO] Loja cadastrada: Bangu Shopping (ID: 6)
+[26/11/2026 20:05:04] [INFO] Loja cadastrada: ParkShopping Bangu (ID: 7)
+[26/11/2026 20:05:04] [INFO] Loja cadastrada: Shopping Carioca (ID: 8)
+[26/11/2026 20:05:04] [INFO] Loja cadastrada: Madureira Shopping (ID: 9)
+[26/11/2026 20:05:04] [INFO] Loja cadastrada: ParkShopping Jacarepaguá (ID: 10)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Mariana Costa (ID: 1)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Rodrigo Almeida (ID: 2)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Fernanda Lima (ID: 3)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Carlos Eduardo (ID: 4)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Patrícia Souza (ID: 5)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Ricardo Gomes (ID: 6)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Juliana Martins (ID: 7)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Anderson Ferreira (ID: 8)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Camila Ribeiro (ID: 9)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Bruno Oliveira (ID: 10)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Vanessa Santos (ID: 11)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Joana Pereira (ID: 12)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Carla Mendes (ID: 13)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Ingrid Rocha (ID: 14)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Felipe Nascimento (ID: 15)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Larissa Teixeira (ID: 16)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Pedro Henrique (ID: 17)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Amanda Barbosa (ID: 18)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Gabriel Moreira (ID: 19)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Beatriz Carvalho (ID: 20)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Ana Paula (ID: 21)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Bruno Santos (ID: 22)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Débora Martins (ID: 23)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Rafael Costa (ID: 24)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Luan Souza (ID: 25)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Thiago Ribeiro (ID: 26)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Camila Azevedo (ID: 27)
+[26/11/2026 20:05:04] [INFO] Usuário cadastrado: Samara Oliveira (ID: 28)
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #1 - Impressora do caixa não funciona
+[26/11/2026 20:05:05] [INFO] Técnico Ana Paula atribuído ao chamado #1
+[26/11/2026 20:05:05] [INFO] Chamado #1 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #1 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #2 - Internet lenta na loja
+[26/11/2026 20:05:05] [INFO] Técnico Bruno Santos atribuído ao chamado #2
+[26/11/2026 20:05:05] [INFO] Chamado #2 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #2 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #3 - Sistema de vendas travando
+[26/11/2026 20:05:05] [INFO] Técnico Débora Martins atribuído ao chamado #3
+[26/11/2026 20:05:05] [INFO] Chamado #3 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #3 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #4 - Funcionário sem acesso ao sistema
+[26/11/2026 20:05:05] [INFO] Técnico Rafael Costa atribuído ao chamado #4
+[26/11/2026 20:05:05] [INFO] Chamado #4 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #4 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #5 - Computador do estoque não liga
+[26/11/2026 20:05:05] [INFO] Técnico Luan Souza atribuído ao chamado #5
+[26/11/2026 20:05:05] [INFO] Chamado #5 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #5 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #6 - Falha na conexão Wi-Fi
+[26/11/2026 20:05:05] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #6
+[26/11/2026 20:05:05] [INFO] Chamado #6 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #6 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #7 - Erro ao finalizar pagamento
+[26/11/2026 20:05:05] [INFO] Técnico Camila Azevedo atribuído ao chamado #7
+[26/11/2026 20:05:05] [INFO] Chamado #7 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #7 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #8 - Monitor do caixa sem imagem
+[26/11/2026 20:05:05] [INFO] Técnico Samara Oliveira atribuído ao chamado #8
+[26/11/2026 20:05:05] [INFO] Chamado #8 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #8 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #9 - Senha de acesso bloqueada
+[26/11/2026 20:05:05] [INFO] Técnico Ana Paula atribuído ao chamado #9
+[26/11/2026 20:05:05] [INFO] Chamado #9 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #9 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #10 - Sistema não gera relatório
+[26/11/2026 20:05:05] [INFO] Técnico Bruno Santos atribuído ao chamado #10
+[26/11/2026 20:05:05] [INFO] Chamado #10 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #10 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #11 - Leitor de código de barras falhando
+[26/11/2026 20:05:05] [INFO] Técnico Débora Martins atribuído ao chamado #11
+[26/11/2026 20:05:05] [INFO] Chamado #11 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #11 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #12 - Rede da loja indisponível
+[26/11/2026 20:05:05] [INFO] Técnico Rafael Costa atribuído ao chamado #12
+[26/11/2026 20:05:05] [INFO] Chamado #12 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #12 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #13 - Erro ao emitir nota fiscal
+[26/11/2026 20:05:05] [INFO] Técnico Luan Souza atribuído ao chamado #13
+[26/11/2026 20:05:05] [INFO] Chamado #13 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #13 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #14 - Impressora de etiquetas com falha
+[26/11/2026 20:05:05] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #14
+[26/11/2026 20:05:05] [INFO] Chamado #14 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #14 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #15 - Computador reiniciando sozinho
+[26/11/2026 20:05:05] [INFO] Técnico Camila Azevedo atribuído ao chamado #15
+[26/11/2026 20:05:05] [INFO] Chamado #15 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #15 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #16 - Sistema de estoque desatualizado
+[26/11/2026 20:05:05] [INFO] Técnico Samara Oliveira atribuído ao chamado #16
+[26/11/2026 20:05:05] [INFO] Chamado #16 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #16 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #17 - Solicitação de novo acesso
+[26/11/2026 20:05:05] [INFO] Técnico Ana Paula atribuído ao chamado #17
+[26/11/2026 20:05:05] [INFO] Chamado #17 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #17 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #18 - Queda frequente de conexão
+[26/11/2026 20:05:05] [INFO] Técnico Bruno Santos atribuído ao chamado #18
+[26/11/2026 20:05:05] [INFO] Chamado #18 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #18 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #19 - Teclado do caixa com defeito
+[26/11/2026 20:05:05] [INFO] Técnico Débora Martins atribuído ao chamado #19
+[26/11/2026 20:05:05] [INFO] Chamado #19 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #19 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #20 - Erro na abertura do caixa
+[26/11/2026 20:05:05] [INFO] Técnico Rafael Costa atribuído ao chamado #20
+[26/11/2026 20:05:05] [INFO] Chamado #20 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #20 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #21 - Impressora térmica sem comunicação
+[26/11/2026 20:05:05] [INFO] Técnico Luan Souza atribuído ao chamado #21
+[26/11/2026 20:05:05] [INFO] Chamado #21 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #21 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #22 - Lentidão ao consultar estoque
+[26/11/2026 20:05:05] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #22
+[26/11/2026 20:05:05] [INFO] Chamado #22 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #22 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #23 - PDV não reconhece operador
+[26/11/2026 20:05:05] [INFO] Técnico Camila Azevedo atribuído ao chamado #23
+[26/11/2026 20:05:05] [INFO] Chamado #23 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #23 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #24 - Terminal de pagamento desconectado
+[26/11/2026 20:05:05] [INFO] Técnico Samara Oliveira atribuído ao chamado #24
+[26/11/2026 20:05:05] [INFO] Chamado #24 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #24 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #25 - Mouse do escritório com defeito
+[26/11/2026 20:05:05] [INFO] Técnico Ana Paula atribuído ao chamado #25
+[26/11/2026 20:05:05] [INFO] Chamado #25 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #25 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #26 - Atualização do sistema pendente
+[26/11/2026 20:05:05] [INFO] Técnico Bruno Santos atribuído ao chamado #26
+[26/11/2026 20:05:05] [INFO] Chamado #26 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #26 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #27 - Acesso ao e-mail corporativo bloqueado
+[26/11/2026 20:05:05] [INFO] Técnico Débora Martins atribuído ao chamado #27
+[26/11/2026 20:05:05] [INFO] Chamado #27 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #27 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #28 - Queda de sinal no estoque
+[26/11/2026 20:05:05] [INFO] Técnico Rafael Costa atribuído ao chamado #28
+[26/11/2026 20:05:05] [INFO] Chamado #28 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #28 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #29 - Scanner de produtos sem leitura
+[26/11/2026 20:05:05] [INFO] Técnico Luan Souza atribuído ao chamado #29
+[26/11/2026 20:05:05] [INFO] Chamado #29 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #29 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #30 - Erro de sincronização de vendas
+[26/11/2026 20:05:05] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #30
+[26/11/2026 20:05:05] [INFO] Chamado #30 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #30 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #31 - Impressora do caixa não funciona
+[26/11/2026 20:05:05] [INFO] Técnico Camila Azevedo atribuído ao chamado #31
+[26/11/2026 20:05:05] [INFO] Chamado #31 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #31 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #32 - Internet lenta na loja
+[26/11/2026 20:05:05] [INFO] Técnico Samara Oliveira atribuído ao chamado #32
+[26/11/2026 20:05:05] [INFO] Chamado #32 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #32 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #33 - Sistema de vendas travando
+[26/11/2026 20:05:05] [INFO] Técnico Ana Paula atribuído ao chamado #33
+[26/11/2026 20:05:05] [INFO] Chamado #33 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #33 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #34 - Funcionário sem acesso ao sistema
+[26/11/2026 20:05:05] [INFO] Técnico Bruno Santos atribuído ao chamado #34
+[26/11/2026 20:05:05] [INFO] Chamado #34 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #34 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #35 - Computador do estoque não liga
+[26/11/2026 20:05:05] [INFO] Técnico Débora Martins atribuído ao chamado #35
+[26/11/2026 20:05:05] [INFO] Chamado #35 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #35 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #36 - Falha na conexão Wi-Fi
+[26/11/2026 20:05:05] [INFO] Técnico Rafael Costa atribuído ao chamado #36
+[26/11/2026 20:05:05] [INFO] Chamado #36 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #36 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #37 - Erro ao finalizar pagamento
+[26/11/2026 20:05:05] [INFO] Técnico Luan Souza atribuído ao chamado #37
+[26/11/2026 20:05:05] [INFO] Chamado #37 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #37 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #38 - Monitor do caixa sem imagem
+[26/11/2026 20:05:05] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #38
+[26/11/2026 20:05:05] [INFO] Chamado #38 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #38 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #39 - Senha de acesso bloqueada
+[26/11/2026 20:05:05] [INFO] Técnico Camila Azevedo atribuído ao chamado #39
+[26/11/2026 20:05:05] [INFO] Chamado #39 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #39 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #40 - Sistema não gera relatório
+[26/11/2026 20:05:05] [INFO] Técnico Samara Oliveira atribuído ao chamado #40
+[26/11/2026 20:05:05] [INFO] Chamado #40 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado #40 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #41 - Leitor de código de barras falhando
+[26/11/2026 20:05:05] [INFO] Técnico Ana Paula atribuído ao chamado #41
+[26/11/2026 20:05:05] [INFO] Chamado #41 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #42 - Rede da loja indisponível
+[26/11/2026 20:05:05] [INFO] Técnico Bruno Santos atribuído ao chamado #42
+[26/11/2026 20:05:05] [INFO] Chamado #42 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #43 - Erro ao emitir nota fiscal
+[26/11/2026 20:05:05] [INFO] Técnico Débora Martins atribuído ao chamado #43
+[26/11/2026 20:05:05] [INFO] Chamado #43 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #44 - Impressora de etiquetas com falha
+[26/11/2026 20:05:05] [INFO] Técnico Rafael Costa atribuído ao chamado #44
+[26/11/2026 20:05:05] [INFO] Chamado #44 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #45 - Computador reiniciando sozinho
+[26/11/2026 20:05:05] [INFO] Técnico Luan Souza atribuído ao chamado #45
+[26/11/2026 20:05:05] [INFO] Chamado #45 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #46 - Sistema de estoque desatualizado
+[26/11/2026 20:05:05] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #46
+[26/11/2026 20:05:05] [INFO] Chamado #46 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #47 - Solicitação de novo acesso
+[26/11/2026 20:05:05] [INFO] Técnico Camila Azevedo atribuído ao chamado #47
+[26/11/2026 20:05:05] [INFO] Chamado #47 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #48 - Queda frequente de conexão
+[26/11/2026 20:05:05] [INFO] Técnico Samara Oliveira atribuído ao chamado #48
+[26/11/2026 20:05:05] [INFO] Chamado #48 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #49 - Teclado do caixa com defeito
+[26/11/2026 20:05:05] [INFO] Técnico Ana Paula atribuído ao chamado #49
+[26/11/2026 20:05:05] [INFO] Chamado #49 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #50 - Erro na abertura do caixa
+[26/11/2026 20:05:05] [INFO] Técnico Bruno Santos atribuído ao chamado #50
+[26/11/2026 20:05:05] [INFO] Chamado #50 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #51 - Impressora térmica sem comunicação
+[26/11/2026 20:05:05] [INFO] Técnico Débora Martins atribuído ao chamado #51
+[26/11/2026 20:05:05] [INFO] Chamado #51 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #52 - Lentidão ao consultar estoque
+[26/11/2026 20:05:05] [INFO] Técnico Rafael Costa atribuído ao chamado #52
+[26/11/2026 20:05:05] [INFO] Chamado #52 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #53 - PDV não reconhece operador
+[26/11/2026 20:05:05] [INFO] Técnico Luan Souza atribuído ao chamado #53
+[26/11/2026 20:05:05] [INFO] Chamado #53 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #54 - Terminal de pagamento desconectado
+[26/11/2026 20:05:05] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #54
+[26/11/2026 20:05:05] [INFO] Chamado #54 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #55 - Mouse do escritório com defeito
+[26/11/2026 20:05:05] [INFO] Técnico Camila Azevedo atribuído ao chamado #55
+[26/11/2026 20:05:05] [INFO] Chamado #55 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #56 - Atualização do sistema pendente
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #57 - Acesso ao e-mail corporativo bloqueado
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #58 - Queda de sinal no estoque
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #59 - Scanner de produtos sem leitura
+[26/11/2026 20:05:05] [INFO] Chamado cadastrado: #60 - Erro de sincronização de vendas
+[26/11/2026 20:30:29] [INFO] Núcleo VarejoDesk iniciado.
+[26/11/2026 20:30:29] [INFO] Loja cadastrada: Rio Sul (ID: 1)
+[26/11/2026 20:30:29] [INFO] Loja cadastrada: BarraShopping (ID: 2)
+[26/11/2026 20:30:29] [INFO] Usuário cadastrado: Mariana Costa (ID: 1)
+[26/11/2026 20:30:30] [INFO] Usuário cadastrado: Rodrigo Almeida (ID: 2)
+[26/11/2026 20:30:30] [INFO] Usuário cadastrado: Luan Souza (ID: 3)
+[26/11/2026 20:30:30] [INFO] Usuário cadastrado: Débora Martins (ID: 4)
+[26/11/2026 20:30:30] [INFO] Usuário cadastrado: Vanessa Santos (ID: 5)
+[26/11/2026 20:30:30] [INFO] Usuário cadastrado: Joana Pereira (ID: 6)
+[26/11/2026 20:30:30] [INFO] Chamado cadastrado: #1 - Impressora do caixa sem resposta
+[26/11/2026 20:30:30] [INFO] Chamado cadastrado: #2 - Falha na rede do estoque
+[26/11/2026 20:30:30] [INFO] Chamado cadastrado: #3 - Computador do caixa não liga
+[26/11/2026 20:30:30] [INFO] Chamado cadastrado: #4 - Internet lenta na loja
+[26/11/2026 20:30:30] [INFO] Chamado cadastrado: #5 - Leitor de código de barras falhando
+[26/11/2026 20:30:30] [INFO] Chamado cadastrado: #6 - Sistema de vendas travando
+[26/11/2026 20:30:30] [INFO] Técnico Luan Souza atribuído ao chamado #2
+[26/11/2026 20:30:30] [INFO] Chamado #2 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:30:30] [INFO] Chamado #2 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:30:30] [INFO] Técnico Luan Souza atribuído ao chamado #4
+[26/11/2026 20:30:30] [INFO] Chamado #4 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:30:30] [INFO] Técnico Débora Martins atribuído ao chamado #5
+[26/11/2026 20:30:30] [INFO] Chamado #5 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:30:30] [INFO] Técnico Débora Martins atribuído ao chamado #6
+[26/11/2026 20:30:30] [INFO] Chamado #6 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:30:30] [INFO] Chamado #6 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:42:44] [INFO] Núcleo VarejoDesk iniciado.
+[26/11/2026 20:42:44] [INFO] Loja cadastrada: Rio Sul (ID: 1)
+[26/11/2026 20:42:44] [INFO] Loja cadastrada: BarraShopping (ID: 2)
+[26/11/2026 20:42:44] [INFO] Usuário cadastrado: Mariana Costa (ID: 1)
+[26/11/2026 20:42:44] [INFO] Usuário cadastrado: Rodrigo Almeida (ID: 2)
+[26/11/2026 20:42:44] [INFO] Usuário cadastrado: Luan Souza (ID: 3)
+[26/11/2026 20:42:44] [INFO] Usuário cadastrado: Débora Martins (ID: 4)
+[26/11/2026 20:42:44] [INFO] Usuário cadastrado: Vanessa Santos (ID: 5)
+[26/11/2026 20:42:44] [INFO] Usuário cadastrado: Joana Pereira (ID: 6)
+[26/11/2026 20:42:44] [INFO] Chamado cadastrado: #1 - Impressora do caixa sem resposta
+[26/11/2026 20:42:44] [INFO] Chamado cadastrado: #2 - Falha na rede do estoque
+[26/11/2026 20:42:44] [INFO] Chamado cadastrado: #3 - Computador do caixa não liga
+[26/11/2026 20:42:44] [INFO] Chamado cadastrado: #4 - Internet lenta na loja
+[26/11/2026 20:42:44] [INFO] Chamado cadastrado: #5 - Leitor de código de barras falhando
+[26/11/2026 20:42:44] [INFO] Chamado cadastrado: #6 - Sistema de vendas travando
+[26/11/2026 20:42:44] [INFO] Técnico Luan Souza atribuído ao chamado #2
+[26/11/2026 20:42:44] [INFO] Chamado #2 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:42:44] [INFO] Chamado #2 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:42:44] [INFO] Técnico Luan Souza atribuído ao chamado #4
+[26/11/2026 20:42:44] [INFO] Chamado #4 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:42:44] [INFO] Técnico Débora Martins atribuído ao chamado #5
+[26/11/2026 20:42:44] [INFO] Chamado #5 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:42:44] [INFO] Técnico Débora Martins atribuído ao chamado #6
+[26/11/2026 20:42:44] [INFO] Chamado #6 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:42:44] [INFO] Chamado #6 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:47:39] [INFO] Loja cadastrada: Shopping Carioca (ID: 3)
+[26/11/2026 20:48:09] [INFO] Usuário cadastrado: Joao Mendes (ID: 7)
+[26/11/2026 20:48:35] [INFO] Usuário cadastrado: Joaquim Mendes (ID: 9)
+[26/11/2026 20:48:50] [INFO] Usuário cadastrado: Tayane Mendes (ID: 10)
+[26/11/2026 20:49:38] [INFO] Núcleo VarejoDesk encerrado.
+[26/11/2026 20:49:42] [INFO] Núcleo VarejoDesk iniciado.
+[26/11/2026 20:49:42] [INFO] Loja cadastrada: Rio Sul (ID: 1)
+[26/11/2026 20:49:42] [INFO] Loja cadastrada: BarraShopping (ID: 2)
+[26/11/2026 20:49:42] [INFO] Usuário cadastrado: Mariana Costa (ID: 1)
+[26/11/2026 20:49:42] [INFO] Usuário cadastrado: Rodrigo Almeida (ID: 2)
+[26/11/2026 20:49:42] [INFO] Usuário cadastrado: Luan Souza (ID: 3)
+[26/11/2026 20:49:42] [INFO] Usuário cadastrado: Débora Martins (ID: 4)
+[26/11/2026 20:49:42] [INFO] Usuário cadastrado: Vanessa Santos (ID: 5)
+[26/11/2026 20:49:42] [INFO] Usuário cadastrado: Joana Pereira (ID: 6)
+[26/11/2026 20:49:42] [INFO] Chamado cadastrado: #1 - Impressora do caixa sem resposta
+[26/11/2026 20:49:42] [INFO] Chamado cadastrado: #2 - Falha na rede do estoque
+[26/11/2026 20:49:42] [INFO] Chamado cadastrado: #3 - Computador do caixa não liga
+[26/11/2026 20:49:42] [INFO] Chamado cadastrado: #4 - Internet lenta na loja
+[26/11/2026 20:49:42] [INFO] Chamado cadastrado: #5 - Leitor de código de barras falhando
+[26/11/2026 20:49:42] [INFO] Chamado cadastrado: #6 - Sistema de vendas travando
+[26/11/2026 20:49:42] [INFO] Técnico Luan Souza atribuído ao chamado #2
+[26/11/2026 20:49:42] [INFO] Chamado #2 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:49:42] [INFO] Chamado #2 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:49:42] [INFO] Técnico Luan Souza atribuído ao chamado #4
+[26/11/2026 20:49:42] [INFO] Chamado #4 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:49:42] [INFO] Técnico Débora Martins atribuído ao chamado #5
+[26/11/2026 20:49:42] [INFO] Chamado #5 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:49:42] [INFO] Técnico Débora Martins atribuído ao chamado #6
+[26/11/2026 20:49:42] [INFO] Chamado #6 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:49:42] [INFO] Chamado #6 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:50:11] [INFO] Chamado cadastrado: #7 - Problema na internet
+[26/11/2026 20:50:46] [INFO] Técnico Luan Souza atribuído ao chamado #7
+[26/11/2026 20:51:23] [INFO] Chamado #7 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:51:33] [INFO] Chamado #7 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:52:42] [INFO] Núcleo VarejoDesk encerrado.
+[26/11/2026 20:53:52] [INFO] Interface gráfica iniciada.
+[26/11/2026 20:53:52] [INFO] Loja cadastrada: BarraShopping (ID: 1)
+[26/11/2026 20:53:52] [INFO] Loja cadastrada: NorteShopping (ID: 2)
+[26/11/2026 20:53:52] [INFO] Loja cadastrada: RioSul (ID: 3)
+[26/11/2026 20:53:52] [INFO] Loja cadastrada: Shopping Tijuca (ID: 4)
+[26/11/2026 20:53:52] [INFO] Loja cadastrada: Shopping Nova América (ID: 5)
+[26/11/2026 20:53:52] [INFO] Loja cadastrada: Bangu Shopping (ID: 6)
+[26/11/2026 20:53:52] [INFO] Loja cadastrada: ParkShopping Bangu (ID: 7)
+[26/11/2026 20:53:52] [INFO] Loja cadastrada: Shopping Carioca (ID: 8)
+[26/11/2026 20:53:52] [INFO] Loja cadastrada: Madureira Shopping (ID: 9)
+[26/11/2026 20:53:52] [INFO] Loja cadastrada: ParkShopping Jacarepaguá (ID: 10)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Mariana Costa (ID: 1)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Rodrigo Almeida (ID: 2)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Fernanda Lima (ID: 3)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Carlos Eduardo (ID: 4)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Patrícia Souza (ID: 5)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Ricardo Gomes (ID: 6)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Juliana Martins (ID: 7)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Anderson Ferreira (ID: 8)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Camila Ribeiro (ID: 9)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Bruno Oliveira (ID: 10)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Vanessa Santos (ID: 11)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Joana Pereira (ID: 12)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Carla Mendes (ID: 13)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Ingrid Rocha (ID: 14)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Felipe Nascimento (ID: 15)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Larissa Teixeira (ID: 16)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Pedro Henrique (ID: 17)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Amanda Barbosa (ID: 18)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Gabriel Moreira (ID: 19)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Beatriz Carvalho (ID: 20)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Ana Paula (ID: 21)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Bruno Santos (ID: 22)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Débora Martins (ID: 23)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Rafael Costa (ID: 24)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Luan Souza (ID: 25)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Thiago Ribeiro (ID: 26)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Camila Azevedo (ID: 27)
+[26/11/2026 20:53:53] [INFO] Usuário cadastrado: Samara Oliveira (ID: 28)
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #1 - Impressora do caixa não funciona
+[26/11/2026 20:53:53] [INFO] Técnico Ana Paula atribuído ao chamado #1
+[26/11/2026 20:53:53] [INFO] Chamado #1 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #1 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #2 - Internet lenta na loja
+[26/11/2026 20:53:53] [INFO] Técnico Bruno Santos atribuído ao chamado #2
+[26/11/2026 20:53:53] [INFO] Chamado #2 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #2 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #3 - Sistema de vendas travando
+[26/11/2026 20:53:53] [INFO] Técnico Débora Martins atribuído ao chamado #3
+[26/11/2026 20:53:53] [INFO] Chamado #3 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #3 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #4 - Funcionário sem acesso ao sistema
+[26/11/2026 20:53:53] [INFO] Técnico Rafael Costa atribuído ao chamado #4
+[26/11/2026 20:53:53] [INFO] Chamado #4 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #4 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #5 - Computador do estoque não liga
+[26/11/2026 20:53:53] [INFO] Técnico Luan Souza atribuído ao chamado #5
+[26/11/2026 20:53:53] [INFO] Chamado #5 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #5 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #6 - Falha na conexão Wi-Fi
+[26/11/2026 20:53:53] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #6
+[26/11/2026 20:53:53] [INFO] Chamado #6 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #6 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #7 - Erro ao finalizar pagamento
+[26/11/2026 20:53:53] [INFO] Técnico Camila Azevedo atribuído ao chamado #7
+[26/11/2026 20:53:53] [INFO] Chamado #7 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #7 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #8 - Monitor do caixa sem imagem
+[26/11/2026 20:53:53] [INFO] Técnico Samara Oliveira atribuído ao chamado #8
+[26/11/2026 20:53:53] [INFO] Chamado #8 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #8 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #9 - Senha de acesso bloqueada
+[26/11/2026 20:53:53] [INFO] Técnico Ana Paula atribuído ao chamado #9
+[26/11/2026 20:53:53] [INFO] Chamado #9 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #9 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #10 - Sistema não gera relatório
+[26/11/2026 20:53:53] [INFO] Técnico Bruno Santos atribuído ao chamado #10
+[26/11/2026 20:53:53] [INFO] Chamado #10 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #10 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #11 - Leitor de código de barras falhando
+[26/11/2026 20:53:53] [INFO] Técnico Débora Martins atribuído ao chamado #11
+[26/11/2026 20:53:53] [INFO] Chamado #11 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #11 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #12 - Rede da loja indisponível
+[26/11/2026 20:53:53] [INFO] Técnico Rafael Costa atribuído ao chamado #12
+[26/11/2026 20:53:53] [INFO] Chamado #12 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #12 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #13 - Erro ao emitir nota fiscal
+[26/11/2026 20:53:53] [INFO] Técnico Luan Souza atribuído ao chamado #13
+[26/11/2026 20:53:53] [INFO] Chamado #13 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #13 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #14 - Impressora de etiquetas com falha
+[26/11/2026 20:53:53] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #14
+[26/11/2026 20:53:53] [INFO] Chamado #14 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #14 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #15 - Computador reiniciando sozinho
+[26/11/2026 20:53:53] [INFO] Técnico Camila Azevedo atribuído ao chamado #15
+[26/11/2026 20:53:53] [INFO] Chamado #15 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #15 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #16 - Sistema de estoque desatualizado
+[26/11/2026 20:53:53] [INFO] Técnico Samara Oliveira atribuído ao chamado #16
+[26/11/2026 20:53:53] [INFO] Chamado #16 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #16 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #17 - Solicitação de novo acesso
+[26/11/2026 20:53:53] [INFO] Técnico Ana Paula atribuído ao chamado #17
+[26/11/2026 20:53:53] [INFO] Chamado #17 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #17 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #18 - Queda frequente de conexão
+[26/11/2026 20:53:53] [INFO] Técnico Bruno Santos atribuído ao chamado #18
+[26/11/2026 20:53:53] [INFO] Chamado #18 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #18 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #19 - Teclado do caixa com defeito
+[26/11/2026 20:53:53] [INFO] Técnico Débora Martins atribuído ao chamado #19
+[26/11/2026 20:53:53] [INFO] Chamado #19 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #19 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #20 - Erro na abertura do caixa
+[26/11/2026 20:53:53] [INFO] Técnico Rafael Costa atribuído ao chamado #20
+[26/11/2026 20:53:53] [INFO] Chamado #20 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #20 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #21 - Impressora térmica sem comunicação
+[26/11/2026 20:53:53] [INFO] Técnico Luan Souza atribuído ao chamado #21
+[26/11/2026 20:53:53] [INFO] Chamado #21 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #21 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #22 - Lentidão ao consultar estoque
+[26/11/2026 20:53:53] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #22
+[26/11/2026 20:53:53] [INFO] Chamado #22 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #22 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #23 - PDV não reconhece operador
+[26/11/2026 20:53:53] [INFO] Técnico Camila Azevedo atribuído ao chamado #23
+[26/11/2026 20:53:53] [INFO] Chamado #23 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #23 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #24 - Terminal de pagamento desconectado
+[26/11/2026 20:53:53] [INFO] Técnico Samara Oliveira atribuído ao chamado #24
+[26/11/2026 20:53:53] [INFO] Chamado #24 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #24 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #25 - Mouse do escritório com defeito
+[26/11/2026 20:53:53] [INFO] Técnico Ana Paula atribuído ao chamado #25
+[26/11/2026 20:53:53] [INFO] Chamado #25 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #25 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #26 - Atualização do sistema pendente
+[26/11/2026 20:53:53] [INFO] Técnico Bruno Santos atribuído ao chamado #26
+[26/11/2026 20:53:53] [INFO] Chamado #26 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #26 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #27 - Acesso ao e-mail corporativo bloqueado
+[26/11/2026 20:53:53] [INFO] Técnico Débora Martins atribuído ao chamado #27
+[26/11/2026 20:53:53] [INFO] Chamado #27 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #27 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #28 - Queda de sinal no estoque
+[26/11/2026 20:53:53] [INFO] Técnico Rafael Costa atribuído ao chamado #28
+[26/11/2026 20:53:53] [INFO] Chamado #28 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #28 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #29 - Scanner de produtos sem leitura
+[26/11/2026 20:53:53] [INFO] Técnico Luan Souza atribuído ao chamado #29
+[26/11/2026 20:53:53] [INFO] Chamado #29 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #29 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #30 - Erro de sincronização de vendas
+[26/11/2026 20:53:53] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #30
+[26/11/2026 20:53:53] [INFO] Chamado #30 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #30 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #31 - Impressora do caixa não funciona
+[26/11/2026 20:53:53] [INFO] Técnico Camila Azevedo atribuído ao chamado #31
+[26/11/2026 20:53:53] [INFO] Chamado #31 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #31 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #32 - Internet lenta na loja
+[26/11/2026 20:53:53] [INFO] Técnico Samara Oliveira atribuído ao chamado #32
+[26/11/2026 20:53:53] [INFO] Chamado #32 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #32 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #33 - Sistema de vendas travando
+[26/11/2026 20:53:53] [INFO] Técnico Ana Paula atribuído ao chamado #33
+[26/11/2026 20:53:53] [INFO] Chamado #33 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #33 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #34 - Funcionário sem acesso ao sistema
+[26/11/2026 20:53:53] [INFO] Técnico Bruno Santos atribuído ao chamado #34
+[26/11/2026 20:53:53] [INFO] Chamado #34 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #34 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #35 - Computador do estoque não liga
+[26/11/2026 20:53:53] [INFO] Técnico Débora Martins atribuído ao chamado #35
+[26/11/2026 20:53:53] [INFO] Chamado #35 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:53] [INFO] Chamado #35 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:53] [INFO] Chamado cadastrado: #36 - Falha na conexão Wi-Fi
+[26/11/2026 20:53:54] [INFO] Técnico Rafael Costa atribuído ao chamado #36
+[26/11/2026 20:53:54] [INFO] Chamado #36 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado #36 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #37 - Erro ao finalizar pagamento
+[26/11/2026 20:53:54] [INFO] Técnico Luan Souza atribuído ao chamado #37
+[26/11/2026 20:53:54] [INFO] Chamado #37 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado #37 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #38 - Monitor do caixa sem imagem
+[26/11/2026 20:53:54] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #38
+[26/11/2026 20:53:54] [INFO] Chamado #38 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado #38 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #39 - Senha de acesso bloqueada
+[26/11/2026 20:53:54] [INFO] Técnico Camila Azevedo atribuído ao chamado #39
+[26/11/2026 20:53:54] [INFO] Chamado #39 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado #39 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #40 - Sistema não gera relatório
+[26/11/2026 20:53:54] [INFO] Técnico Samara Oliveira atribuído ao chamado #40
+[26/11/2026 20:53:54] [INFO] Chamado #40 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado #40 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #41 - Leitor de código de barras falhando
+[26/11/2026 20:53:54] [INFO] Técnico Ana Paula atribuído ao chamado #41
+[26/11/2026 20:53:54] [INFO] Chamado #41 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #42 - Rede da loja indisponível
+[26/11/2026 20:53:54] [INFO] Técnico Bruno Santos atribuído ao chamado #42
+[26/11/2026 20:53:54] [INFO] Chamado #42 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #43 - Erro ao emitir nota fiscal
+[26/11/2026 20:53:54] [INFO] Técnico Débora Martins atribuído ao chamado #43
+[26/11/2026 20:53:54] [INFO] Chamado #43 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #44 - Impressora de etiquetas com falha
+[26/11/2026 20:53:54] [INFO] Técnico Rafael Costa atribuído ao chamado #44
+[26/11/2026 20:53:54] [INFO] Chamado #44 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #45 - Computador reiniciando sozinho
+[26/11/2026 20:53:54] [INFO] Técnico Luan Souza atribuído ao chamado #45
+[26/11/2026 20:53:54] [INFO] Chamado #45 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #46 - Sistema de estoque desatualizado
+[26/11/2026 20:53:54] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #46
+[26/11/2026 20:53:54] [INFO] Chamado #46 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #47 - Solicitação de novo acesso
+[26/11/2026 20:53:54] [INFO] Técnico Camila Azevedo atribuído ao chamado #47
+[26/11/2026 20:53:54] [INFO] Chamado #47 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #48 - Queda frequente de conexão
+[26/11/2026 20:53:54] [INFO] Técnico Samara Oliveira atribuído ao chamado #48
+[26/11/2026 20:53:54] [INFO] Chamado #48 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #49 - Teclado do caixa com defeito
+[26/11/2026 20:53:54] [INFO] Técnico Ana Paula atribuído ao chamado #49
+[26/11/2026 20:53:54] [INFO] Chamado #49 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #50 - Erro na abertura do caixa
+[26/11/2026 20:53:54] [INFO] Técnico Bruno Santos atribuído ao chamado #50
+[26/11/2026 20:53:54] [INFO] Chamado #50 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #51 - Impressora térmica sem comunicação
+[26/11/2026 20:53:54] [INFO] Técnico Débora Martins atribuído ao chamado #51
+[26/11/2026 20:53:54] [INFO] Chamado #51 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #52 - Lentidão ao consultar estoque
+[26/11/2026 20:53:54] [INFO] Técnico Rafael Costa atribuído ao chamado #52
+[26/11/2026 20:53:54] [INFO] Chamado #52 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #53 - PDV não reconhece operador
+[26/11/2026 20:53:54] [INFO] Técnico Luan Souza atribuído ao chamado #53
+[26/11/2026 20:53:54] [INFO] Chamado #53 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #54 - Terminal de pagamento desconectado
+[26/11/2026 20:53:54] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #54
+[26/11/2026 20:53:54] [INFO] Chamado #54 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #55 - Mouse do escritório com defeito
+[26/11/2026 20:53:54] [INFO] Técnico Camila Azevedo atribuído ao chamado #55
+[26/11/2026 20:53:54] [INFO] Chamado #55 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #56 - Atualização do sistema pendente
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #57 - Acesso ao e-mail corporativo bloqueado
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #58 - Queda de sinal no estoque
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #59 - Scanner de produtos sem leitura
+[26/11/2026 20:53:54] [INFO] Chamado cadastrado: #60 - Erro de sincronização de vendas
+[26/11/2026 21:10:03] [INFO] Núcleo VarejoDesk iniciado.
+[26/11/2026 21:10:03] [INFO] Loja cadastrada: Rio Sul (ID: 1)
+[26/11/2026 21:10:03] [INFO] Loja cadastrada: BarraShopping (ID: 2)
+[26/11/2026 21:10:03] [INFO] Usuário cadastrado: Mariana Costa (ID: 1)
+[26/11/2026 21:10:03] [INFO] Usuário cadastrado: Rodrigo Almeida (ID: 2)
+[26/11/2026 21:10:03] [INFO] Usuário cadastrado: Luan Souza (ID: 3)
+[26/11/2026 21:10:03] [INFO] Usuário cadastrado: Débora Martins (ID: 4)
+[26/11/2026 21:10:03] [INFO] Usuário cadastrado: Vanessa Santos (ID: 5)
+[26/11/2026 21:10:03] [INFO] Usuário cadastrado: Joana Pereira (ID: 6)
+[26/11/2026 21:10:03] [INFO] Chamado cadastrado: #1 - Impressora do caixa sem resposta
+[26/11/2026 21:10:04] [INFO] Chamado cadastrado: #2 - Falha na rede do estoque
+[26/11/2026 21:10:04] [INFO] Chamado cadastrado: #3 - Computador do caixa não liga
+[26/11/2026 21:10:04] [INFO] Chamado cadastrado: #4 - Internet lenta na loja
+[26/11/2026 21:10:04] [INFO] Chamado cadastrado: #5 - Leitor de código de barras falhando
+[26/11/2026 21:10:04] [INFO] Chamado cadastrado: #6 - Sistema de vendas travando
+[26/11/2026 21:10:04] [INFO] Técnico Luan Souza atribuído ao chamado #2
+[26/11/2026 21:10:04] [INFO] Chamado #2 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:10:04] [INFO] Chamado #2 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:10:04] [INFO] Técnico Luan Souza atribuído ao chamado #4
+[26/11/2026 21:10:04] [INFO] Chamado #4 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:10:04] [INFO] Técnico Débora Martins atribuído ao chamado #5
+[26/11/2026 21:10:04] [INFO] Chamado #5 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:10:04] [INFO] Técnico Débora Martins atribuído ao chamado #6
+[26/11/2026 21:10:04] [INFO] Chamado #6 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:10:04] [INFO] Chamado #6 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:15:38] [INFO] Loja cadastrada: Shopping Carioca (ID: 3)
+[26/11/2026 21:16:08] [INFO] Usuário cadastrado: Joaquim Mendes (ID: 7)
+[26/11/2026 21:16:45] [INFO] Usuário cadastrado: Rodrigo Cardoso (ID: 9)
+[26/11/2026 21:16:55] [INFO] Usuário cadastrado: Mendes Dias (ID: 10)
+[26/11/2026 21:18:02] [INFO] Chamado cadastrado: #7 - Problema de internet
+[26/11/2026 21:18:44] [INFO] Técnico Luan Souza atribuído ao chamado #7
+[26/11/2026 21:19:04] [INFO] Chamado #7 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:19:14] [INFO] Chamado #7 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:20:35] [INFO] Núcleo VarejoDesk encerrado.
+[26/11/2026 21:21:46] [INFO] Interface gráfica iniciada.
+[26/11/2026 21:21:46] [INFO] Loja cadastrada: BarraShopping (ID: 1)
+[26/11/2026 21:21:46] [INFO] Loja cadastrada: NorteShopping (ID: 2)
+[26/11/2026 21:21:46] [INFO] Loja cadastrada: RioSul (ID: 3)
+[26/11/2026 21:21:46] [INFO] Loja cadastrada: Shopping Tijuca (ID: 4)
+[26/11/2026 21:21:46] [INFO] Loja cadastrada: Shopping Nova América (ID: 5)
+[26/11/2026 21:21:46] [INFO] Loja cadastrada: Bangu Shopping (ID: 6)
+[26/11/2026 21:21:46] [INFO] Loja cadastrada: ParkShopping Bangu (ID: 7)
+[26/11/2026 21:21:46] [INFO] Loja cadastrada: Shopping Carioca (ID: 8)
+[26/11/2026 21:21:46] [INFO] Loja cadastrada: Madureira Shopping (ID: 9)
+[26/11/2026 21:21:46] [INFO] Loja cadastrada: ParkShopping Jacarepaguá (ID: 10)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Mariana Costa (ID: 1)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Rodrigo Almeida (ID: 2)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Fernanda Lima (ID: 3)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Carlos Eduardo (ID: 4)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Patrícia Souza (ID: 5)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Ricardo Gomes (ID: 6)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Juliana Martins (ID: 7)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Anderson Ferreira (ID: 8)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Camila Ribeiro (ID: 9)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Bruno Oliveira (ID: 10)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Vanessa Santos (ID: 11)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Joana Pereira (ID: 12)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Carla Mendes (ID: 13)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Ingrid Rocha (ID: 14)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Felipe Nascimento (ID: 15)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Larissa Teixeira (ID: 16)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Pedro Henrique (ID: 17)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Amanda Barbosa (ID: 18)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Gabriel Moreira (ID: 19)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Beatriz Carvalho (ID: 20)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Ana Paula (ID: 21)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Bruno Santos (ID: 22)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Débora Martins (ID: 23)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Rafael Costa (ID: 24)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Luan Souza (ID: 25)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Thiago Ribeiro (ID: 26)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Camila Azevedo (ID: 27)
+[26/11/2026 21:21:46] [INFO] Usuário cadastrado: Samara Oliveira (ID: 28)
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #1 - Impressora do caixa não funciona
+[26/11/2026 21:21:46] [INFO] Técnico Ana Paula atribuído ao chamado #1
+[26/11/2026 21:21:46] [INFO] Chamado #1 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #1 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #2 - Internet lenta na loja
+[26/11/2026 21:21:46] [INFO] Técnico Bruno Santos atribuído ao chamado #2
+[26/11/2026 21:21:46] [INFO] Chamado #2 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #2 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #3 - Sistema de vendas travando
+[26/11/2026 21:21:46] [INFO] Técnico Débora Martins atribuído ao chamado #3
+[26/11/2026 21:21:46] [INFO] Chamado #3 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #3 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #4 - Funcionário sem acesso ao sistema
+[26/11/2026 21:21:46] [INFO] Técnico Rafael Costa atribuído ao chamado #4
+[26/11/2026 21:21:46] [INFO] Chamado #4 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #4 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #5 - Computador do estoque não liga
+[26/11/2026 21:21:46] [INFO] Técnico Luan Souza atribuído ao chamado #5
+[26/11/2026 21:21:46] [INFO] Chamado #5 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #5 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #6 - Falha na conexão Wi-Fi
+[26/11/2026 21:21:46] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #6
+[26/11/2026 21:21:46] [INFO] Chamado #6 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #6 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #7 - Erro ao finalizar pagamento
+[26/11/2026 21:21:46] [INFO] Técnico Camila Azevedo atribuído ao chamado #7
+[26/11/2026 21:21:46] [INFO] Chamado #7 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #7 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #8 - Monitor do caixa sem imagem
+[26/11/2026 21:21:46] [INFO] Técnico Samara Oliveira atribuído ao chamado #8
+[26/11/2026 21:21:46] [INFO] Chamado #8 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #8 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #9 - Senha de acesso bloqueada
+[26/11/2026 21:21:46] [INFO] Técnico Ana Paula atribuído ao chamado #9
+[26/11/2026 21:21:46] [INFO] Chamado #9 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #9 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #10 - Sistema não gera relatório
+[26/11/2026 21:21:46] [INFO] Técnico Bruno Santos atribuído ao chamado #10
+[26/11/2026 21:21:46] [INFO] Chamado #10 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #10 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #11 - Leitor de código de barras falhando
+[26/11/2026 21:21:46] [INFO] Técnico Débora Martins atribuído ao chamado #11
+[26/11/2026 21:21:46] [INFO] Chamado #11 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #11 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #12 - Rede da loja indisponível
+[26/11/2026 21:21:46] [INFO] Técnico Rafael Costa atribuído ao chamado #12
+[26/11/2026 21:21:46] [INFO] Chamado #12 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #12 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #13 - Erro ao emitir nota fiscal
+[26/11/2026 21:21:46] [INFO] Técnico Luan Souza atribuído ao chamado #13
+[26/11/2026 21:21:46] [INFO] Chamado #13 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #13 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #14 - Impressora de etiquetas com falha
+[26/11/2026 21:21:46] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #14
+[26/11/2026 21:21:46] [INFO] Chamado #14 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #14 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #15 - Computador reiniciando sozinho
+[26/11/2026 21:21:46] [INFO] Técnico Camila Azevedo atribuído ao chamado #15
+[26/11/2026 21:21:46] [INFO] Chamado #15 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #15 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #16 - Sistema de estoque desatualizado
+[26/11/2026 21:21:46] [INFO] Técnico Samara Oliveira atribuído ao chamado #16
+[26/11/2026 21:21:46] [INFO] Chamado #16 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #16 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #17 - Solicitação de novo acesso
+[26/11/2026 21:21:46] [INFO] Técnico Ana Paula atribuído ao chamado #17
+[26/11/2026 21:21:46] [INFO] Chamado #17 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #17 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:46] [INFO] Chamado cadastrado: #18 - Queda frequente de conexão
+[26/11/2026 21:21:46] [INFO] Técnico Bruno Santos atribuído ao chamado #18
+[26/11/2026 21:21:46] [INFO] Chamado #18 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:46] [INFO] Chamado #18 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #19 - Teclado do caixa com defeito
+[26/11/2026 21:21:47] [INFO] Técnico Débora Martins atribuído ao chamado #19
+[26/11/2026 21:21:47] [INFO] Chamado #19 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #19 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #20 - Erro na abertura do caixa
+[26/11/2026 21:21:47] [INFO] Técnico Rafael Costa atribuído ao chamado #20
+[26/11/2026 21:21:47] [INFO] Chamado #20 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #20 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #21 - Impressora térmica sem comunicação
+[26/11/2026 21:21:47] [INFO] Técnico Luan Souza atribuído ao chamado #21
+[26/11/2026 21:21:47] [INFO] Chamado #21 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #21 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #22 - Lentidão ao consultar estoque
+[26/11/2026 21:21:47] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #22
+[26/11/2026 21:21:47] [INFO] Chamado #22 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #22 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #23 - PDV não reconhece operador
+[26/11/2026 21:21:47] [INFO] Técnico Camila Azevedo atribuído ao chamado #23
+[26/11/2026 21:21:47] [INFO] Chamado #23 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #23 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #24 - Terminal de pagamento desconectado
+[26/11/2026 21:21:47] [INFO] Técnico Samara Oliveira atribuído ao chamado #24
+[26/11/2026 21:21:47] [INFO] Chamado #24 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #24 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #25 - Mouse do escritório com defeito
+[26/11/2026 21:21:47] [INFO] Técnico Ana Paula atribuído ao chamado #25
+[26/11/2026 21:21:47] [INFO] Chamado #25 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #25 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #26 - Atualização do sistema pendente
+[26/11/2026 21:21:47] [INFO] Técnico Bruno Santos atribuído ao chamado #26
+[26/11/2026 21:21:47] [INFO] Chamado #26 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #26 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #27 - Acesso ao e-mail corporativo bloqueado
+[26/11/2026 21:21:47] [INFO] Técnico Débora Martins atribuído ao chamado #27
+[26/11/2026 21:21:47] [INFO] Chamado #27 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #27 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #28 - Queda de sinal no estoque
+[26/11/2026 21:21:47] [INFO] Técnico Rafael Costa atribuído ao chamado #28
+[26/11/2026 21:21:47] [INFO] Chamado #28 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #28 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #29 - Scanner de produtos sem leitura
+[26/11/2026 21:21:47] [INFO] Técnico Luan Souza atribuído ao chamado #29
+[26/11/2026 21:21:47] [INFO] Chamado #29 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #29 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #30 - Erro de sincronização de vendas
+[26/11/2026 21:21:47] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #30
+[26/11/2026 21:21:47] [INFO] Chamado #30 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #30 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #31 - Impressora do caixa não funciona
+[26/11/2026 21:21:47] [INFO] Técnico Camila Azevedo atribuído ao chamado #31
+[26/11/2026 21:21:47] [INFO] Chamado #31 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #31 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #32 - Internet lenta na loja
+[26/11/2026 21:21:47] [INFO] Técnico Samara Oliveira atribuído ao chamado #32
+[26/11/2026 21:21:47] [INFO] Chamado #32 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #32 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #33 - Sistema de vendas travando
+[26/11/2026 21:21:47] [INFO] Técnico Ana Paula atribuído ao chamado #33
+[26/11/2026 21:21:47] [INFO] Chamado #33 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #33 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #34 - Funcionário sem acesso ao sistema
+[26/11/2026 21:21:47] [INFO] Técnico Bruno Santos atribuído ao chamado #34
+[26/11/2026 21:21:47] [INFO] Chamado #34 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #34 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #35 - Computador do estoque não liga
+[26/11/2026 21:21:47] [INFO] Técnico Débora Martins atribuído ao chamado #35
+[26/11/2026 21:21:47] [INFO] Chamado #35 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #35 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #36 - Falha na conexão Wi-Fi
+[26/11/2026 21:21:47] [INFO] Técnico Rafael Costa atribuído ao chamado #36
+[26/11/2026 21:21:47] [INFO] Chamado #36 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #36 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #37 - Erro ao finalizar pagamento
+[26/11/2026 21:21:47] [INFO] Técnico Luan Souza atribuído ao chamado #37
+[26/11/2026 21:21:47] [INFO] Chamado #37 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #37 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #38 - Monitor do caixa sem imagem
+[26/11/2026 21:21:47] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #38
+[26/11/2026 21:21:47] [INFO] Chamado #38 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #38 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #39 - Senha de acesso bloqueada
+[26/11/2026 21:21:47] [INFO] Técnico Camila Azevedo atribuído ao chamado #39
+[26/11/2026 21:21:47] [INFO] Chamado #39 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #39 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #40 - Sistema não gera relatório
+[26/11/2026 21:21:47] [INFO] Técnico Samara Oliveira atribuído ao chamado #40
+[26/11/2026 21:21:47] [INFO] Chamado #40 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado #40 atualizado de EM_ANDAMENTO para RESOLVIDO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #41 - Leitor de código de barras falhando
+[26/11/2026 21:21:47] [INFO] Técnico Ana Paula atribuído ao chamado #41
+[26/11/2026 21:21:47] [INFO] Chamado #41 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #42 - Rede da loja indisponível
+[26/11/2026 21:21:47] [INFO] Técnico Bruno Santos atribuído ao chamado #42
+[26/11/2026 21:21:47] [INFO] Chamado #42 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #43 - Erro ao emitir nota fiscal
+[26/11/2026 21:21:47] [INFO] Técnico Débora Martins atribuído ao chamado #43
+[26/11/2026 21:21:47] [INFO] Chamado #43 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #44 - Impressora de etiquetas com falha
+[26/11/2026 21:21:47] [INFO] Técnico Rafael Costa atribuído ao chamado #44
+[26/11/2026 21:21:47] [INFO] Chamado #44 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #45 - Computador reiniciando sozinho
+[26/11/2026 21:21:47] [INFO] Técnico Luan Souza atribuído ao chamado #45
+[26/11/2026 21:21:47] [INFO] Chamado #45 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #46 - Sistema de estoque desatualizado
+[26/11/2026 21:21:47] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #46
+[26/11/2026 21:21:47] [INFO] Chamado #46 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #47 - Solicitação de novo acesso
+[26/11/2026 21:21:47] [INFO] Técnico Camila Azevedo atribuído ao chamado #47
+[26/11/2026 21:21:47] [INFO] Chamado #47 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #48 - Queda frequente de conexão
+[26/11/2026 21:21:47] [INFO] Técnico Samara Oliveira atribuído ao chamado #48
+[26/11/2026 21:21:47] [INFO] Chamado #48 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #49 - Teclado do caixa com defeito
+[26/11/2026 21:21:47] [INFO] Técnico Ana Paula atribuído ao chamado #49
+[26/11/2026 21:21:47] [INFO] Chamado #49 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #50 - Erro na abertura do caixa
+[26/11/2026 21:21:47] [INFO] Técnico Bruno Santos atribuído ao chamado #50
+[26/11/2026 21:21:47] [INFO] Chamado #50 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #51 - Impressora térmica sem comunicação
+[26/11/2026 21:21:47] [INFO] Técnico Débora Martins atribuído ao chamado #51
+[26/11/2026 21:21:47] [INFO] Chamado #51 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #52 - Lentidão ao consultar estoque
+[26/11/2026 21:21:47] [INFO] Técnico Rafael Costa atribuído ao chamado #52
+[26/11/2026 21:21:47] [INFO] Chamado #52 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #53 - PDV não reconhece operador
+[26/11/2026 21:21:47] [INFO] Técnico Luan Souza atribuído ao chamado #53
+[26/11/2026 21:21:47] [INFO] Chamado #53 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #54 - Terminal de pagamento desconectado
+[26/11/2026 21:21:47] [INFO] Técnico Thiago Ribeiro atribuído ao chamado #54
+[26/11/2026 21:21:47] [INFO] Chamado #54 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #55 - Mouse do escritório com defeito
+[26/11/2026 21:21:47] [INFO] Técnico Camila Azevedo atribuído ao chamado #55
+[26/11/2026 21:21:47] [INFO] Chamado #55 atualizado de ABERTO para EM_ANDAMENTO
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #56 - Atualização do sistema pendente
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #57 - Acesso ao e-mail corporativo bloqueado
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #58 - Queda de sinal no estoque
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #59 - Scanner de produtos sem leitura
+[26/11/2026 21:21:47] [INFO] Chamado cadastrado: #60 - Erro de sincronização de vendas

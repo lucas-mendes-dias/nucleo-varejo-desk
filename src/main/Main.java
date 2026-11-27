@@ -5,6 +5,7 @@ import model.*;
 import service.SistemaChamados;
 import util.LoggerSistema;
 // import util.SeedDados;
+import util.SeedApresentacao;
 
 public class Main {
 
@@ -21,6 +22,7 @@ public class Main {
 
         // Carrega os dados fictícios para testes
         // SeedDados.carregar(sistema);
+        SeedApresentacao.carregar(sistema);
 
         Scanner scanner = new Scanner(System.in);
 
